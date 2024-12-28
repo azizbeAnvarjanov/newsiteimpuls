@@ -27,7 +27,9 @@
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
-    --radius: 0.5rem
+    --radius: 0.5rem;
+    --brand-blue: #013ca6;
+    --brand-orange: #faa21f;
   }
   .dark {
     --background: 0 0% 3.9%;
@@ -64,3 +66,31 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+.hero
+{
+  background: url('/hero.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.hero::before
+{
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.379);
+  z-index: 1;
+}
+
+.hero *
+{
+  z-index: 10;
+}
+

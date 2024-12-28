@@ -23,9 +23,9 @@ export default function RootLayout({
   return (
     <html lang={locale}>
       <body className={inter.className}>
-        <div className='flex flex-col min-h-screen max-w-4xl mx-auto'>
+        <div>
           <Header />
-          <div className='flex-grow mt-20'>{children}</div>
+          <div className='pt-[13vh]'>{children}</div>
         </div>
       </body>
     </html>

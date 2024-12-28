@@ -1,9 +1,15 @@
 {
-  "IndexPage": {
-    "title": "en",
-    "description": "en decription"
+  "Hero": {
+    "text": "You deserve an",
+    "text-2": "honorable profession",
+    "qabul": "Admission 2024-2025",
+    "talim-dasturi": "Educational program",
+    "biz-haqimizda": "About us",
+    "student-union": "Student union"
   },
   "Navbar": {
+    "impuls": "Impuls",
+    "tibbiyot-instituti": "Tibbiyot Instituti",
     "institut": "Institute",
     "rektor-murojati": "Rector freeze",
     "institut-tarixi": "Institute of history",
@@ -24,6 +30,7 @@
     "bakalavr-grandi": "Bachelor's degree",
     "ilmiy-faoliyat": "Scientific activity",
     "ilmiy-jurnal": "IMS Journal",
-    "student-union": "Student union"
+    "student-union": "Student union",
+    "aloqa-markazi": "Call Center"
   }
 }

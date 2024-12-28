@@ -1,9 +1,15 @@
 {
-  "IndexPage": {
-    "title": "uz",
-    "description": "uz decription"
+  "Hero": {
+    "text": "Sharafli kasbga",
+    "text-2": "Loyiqsiz",
+    "qabul": "Qabul 2024-2025",
+    "talim-dasturi": "Ta'lim dasturi",
+    "biz-haqimizda": "Biz haqimizda",
+    "student-union": "Student union"
   },
   "Navbar": {
+    "impuls": "Impuls",
+    "tibbiyot-instituti": "Tibbiyot Instituti",
     "institut": "Institut",
     "rektor-murojati": "Rektor murojati",
     "institut-tarixi": "Institut tarixi",
@@ -24,6 +30,7 @@
     "bakalavr-grandi": "Bakalavr grandi",
     "ilmiy-faoliyat": "Ilmiy faoliyat",
     "ilmiy-jurnal": "IMS Journal",
-    "student-union": "Student union"
+    "student-union": "Student union",
+    "aloqa-markazi": "Aloqa markazi"
   }
 }

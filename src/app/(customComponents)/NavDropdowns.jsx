@@ -1,12 +1,14 @@
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import React from "react";
 import Link from "next/link";
 
 const NavDropdowns = () => {
   const t = useTranslations("Navbar");
+  const localActive = useLocale();
+
 
   return (
-    <div className="flex">
+    <div className="flex z-50">
       <div className="mx-auto flex items-center justify-center bg-white">
         <div className="group relative cursor-pointer">
           <div className="flex items-center justify-between  bg-white px-4">
@@ -37,37 +39,41 @@ const NavDropdowns = () => {
           <div className="invisible absolute z-50 flex w-[300px] flex-col bg-white  text-black shadow-xl group-hover:visible rounded-md">
             <Link
               className="py-2 px-4 hover:bg-gray-100 transition-all"
-              href="/rector-freeze"
+              href={`${localActive}/rector-freeze`}
             >
               {t("rektor-murojati")}
             </Link>
             <Link
               className="py-2 px-4 hover:bg-gray-100 transition-all"
-              href="/institut-of-history"
+              href={`${localActive}/institut-of-history`}
+
             >
               {t("institut-tarixi")}
             </Link>
             <Link
               className="py-2 px-4 hover:bg-gray-100 transition-all"
-              href="/scientific-council"
+              href={`${localActive}/scientific-council`}
+
             >
               {t("ilmiy-kengash")}
             </Link>
             <Link
               className="py-2 px-4 hover:bg-gray-100 transition-all"
-              href="/administration-institute"
+              href={`${localActive}/administration-institute`}
+
             >
               {t("institut-mamuriyati")}
             </Link>
             <Link
               className="py-2 px-4 hover:bg-gray-100 transition-all"
-              href="/trip-the-institute"
-            >
+              href={`${localActive}/trip-the-institute`}
+              
+              >
               {t("institutga-sayohat")}
             </Link>
             <Link
               className="py-2 px-4 hover:bg-gray-100 transition-all"
-              href="/faq"
+              href={`${localActive}/faq`}
             >
               {t("institut-xaritasi")}
             </Link>
@@ -104,25 +110,26 @@ const NavDropdowns = () => {
           <div className="invisible absolute z-50 flex w-[300px] flex-col bg-white  text-black shadow-xl group-hover:visible rounded-md">
             <Link
               className="py-2 px-4 hover:bg-gray-100 transition-all"
-              href="/about-us"
+              href={`${localActive}/about-us`}
+
             >
               {t("biz-haqimizda")}
             </Link>
             <Link
               className="py-2 px-4 hover:bg-gray-100 transition-all"
-              href="/partner-universities"
+              href={`${localActive}/partner-universities`}
             >
               {t("hamkor-universitetlar")}
             </Link>
             <Link
               className="py-2 px-4 hover:bg-gray-100 transition-all"
-              href="/core-values"
+              href={`${localActive}/core-values`}
             >
               {t("asosiy-qadriyatlar")}
             </Link>
             <Link
               className="py-2 px-4 hover:bg-gray-100 transition-all"
-              href="/basic-documents"
+              href={`${localActive}/basic-documents`}
             >
               {t("asosiy-meyoriy-hujjatlar")}
             </Link>
@@ -160,19 +167,19 @@ const NavDropdowns = () => {
           <div className="invisible absolute z-50 flex w-[300px] flex-col bg-white  text-black shadow-xl group-hover:visible rounded-md">
             <Link
               className="py-2 px-4 hover:bg-gray-100 transition-all"
-              href="/international-cooperation"
+              href={`${localActive}/international-cooperation`}
             >
               {t("xalqaro-hamkorlik")}
             </Link>
             <Link
               className="py-2 px-4 hover:bg-gray-100 transition-all"
-              href="/international-students"
+              href={`${localActive}/international-students`}
             >
               {t("xalqaro-talabalar")}
             </Link>
             <Link
               className="py-2 px-4 hover:bg-gray-100 transition-all"
-              href="/exchange"
+              href={`${localActive}/exchange`}
             >
               {t("almashinuv-dasturi")}
             </Link>
@@ -210,7 +217,8 @@ const NavDropdowns = () => {
           <div className="invisible absolute z-50 flex w-[300px] flex-col bg-white  text-black shadow-xl group-hover:visible rounded-md">
             <Link
               className="py-2 px-4 hover:bg-gray-100 transition-all"
-              href="/bachelors-degree"
+              href={`${localActive}/bachelors-degree`}
+
             >
               {t("bakalavr-grandi")}
             </Link>
@@ -223,7 +231,6 @@ const NavDropdowns = () => {
           <div className="flex items-center justify-between  bg-white px-4">
             <div
               className="menu-hover text-base font-medium text-black p-2 rounded-md"
-              onClick=""
             >
               {t("ilmiy-faoliyat")}
             </div>
@@ -248,7 +255,8 @@ const NavDropdowns = () => {
           <div className="invisible absolute z-50 flex w-[300px] flex-col bg-white  text-black shadow-xl group-hover:visible rounded-md">
             <Link
               className="py-2 px-4 hover:bg-gray-100 transition-all"
-              href="/journal"
+              href={`${localActive}/journal`}
+
             >
               {t("ilmiy-jurnal")}
             </Link>
@@ -285,7 +293,8 @@ const NavDropdowns = () => {
           <div className="invisible absolute z-50 flex w-[300px] flex-col bg-white  text-black shadow-xl group-hover:visible rounded-md">
             <Link
               className="py-2 px-4 hover:bg-gray-100 transition-all"
-              href="/student-union"
+              href={`${localActive}/student-union`}
+
             >
               {t("student-union")}
             </Link>

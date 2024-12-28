@@ -1,9 +1,15 @@
 {
-  "IndexPage": {
-    "title": "ru",
-    "description": "ru decription"
+  "Hero": {
+    "text": "Вы достойны",
+    "text-2": "почетной профессии",
+    "qabul": "Приём 2024-2025",
+    "talim-dasturi": "Образовательная программа",
+    "biz-haqimizda": "О нас",
+    "student-union": "Student union"
   },
   "Navbar": {
+    "impuls": "Импуольс",
+    "tibbiyot-instituti": "Медецинский Институт",
     "institut": "Институт",
     "rektor-murojati": "Обрашение ректора",
     "institut-tarixi": "История института",
@@ -24,6 +30,7 @@
     "bakalavr-grandi": "Степень бакалавра",
     "ilmiy-faoliyat": "Научная деятельность",
     "ilmiy-jurnal": "Журнал ИМС",
-    "student-union": "Student union"
+    "student-union": "Student union",
+    "aloqa-markazi": "Контакт центр"
   }
 }
