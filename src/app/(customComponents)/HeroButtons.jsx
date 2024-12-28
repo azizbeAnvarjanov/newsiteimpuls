@@ -8,12 +8,12 @@ const HeroButtons = () => {
   const t = useTranslations("Hero");
 
   return (
-    <div className="text-xl flex items-center gap-60 absolute bottom-28 left-[50%] -translate-x-[50%]">
+    <div className="text-xl lg:flex lg:space-y-0 space-y-6 items-center gap-20 justify-center">
       <Magnetic>
         <Link
           href="https://qabul.impulsmi.uz/"
           type="button"
-          className="text-white bg-[--brand-blue] py-2 px-10 rounded-full text-[18px] font-normal capitalize w-[300px]"
+          className="text-white bg-[--brand-blue] py-2 px-10 rounded-full text-[15px] font-normal capitalize"
         >
           {/* <span>Qabul 2024-2025</span> */}
           <TextEffect per="word" as="h1" preset="slide">
@@ -25,7 +25,7 @@ const HeroButtons = () => {
         <Link
           href="https://qabul.impulsmi.uz/"
           type="button"
-          className="text-white bg-[--brand-blue] py-2 px-10 rounded-full text-[18px] font-normal capitalize w-[300px]"
+          className="text-white bg-[--brand-blue] py-2 px-10 rounded-full text-[15px] font-normal capitalize"
         >
           {/* <span>Qabul 2024-2025</span> */}
           <TextEffect per="word" as="h1" preset="slide">
@@ -37,7 +37,7 @@ const HeroButtons = () => {
         <Link
           href="https://qabul.impulsmi.uz/"
           type="button"
-          className="text-white bg-[--brand-blue] py-2 px-10 rounded-full text-[18px] font-normal capitalize w-[300px]"
+          className="text-white bg-[--brand-blue] py-2 px-10 rounded-full text-[15px] font-normal capitalize w-[200px]"
         >
           {/* <span>Qabul 2024-2025</span> */}
           <TextEffect per="word" as="h1" preset="slide">
@@ -49,7 +49,7 @@ const HeroButtons = () => {
         <Link
           href="https://qabul.impulsmi.uz/"
           type="button"
-          className="text-white bg-[--brand-blue] py-2 px-10 rounded-full text-[18px] font-normal capitalize w-[300px]"
+          className="text-white bg-[--brand-blue] py-2 px-10 rounded-full text-[15px] font-normal capitalize w-[200px]"
         >
           {/* <span>Qabul 2024-2025</span> */}
           <TextEffect per="word" as="h1" preset="slide">

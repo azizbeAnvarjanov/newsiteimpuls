@@ -13,22 +13,22 @@ export default function Header() {
       <div className="h-[50%] bg-[--brand-blue] px-5 flex items-center justify-between">
         <div className="flex items-center gap-5">
           <Link className="text-white" href="tel:+998505105015">
-            {t("aloqa-markazi")} +998 50 510 50 15
+            <span className="lg:flex md:hidden items-center hidden">{t("aloqa-markazi")} </span> +998 50 510 50 15
           </Link>
           <Link
-            className="text-white"
+            className="text-white lg:flex md:hidden items-center hidden"
             href="https://www.facebook.com/impuls.medical.institute/"
           >
             <Facebook />
           </Link>
           <Link
-            className="text-white"
+            className="text-white lg:flex md:hidden items-center hidden"
             href="https://www.youtube.com/@impulsmedicalinstitute"
           >
             <Youtube />
           </Link>
           <Link
-            className="text-white"
+            className="text-white lg:flex md:hidden items-center hidden"
             href="https://www.instagram.com/impuls_mi/"
           >
             <Instagram />
