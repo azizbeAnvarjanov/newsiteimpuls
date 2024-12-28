@@ -2,5 +2,28 @@
   "IndexPage": {
     "title": "en",
     "description": "en decription"
+  },
+  "Navbar": {
+    "institut": "Institute",
+    "rektor-murojati": "Rector freeze",
+    "institut-tarixi": "Institute of history",
+    "ilmiy-kengash": "Scientific council",
+    "institut-mamuriyati": "Administration of the institute",
+    "institutga-sayohat": "A trip to the institute",
+    "institut-xaritasi": "Institute map",
+    "faq": "FAQ",
+    "biz-haqimizda": "About Us",
+    "hamkor-universitetlar": "Partner universities",
+    "asosiy-qadriyatlar": "Core values",
+    "asosiy-meyoriy-hujjatlar": "Basic regulatory documents",
+    "xalqaro-faoliyat": "International activities",
+    "xalqaro-hamkorlik": "International cooperation",
+    "xalqaro-talabalar": "International students",
+    "almashinuv-dasturi": "Exchange program",
+    "grandlar": "Grands",
+    "bakalavr-grandi": "Bachelor's degree",
+    "ilmiy-faoliyat": "Scientific activity",
+    "ilmiy-jurnal": "IMS Journal",
+    "student-union": "Student union"
   }
 }

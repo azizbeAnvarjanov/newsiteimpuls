@@ -1,9 +1,13 @@
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import LocalSwitcher from './local-switcher';
+import NavDropdowns from '../app/(customComponents)/NavDropdowns'
 
 export default function Header() {
-  const t = useTranslations('Navigation');
+
+
+  const t = useTranslations('IndexPage');
+
 
 
 
@@ -12,6 +16,7 @@ export default function Header() {
       <nav className='flex items-center justify-between'>
         <Link href='/'>{t('institut')}</Link>
         <LocalSwitcher />
+        <NavDropdowns translation="ssss"/>
       </nav>
     </header>
   );

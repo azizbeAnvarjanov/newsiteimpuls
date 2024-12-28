@@ -1,7 +1,29 @@
 {
-    "IndexPage": {
-      "title": "uz",
-      "description": "uz decription"
-    }
+  "IndexPage": {
+    "title": "uz",
+    "description": "uz decription"
+  },
+  "Navbar": {
+    "institut": "Institut",
+    "rektor-murojati": "Rektor murojati",
+    "institut-tarixi": "Institut tarixi",
+    "ilmiy-kengash": "Ilmiy kengash",
+    "institut-mamuriyati": "Institut ma'muriyati",
+    "institutga-sayohat": "Institutga sayohat",
+    "institut-xaritasi": "Institut xaritari",
+    "faq": "FAQ",
+    "biz-haqimizda": "Biz haqimizda",
+    "hamkor-universitetlar": "Hamkor universitetlar",
+    "asosiy-qadriyatlar": "Asosiy qadriyatlar",
+    "asosiy-meyoriy-hujjatlar": "Asosiy meyoriy hujjatlar",
+    "xalqaro-faoliyat": "Xalqaro faoliyat",
+    "xalqaro-hamkorlik": "Xalqaro hamkorlik",
+    "xalqaro-talabalar": "Xalqaro talabalar",
+    "almashinuv-dasturi": "Almashinuv dasturi",
+    "grandlar": "Grandlar",
+    "bakalavr-grandi": "Bakalavr grandi",
+    "ilmiy-faoliyat": "Ilmiy faoliyat",
+    "ilmiy-jurnal": "IMS Journal",
+    "student-union": "Student union"
   }
-  
+}

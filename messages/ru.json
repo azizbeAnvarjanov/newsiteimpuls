@@ -2,5 +2,28 @@
   "IndexPage": {
     "title": "ru",
     "description": "ru decription"
+  },
+  "Navbar": {
+    "institut": "Институт",
+    "rektor-murojati": "Обрашение ректора",
+    "institut-tarixi": "История института",
+    "ilmiy-kengash": "Ученый совет",
+    "institut-mamuriyati": "Администрация института",
+    "institutga-sayohat": "Поездка в институт",
+    "institut-xaritasi": "Карта института",
+    "faq": "FAQ",
+    "biz-haqimizda": "О нас",
+    "hamkor-universitetlar": "Университеты-партнеры",
+    "asosiy-qadriyatlar": "Основные ценности",
+    "asosiy-meyoriy-hujjatlar": "Основные нормативные документы",
+    "xalqaro-faoliyat": "Международная деятельность",
+    "xalqaro-hamkorlik": "Международное сотрудничество",
+    "xalqaro-talabalar": "Иностранные студенты",
+    "almashinuv-dasturi": "Программа обмена",
+    "grandlar": "Гранды",
+    "bakalavr-grandi": "Степень бакалавра",
+    "ilmiy-faoliyat": "Научная деятельность",
+    "ilmiy-jurnal": "Журнал ИМС",
+    "student-union": "Student union"
   }
 }
