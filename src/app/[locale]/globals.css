@@ -94,3 +94,18 @@
   z-index: 10;
 }
 
+
+
+.description_news
+{
+  white-space: pre-wrap;
+  /* line-height: 1.5; */
+}
+
+.news-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* 2 qatorga qisqartirish */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

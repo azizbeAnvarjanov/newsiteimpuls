@@ -19,9 +19,7 @@ export default function LocalSwitcher() {
   const router = useRouter();
   const localActive = useLocale();
 
-
   const onSelectChange = (nextLocale) => {
-    
     startTransition(() => {
       router.replace(`/${nextLocale}`);
     });

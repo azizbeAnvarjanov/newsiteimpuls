@@ -3,8 +3,7 @@ import AddNews from "../../(customComponents)/AddNews";
 
 const AddNewsPage = () => {
   return (
-    <div>
-      <h1>Add new news</h1>
+    <div className="pt-5">
       <AddNews />
     </div>
   );
