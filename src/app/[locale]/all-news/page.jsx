@@ -4,27 +4,43 @@ import { collection, getDocs } from "firebase/firestore";
 import { db } from "@/app/firebase";
 import { useLocale } from "next-intl";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
-import { MoveRight } from "lucide-react";
 import Link from "next/link";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Button } from "@/components/ui/button";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 function AllNews() {
   const [news, setNews] = useState([]);
+  const [filteredNews, setFilteredNews] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [selectedMonth, setSelectedMonth] = useState("");
+  const [selectedYear, setSelectedYear] = useState("");
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage] = useState(8); // Har bir sahifadagi elementlar soni
   const locale = useLocale();
 
   useEffect(() => {
     const fetchNews = async () => {
       try {
-        // Firestore'dan yangiliklarni olish
         const newsCollection = collection(db, "news");
         const newsSnapshot = await getDocs(newsCollection);
         const newsList = newsSnapshot.docs.map((doc) => ({
-          id: doc.id, // Har bir hujjatning ID sini qo'shamiz
+          id: doc.id,
           ...doc.data(),
         }));
 
-        setNews(newsList);
+        const sortedNews = newsList.sort(
+          (a, b) => new Date(b.date) - new Date(a.date)
+        );
+
+        setNews(sortedNews);
+        setFilteredNews(sortedNews);
         setLoading(false);
       } catch (error) {
         console.error("Xatolik yuz berdi:", error);
@@ -39,73 +55,111 @@ function AllNews() {
     return <p>Malumotlar yuklanmoqda...</p>;
   }
 
-  // Faol tildagi yangiliklarni ko'rsatish uchun kerakli maydonlarni aniqlash
-  const getLocalizedField = (field) => {
-    return `${field}_${locale}`; // Masalan: "title_uz", "title_ru", "title_en"
+  const getLocalizedField = (field) => `${field}_${locale}`;
+
+  // Filtrlash funksiyasi
+  const handleFilter = () => {
+    const filtered = news.filter((item) => {
+      const itemDate = new Date(item.date);
+      const monthMatch = selectedMonth
+        ? itemDate.getMonth() + 1 === parseInt(selectedMonth)
+        : true;
+      const yearMatch = selectedYear
+        ? itemDate.getFullYear() === parseInt(selectedYear)
+        : true;
+      return monthMatch && yearMatch;
+    });
+    setFilteredNews(filtered);
+    setCurrentPage(1);
   };
 
+  // Filtrni tozalash
+  const resetFilter = () => {
+    setSelectedMonth("");
+    setSelectedYear("");
+    setFilteredNews(news);
+  };
+
+  // Pagination
+  const lastIndex = currentPage * itemsPerPage;
+  const firstIndex = lastIndex - itemsPerPage;
+  const currentNews = filteredNews.slice(firstIndex, lastIndex);
+
+  const totalPages = Math.ceil(filteredNews.length / itemsPerPage);
+
   return (
-    <>
-      <div className="w-full lg:py-40">
-        <div className="container mx-auto flex flex-col gap-14">
-          <div className="flex w-full flex-col sm:flex-row sm:justify-between sm:items-center gap-8">
-            <h4 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-regular">
-              Latest articles
-            </h4>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {news.length === 0 ? (
-              <>Hozircha yngiliklar yoq</>
+    <div className="w-full lg:py-10 px-10">
+      <div className="container mx-auto flex flex-col gap-14">
+        <div className="flex w-full flex-col sm:flex-row sm:justify-between sm:items-center gap-8">
+          <h4 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-regular">
+            {locale === "uz" ? (
+              <>Songi yangiliklar</>
+            ) : locale === "ru" ? (
+              <>Недавние новости</>
+            ) : locale === "en" ? (
+              <>Latest news</>
             ) : (
-              <>
-                {news.map((item) => (
-                  <Link
-                    key={item.id}
-                    href={`/${locale}/all-news/${item.id}`}
-                    className="flex flex-col gap-2 hover:opacity-75 cursor-pointer"
-                  >
-                    <div className="bg-muted rounded-md aspect-video relative relative rounded-lg overflow-hidden">
-                      <Image
-                        fill
-                        src={item.bannerImage}
-                        alt={item[getLocalizedField("title")]}
-                        className="object-cover"
-                      />
-                    </div>
-                    {item.date}
-                    <h3 className="news-description text-xl tracking-tight">
-                      {item[getLocalizedField("title")]}
-                    </h3>
-                    <p className="news-description text-muted-foreground text-base">
-                      {item[getLocalizedField("description")]}
-                    </p>
-                  </Link>
-                ))}
-              </>
+              <></>
             )}
+          </h4>
+          <div className="flex flex-col sm:flex-row gap-4 items-center">
+            <Select onValueChange={setSelectedMonth} value={selectedMonth}>
+              <SelectTrigger className="">
+                <SelectValue placeholder="Oy tanlang" />
+              </SelectTrigger>
+              <SelectContent>
+                {Array.from({ length: 12 }, (_, i) => (
+                  <SelectItem key={i + 1} value={(i + 1).toString()}>
+                    {new Date(0, i).toLocaleString(locale, { month: "long" })}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+
+            <Select onValueChange={setSelectedYear} value={selectedYear}>
+              <SelectTrigger>
+                <SelectValue
+                  placeholder={
+                    locale === "uz" ? (
+                      <>Yilni tanlang</>
+                    ) : locale === "ru" ? (
+                      <>Выбирите год</>
+                    ) : locale === "en" ? (
+                      <>Select year</>
+                    ) : (
+                      <></>
+                    )
+                  }
+                />
+              </SelectTrigger>
+              <SelectContent>
+                {Array.from({ length: 9 }, (_, i) => (
+                  <SelectItem key={2022 + i} value={(2022 + i).toString()}>
+                    {2022 + i}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+
+            <Button onClick={handleFilter}>Filtrlash</Button>
+            {selectedMonth || selectedYear ? (
+              <Button variant="destructive" onClick={resetFilter}>
+                Filtrni tozalash
+              </Button>
+            ) : null}
           </div>
         </div>
-      </div>
-      <div>
-        <h1>Hamma Yangiliklar</h1>
-        {news.length === 0 ? (
-          <p>Hozircha yangiliklar yoq.</p>
-        ) : (
-          <div>
-            {news.map((item) => (
-              <div
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          {currentNews.length === 0 ? (
+            <>Hozircha yangiliklar yoq</>
+          ) : (
+            currentNews.map((item) => (
+              <Link
                 key={item.id}
-                style={{
-                  border: "1px solid #ccc",
-                  margin: "10px",
-                  padding: "10px",
-                }}
+                href={`/${locale}/all-news/${item.id}`}
+                className="flex flex-col gap-2 hover:opacity-75 cursor-pointer"
               >
-                <p>
-                  <strong></strong> {item.date}
-                </p>
-                <h2>{item[getLocalizedField("title")]}</h2>
-                <div className="bg-red-500 w-[200px] h-[200px] relative">
+                <div className="bg-muted rounded-md aspect-video relative overflow-hidden">
                   <Image
                     fill
                     src={item.bannerImage}
@@ -113,33 +167,38 @@ function AllNews() {
                     className="object-cover"
                   />
                 </div>
-                <p className="description_news">
+                <p className="text-sm text-muted-foreground">{item.date}</p>
+                <h3 className="news-description text-xl tracking-tight">
+                  {item[getLocalizedField("title")]}
+                </h3>
+                <p className="news-description text-muted-foreground text-base">
                   {item[getLocalizedField("description")]}
                 </p>
-                <div>
-                  {item.additionalImages && item.additionalImages.length > 0 ? (
-                    item.additionalImages.map((image, index) => (
-                      <img
-                        key={index}
-                        src={image}
-                        alt={`Qo'shimcha rasm ${index + 1}`}
-                        style={{
-                          width: "100px",
-                          height: "100px",
-                          margin: "5px",
-                        }}
-                      />
-                    ))
-                  ) : (
-                    <p>Qoshimcha rasmlar yoq.</p>
-                  )}
-                </div>
-              </div>
-            ))}
-          </div>
-        )}
+              </Link>
+            ))
+          )}
+        </div>
+        <div className="flex justify-center items-center gap-4">
+          <Button
+            onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
+            disabled={currentPage === 1}
+          >
+            <ChevronLeft />
+          </Button>
+          <span>
+            {currentPage}/{totalPages}
+          </span>
+          <Button
+            onClick={() =>
+              setCurrentPage((prev) => Math.min(prev + 1, totalPages))
+            }
+            disabled={currentPage === totalPages}
+          >
+            <ChevronRight />
+          </Button>
+        </div>
       </div>
-    </>
+    </div>
   );
 }
 

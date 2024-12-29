@@ -1,7 +1,7 @@
 "use client";
 
 import { useLocale } from "next-intl";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { ChangeEvent, useTransition } from "react";
 
 import {
@@ -12,17 +12,29 @@ import {
   SelectLabel,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "@/components/ui/selectNavbar";
 
 export default function LocalSwitcher() {
   const [isPending, startTransition] = useTransition();
   const router = useRouter();
   const localActive = useLocale();
+  const pathname = usePathname();
+  const lastSegment = pathname.substring(pathname.lastIndexOf("/"));
+  
+  
 
   const onSelectChange = (nextLocale) => {
     startTransition(() => {
-      router.replace(`/${nextLocale}`);
+      if (["/ru", "/en", "/uz"].includes(lastSegment)) {
+        // Asosiy sahifaga yo'naltirish
+        router.replace(`/${nextLocale}`);
+      } else {
+        // Hozirgi joyda qolish
+        router.replace(`/${nextLocale}${lastSegment}`);
+      }
     });
+  
+    console.log(lastSegment);
   };
   return (
     <Select

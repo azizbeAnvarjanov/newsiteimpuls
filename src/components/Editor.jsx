@@ -8,7 +8,7 @@ const RichTextEditor = ({ content, onChange }) => {
     extensions: [StarterKit],
     editorProps: {
       attributes: {
-        class: "h-[400px] p-2",
+        class: "min-h-[400px] p-2",
       },
     },
     content: content,

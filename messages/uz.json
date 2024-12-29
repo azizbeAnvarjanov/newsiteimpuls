@@ -32,5 +32,9 @@
     "ilmiy-jurnal": "IMS Journal",
     "student-union": "Student union",
     "aloqa-markazi": "Aloqa markazi"
+  },
+  "News": {
+    "latest-news": "So'ngi yangiliklar",
+    "view-all-news": "Hammasini ko'rish"
   }
 }

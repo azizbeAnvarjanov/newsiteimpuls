@@ -32,5 +32,9 @@
     "ilmiy-jurnal": "IMS Journal",
     "student-union": "Student union",
     "aloqa-markazi": "Call Center"
+  },
+  "News": {
+    "latest-news": "Latest news",
+    "view-all-news": "View all news"
   }
 }
