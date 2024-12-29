@@ -59,7 +59,11 @@ function AllNews() {
             ) : (
               <>
                 {news.map((item) => (
-                  <Link href={`/${locale}/all-news/${item.id}`} className="flex flex-col gap-2 hover:opacity-75 cursor-pointer">
+                  <Link
+                    key={item.id}
+                    href={`/${locale}/all-news/${item.id}`}
+                    className="flex flex-col gap-2 hover:opacity-75 cursor-pointer"
+                  >
                     <div className="bg-muted rounded-md aspect-video relative relative rounded-lg overflow-hidden">
                       <Image
                         fill
@@ -70,10 +74,10 @@ function AllNews() {
                     </div>
                     {item.date}
                     <h3 className="news-description text-xl tracking-tight">
-                    {item[getLocalizedField("title")]}
+                      {item[getLocalizedField("title")]}
                     </h3>
                     <p className="news-description text-muted-foreground text-base">
-                    {item[getLocalizedField("description")]}
+                      {item[getLocalizedField("description")]}
                     </p>
                   </Link>
                 ))}

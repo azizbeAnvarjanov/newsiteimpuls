@@ -92,6 +92,7 @@ const Carusel = () => {
                       <Image
                         fill
                         src={images[index].image}
+                        alt="ttb images"
                         className="object-cover"
                       />
                     </div>
