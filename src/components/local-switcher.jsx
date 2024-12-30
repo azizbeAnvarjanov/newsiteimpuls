@@ -22,20 +22,14 @@ export default function LocalSwitcher() {
   const lastSegment = pathname.substring(pathname.lastIndexOf("/"));
   
   
-
   const onSelectChange = (nextLocale) => {
     startTransition(() => {
-      if (["/ru", "/en", "/uz"].includes(lastSegment)) {
-        // Asosiy sahifaga yo'naltirish
-        router.replace(`/${nextLocale}`);
-      } else {
-        // Hozirgi joyda qolish
-        router.replace(`/${nextLocale}${lastSegment}`);
-      }
+      router.replace(`/${nextLocale}`);
     });
-  
-    console.log(lastSegment);
   };
+  
+
+  
   return (
     <Select
       defaultValue={localActive}
