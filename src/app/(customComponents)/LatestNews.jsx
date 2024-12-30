@@ -126,7 +126,7 @@ const LatestNews = ({ latestNewsTitle, viewAllNews }) => {
                   alt={item[getLocalizedField("title")]}
                   className="object-cover"
                 />
-              <div className="z-50 absolute top-3 left-3 flex items-center gap-2 justify-center rounded-md shadow-sm backdrop-blur-xl border text-white px-2">
+              <div className="z-10 absolute top-3 left-3 flex items-center gap-2 justify-center rounded-md shadow-sm backdrop-blur-xl border text-white px-2">
                 <Eye size="18px" /> {item.views || 0}
               </div>
               </div>

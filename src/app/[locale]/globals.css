@@ -55,7 +55,7 @@
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%
+    --chart-5: 340 75% 55%;
   }
 }
 @layer base {
@@ -67,18 +67,15 @@
   }
 }
 
-
-.hero
-{
-  background: url('/hero.jpg') center;
+.hero {
+  background: url("/hero.jpg") center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;
 }
 
-.hero::before
-{
+.hero::before {
   position: absolute;
   content: "";
   left: 0;
@@ -89,15 +86,11 @@
   z-index: 1;
 }
 
-.hero *
-{
+.hero * {
   z-index: 10;
 }
 
-
-
-.description_news
-{
+.description_news {
   white-space: pre-wrap;
   /* line-height: 1.5; */
 }
@@ -113,14 +106,28 @@
 .customLoader {
   width: 25px;
   aspect-ratio: 1;
-  --_c:no-repeat radial-gradient(farthest-side,#000 80%,#0000);
-  background: 
-    var(--_c) top,
-    var(--_c) left,
-    var(--_c) right,
-    var(--_c) bottom;
+  --_c: no-repeat radial-gradient(farthest-side, #000 80%, #0000);
+  background: var(--_c) top, var(--_c) left, var(--_c) right, var(--_c) bottom;
   background-size: 8px 8px;
-  animation: l7 .8s infinite;
+  animation: l7 0.8s infinite;
 }
 
-@keyframes l7 {to{transform: rotate(.5turn)}}
+@keyframes l7 {
+  to {
+    transform: rotate(0.5turn);
+  }
+}
+
+.statssection {
+  background: url("/statsimage.jpg");
+  background-position-x: center;
+  background-position-y: 20%;
+  background-size: cover;
+}
+
+.footer {
+  background: url("/footerBg.png");
+  background-position-x: center;
+  background-position-y: 20%;
+  background-size: cover;
+}

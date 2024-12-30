@@ -81,7 +81,10 @@ const Carusel = () => {
   }, [api, current]);
 
   return (
-    <div className="w-full py-10">
+    <div className="w-full py-5">
+      <h1 className="mb-5 text-2xl font-bold px-5">
+        Hamkor universitet va tashkilotlar
+      </h1>
       <div>
         <div className=" gap-5 items-center">
           <div className="relative w-full col-span-4">
