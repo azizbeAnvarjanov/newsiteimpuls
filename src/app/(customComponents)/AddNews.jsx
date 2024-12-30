@@ -18,6 +18,8 @@ import Editor from "../../components/Editor";
 import RichTextEditor from "../../components/Editor";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
+import { CircleCheck, GalleryVertical, Image, Images } from "lucide-react";
+
 function AddNews() {
   const [form, setForm] = useState({
     title_uz: "",
@@ -30,6 +32,11 @@ function AddNews() {
     bannerImage: null,
     additionalImages: [],
   });
+
+  const [newsContentLoader, setNewsContentLoader] = useState(false);
+  const [bannerImageLoader, setBannerImageLoader] = useState(false);
+  const [aditionalImagesLoader, setAditionalImagesLoader] = useState(false);
+
   const [loading, setLoading] = useState(false);
 
   const handleInputChange = (e) => {
@@ -50,6 +57,31 @@ function AddNews() {
     setForm({ ...form, [name]: value });
   };
 
+  // Clear form function
+  const handleClear = () => {
+    setForm({
+      title_uz: "",
+      title_ru: "",
+      title_en: "",
+      description_uz: "",
+      description_ru: "",
+      description_en: "",
+      date: "",
+      bannerImage: null,
+      additionalImages: [],
+    });
+
+    // Clear file inputs
+    document.querySelector('input[name="bannerImage"]').value = null;
+    document.querySelector('input[name="additionalImages"]').value = null;
+
+    // Clear the editor content
+    // Assuming `RichTextEditor` accepts a `clear` method to reset its content
+    // You'll need to pass a `ref` to your editor component to achieve this
+    // if your `RichTextEditor` allows resetting, you'd call a method like:
+    // editorRef.current.clear(); 
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -67,10 +99,12 @@ function AddNews() {
       !form.date ||
       !form.bannerImage
     ) {
-      alert("Hamma maydonlar to'ldirilishi shart!");
+      toast.error("Hamma maydonlar to'ldirilishi shart!");
       return;
     }
-
+    setBannerImageLoader(true);
+    setNewsContentLoader(true);
+    setAditionalImagesLoader(true);
     setLoading(true);
 
     try {
@@ -81,6 +115,7 @@ function AddNews() {
       await uploadBytes(bannerRef, form.bannerImage);
       const bannerUrl = await getDownloadURL(bannerRef);
       toast.success("Banner rasmi muvaffaqiyatli yuklandi!");
+      setBannerImageLoader(false);
 
       // Qo'shimcha rasmlarni yuklash
       const additionalUrls = [];
@@ -92,6 +127,7 @@ function AddNews() {
       }
       if (form.additionalImages.length > 0) {
         toast.success("Qo'shimcha rasmlar muvaffaqiyatli yuklandi!");
+        setAditionalImagesLoader(false);
       }
 
       // Firestore'ga yozish
@@ -109,6 +145,7 @@ function AddNews() {
       });
 
       toast.success("Yangilik muvaffaqiyatli qo'shildi!");
+      setNewsContentLoader(false);
       setForm({
         title_uz: "",
         title_ru: "",
@@ -120,6 +157,9 @@ function AddNews() {
         bannerImage: null,
         additionalImages: [],
       });
+      // Reset file input fields
+      document.querySelector('input[name="bannerImage"]').value = null;
+      document.querySelector('input[name="additionalImages"]').value = null;
     } catch (error) {
       console.error("Xatolik yuz berdi:", error);
       toast.error("Xatolik yuz berdi!");
@@ -132,13 +172,43 @@ function AddNews() {
     <form onSubmit={handleSubmit} className="w-[90%] mx-auto">
       <Dialog open={loading}>
         <DialogContent>
-          <DialogHeader>
-            <DialogTitle>Are you absolutely sure?</DialogTitle>
-            <DialogDescription>
-              This action cannot be undone. This will permanently delete your
-              account and remove your data from our servers.
-            </DialogDescription>
-          </DialogHeader>
+          <DialogHeader></DialogHeader>
+          <div className="border rounded-md shadow-sm h-12 flex items-center justify-between px-3">
+            <h1>
+              <Image />
+            </h1>
+            <div>
+              {bannerImageLoader ? (
+                <div className="customLoader"></div>
+              ) : (
+                <CircleCheck />
+              )}
+            </div>
+          </div>
+          <div className="border rounded-md shadow-sm h-12 flex items-center justify-between px-3">
+            <h1>
+              <Images />
+            </h1>
+            <div>
+              {aditionalImagesLoader ? (
+                <div className="customLoader"></div>
+              ) : (
+                <CircleCheck />
+              )}
+            </div>
+          </div>
+          <div className="border rounded-md shadow-sm h-12 flex items-center justify-between px-3">
+            <h1>
+              <GalleryVertical />
+            </h1>
+            <div>
+              {newsContentLoader ? (
+                <div className="customLoader"></div>
+              ) : (
+                <CircleCheck />
+              )}
+            </div>
+          </div>
         </DialogContent>
       </Dialog>
 
@@ -179,7 +249,7 @@ function AddNews() {
         <div className="w-full">
           <Label>Batafsil malumot (uz):</Label>
           <RichTextEditor
-            content={form.description_ru}
+            content={form.description_uz}
             onChange={(value) => handleEditorChange("description_uz", value)}
           />
         </div>
@@ -193,11 +263,12 @@ function AddNews() {
         <div className="w-full">
           <Label>Batafsil malumot (en):</Label>
           <RichTextEditor
-            content={form.description_ru}
+            content={form.description_en}
             onChange={(value) => handleEditorChange("description_en", value)}
           />
         </div>
       </div>
+
       <div className="flex items-center justify-start gap-4 py-5">
         <div>
           <Label>Sana:</Label>
@@ -228,7 +299,11 @@ function AddNews() {
           />
         </div>
       </div>
+
       <Button type="submit">Yangilik qoshish</Button>
+
+      {/* Clear Form Button */}
+      <Button type="button" onClick={handleClear}>Tozalash</Button>
     </form>
   );
 }

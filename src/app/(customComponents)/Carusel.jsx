@@ -15,44 +15,52 @@ const Carusel = () => {
 
   const images = [
     {
-      image: "/hero.jpg",
+      image: "/ttb/2.jpg",
+      text: "Chust TTB",
+    },
+    {
+      image: "/ttb/1.jpg",
       text: "Chortoq TTB",
     },
     {
-      image: "/hero.jpg",
+      image: "/ttb/6.jpg",
+      text: "Namangan KTTB",
+    },
+    {
+      image: "/ttb/4.jpg",
+      text: "Lor Academy",
+    },
+    {
+      image: "/ttb/3.jpg",
+      text: "Kardiologiya",
+    },
+    {
+      image: "/ttb/5.jpg",
+      text: "Namangan tuman TB",
+    },
+    {
+      image: "/ttb/2.jpg",
+      text: "Chust TTB",
+    },
+    {
+      image: "/ttb/1.jpg",
       text: "Chortoq TTB",
     },
     {
-      image: "/hero.jpg",
-      text: "Chortoq TTB",
+      image: "/ttb/6.jpg",
+      text: "Namangan KTTB",
     },
     {
-      image: "/hero.jpg",
-      text: "Chortoq TTB",
+      image: "/ttb/4.jpg",
+      text: "Lor Academy",
     },
     {
-      image: "/hero.jpg",
-      text: "Chortoq TTB",
+      image: "/ttb/3.jpg",
+      text: "Kardiologiya",
     },
     {
-      image: "/hero.jpg",
-      text: "Chortoq TTB",
-    },
-    {
-      image: "/hero.jpg",
-      text: "Chortoq TTB",
-    },
-    {
-      image: "/hero.jpg",
-      text: "Chortoq TTB",
-    },
-    {
-      image: "/hero.jpg",
-      text: "Chortoq TTB",
-    },
-    {
-      image: "/hero.jpg",
-      text: "Chortoq TTB",
+      image: "/ttb/5.jpg",
+      text: "Namangan tuman TB",
     },
   ];
 

@@ -13,7 +13,8 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight, Eye } from "lucide-react";
+import { Skeleton } from "@/components/ui/skeleton";
 
 function AllNews() {
   const [news, setNews] = useState([]);
@@ -52,7 +53,60 @@ function AllNews() {
   }, []);
 
   if (loading) {
-    return <p>Malumotlar yuklanmoqda...</p>;
+    return (
+      <div className="p-4 md:p-10 space-y-5">
+        <div className="flex w-full flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
+          <Skeleton className="w-[80%] md:w-[20%] h-[20px]" />
+          <div className="flex flex-col sm:flex-row gap-4 items-sart">
+            <Skeleton className="w-full md:w-[120px] h-[30px] rounded-md" />
+            <Skeleton className="w-full md:w-[120px] h-[30px] rounded-md" />
+            <Skeleton className="w-full md:w-[120px] h-[30px] rounded-md" />
+          </div>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 2xl:grid-cols-5 gap-8">
+          <div className="space-y-3">
+            <div className="h-[200px]">
+              <Skeleton className="w-full h-full" />
+            </div>
+            <Skeleton className="w-[150px] h-[15px]" />
+            <Skeleton className="w-[300px] h-[15px]" />
+            <Skeleton className="w-[300px] h-[15px]" />
+          </div>
+          <div className="space-y-3">
+            <div className="h-[200px]">
+              <Skeleton className="w-full h-full" />
+            </div>
+            <Skeleton className="w-[150px] h-[15px]" />
+            <Skeleton className="w-[300px] h-[15px]" />
+            <Skeleton className="w-[300px] h-[15px]" />
+          </div>
+          <div className="space-y-3">
+            <div className="h-[200px]">
+              <Skeleton className="w-full h-full" />
+            </div>
+            <Skeleton className="w-[150px] h-[15px]" />
+            <Skeleton className="w-[300px] h-[15px]" />
+            <Skeleton className="w-[300px] h-[15px]" />
+          </div>
+          <div className="space-y-3">
+            <div className="h-[200px]">
+              <Skeleton className="w-full h-full" />
+            </div>
+            <Skeleton className="w-[150px] h-[15px]" />
+            <Skeleton className="w-[300px] h-[15px]" />
+            <Skeleton className="w-[300px] h-[15px]" />
+          </div>
+          <div className="space-y-3">
+            <div className="h-[200px]">
+              <Skeleton className="w-full h-full" />
+            </div>
+            <Skeleton className="w-[150px] h-[15px]" />
+            <Skeleton className="w-[300px] h-[15px]" />
+            <Skeleton className="w-[300px] h-[15px]" />
+          </div>
+        </div>
+      </div>
+    );
   }
 
   const getLocalizedField = (field) => `${field}_${locale}`;
@@ -88,8 +142,8 @@ function AllNews() {
   const totalPages = Math.ceil(filteredNews.length / itemsPerPage);
 
   return (
-    <div className="w-full lg:py-10 px-10">
-      <div className="container mx-auto flex flex-col gap-14">
+    <div className="w-full p-4 md:p-10">
+      <div className=" space-y-5">
         <div className="flex w-full flex-col sm:flex-row sm:justify-between sm:items-center gap-8">
           <h4 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-regular">
             {locale === "uz" ? (
@@ -102,7 +156,7 @@ function AllNews() {
               <></>
             )}
           </h4>
-          <div className="flex flex-col sm:flex-row gap-4 items-center">
+          <div className="flex flex-col sm:flex-row gap-4 items-sart">
             <Select onValueChange={setSelectedMonth} value={selectedMonth}>
               <SelectTrigger className="">
                 <SelectValue placeholder="Oy tanlang" />
@@ -149,7 +203,7 @@ function AllNews() {
             ) : null}
           </div>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 2xl:grid-cols-5 gap-8">
           {currentNews.length === 0 ? (
             <>Hozircha yangiliklar yoq</>
           ) : (
@@ -157,9 +211,13 @@ function AllNews() {
               <Link
                 key={item.id}
                 href={`/${locale}/all-news/${item.id}`}
-                className="flex flex-col gap-2 hover:opacity-75 cursor-pointer"
+                className="flex flex-col gap-2 hover:opacity-75 cursor-pointer relative"
               >
-                <div className="bg-muted rounded-md aspect-video relative overflow-hidden">
+                <div className="px-2 z-50 absolute top-3 left-3 flex items-center gap-2 justify-center rounded-md shadow-sm backdrop-blur-xl border text-white">
+                  {" "}
+                  <Eye size="18px" /> {item.views || 0}
+                </div>
+                <div className="rounded-md aspect-video relative overflow-hidden">
                   <Image
                     fill
                     src={item.bannerImage}
@@ -167,7 +225,8 @@ function AllNews() {
                     className="object-cover"
                   />
                 </div>
-                <p className="text-sm text-muted-foreground">{item.date}</p>
+                <p className="text-sm">{item.date}</p>
+
                 <h3 className="news-description text-xl tracking-tight">
                   {item[getLocalizedField("title")]}
                 </h3>
