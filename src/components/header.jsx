@@ -1,9 +1,9 @@
 import { useTranslations } from "next-intl";
-import Link from "next/link";
 import NavDropdowns from "../app/(customComponents)/NavDropdowns";
 import { Facebook, Instagram, Youtube } from "lucide-react";
 import LocalSwitcher from "./local-switcher";
 import Image from "next/image";
+import { Link } from "@/i18n/routing";
 
 export default function Header() {
   const t = useTranslations("Navbar");
@@ -52,7 +52,7 @@ export default function Header() {
             <h1 className="font-bold">{t("tibbiyot-instituti")}</h1>
           </div>
         </Link>
-        <NavDropdowns translation="ssss" />
+        <NavDropdowns locc="uz"/>
       </nav>
     </header>
   );

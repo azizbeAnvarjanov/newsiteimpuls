@@ -1,7 +1,7 @@
 import { Magnetic } from "@/components/ui/magnetic";
 import { TextEffect } from "@/components/ui/text-effect";
+import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
-import Link from "next/link";
 import React from "react";
 
 const HeroButtons = () => {

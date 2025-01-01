@@ -7,8 +7,8 @@ import { useLocale } from "next-intl";
 import Image from "next/image";
 import { Eye, MoveRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
 import { Skeleton } from "@/components/ui/skeleton";
+import { Link } from "@/i18n/routing";
 
 const LatestNews = ({ latestNewsTitle, viewAllNews }) => {
   const [latestNews, setLatestNews] = useState([]);
@@ -106,7 +106,7 @@ const LatestNews = ({ latestNewsTitle, viewAllNews }) => {
           <h4 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-regular">
             {latestNewsTitle}
           </h4>
-          <Link href={`/${locale}/all-news`}>
+          <Link href={`/all-news`}>
             <Button className="gap-4 bg-[--brand-blue]">
               {viewAllNews} <MoveRight className="w-4 h-4" />
             </Button>
@@ -116,7 +116,7 @@ const LatestNews = ({ latestNewsTitle, viewAllNews }) => {
           {latestNews.map((item) => (
             <Link
               key={item.id}
-              href={`/${locale}/all-news/${item.id}`}
+              href={`/all-news/${item.id}`}
               className="flex flex-col gap-2 hover:opacity-75 cursor-pointer"
             >
               <div className="bg-muted rounded-md aspect-video relative mb-4 overflow-hidden">

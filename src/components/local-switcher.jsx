@@ -18,18 +18,21 @@ export default function LocalSwitcher() {
   const [isPending, startTransition] = useTransition();
   const router = useRouter();
   const localActive = useLocale();
-  const pathname = usePathname();
-  const lastSegment = pathname.substring(pathname.lastIndexOf("/"));
-  
-  
+
   const onSelectChange = (nextLocale) => {
     startTransition(() => {
-      router.replace(`/${nextLocale}`);
+      // Joriy sahifa manzilini olish
+      const currentPath = window.location.pathname;
+      const queryString = window.location.search;
+
+      // Activelocale ni topish va almashtirish
+      const updatedPath = currentPath.replace(/^\/[a-z]{2}/, `/${nextLocale}`); // URL boshidagi locale ni almashtirish (masalan, /en -> /uz)
+
+      // Yangi yo'nalishga o'tish
+      router.replace(`${updatedPath}${queryString}`);
     });
   };
-  
 
-  
   return (
     <Select
       defaultValue={localActive}

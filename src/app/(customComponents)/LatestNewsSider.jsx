@@ -8,7 +8,7 @@ import { useLocale } from "next-intl";
 import Image from "next/image";
 import { Eye, MoveRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import { Skeleton } from "@/components/ui/skeleton";
 
 const LatestNewsSider = () => {
