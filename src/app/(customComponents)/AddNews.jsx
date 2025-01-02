@@ -300,10 +300,11 @@ function AddNews() {
         </div>
       </div>
 
+
       <Button type="submit">Yangilik qoshish</Button>
 
       {/* Clear Form Button */}
-      <Button type="button" onClick={handleClear}>Tozalash</Button>
+      <Button className="ml-5" variant="destructive" type="button" onClick={handleClear}>Tozalash</Button>
     </form>
   );
 }
