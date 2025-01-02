@@ -144,5 +144,32 @@
     "answer_11": "The amount of the 1-semester contract for the 2024-2025 academic year is 16,500,000 soums.",
     "question_12": "Is it possible to pay the contract in installments?",
     "answer_12": "According to the institute's internal regulations, the amount of the contract for the annual academic year can be paid in 4 installments based on the contract."
+  },
+  "hamkorlarimiz": {
+    "header": "Partners",
+    "partner-1": "Tashkent Medical Academy",
+    "partner-2": "EMU Universitety",
+    "partner-3": "ADTI Institute",
+    "partner-4": "Osh State University",
+    "partner-5": "TGFU Universitety",
+    "link-text": "Web page"
+  },
+  "qadriyatlarimiz": {
+    "vision": "VISION (Its appearance in the imagination)",
+    "vision_p": "Becoming a world-renowned, leading medical educational institution, combining modern medical knowledge and practice with advanced technologies, contributing to the improvement of public health",
+    "mission": "MISSION",
+    "mission_p": "Development of medicine and medical education, thereby increasing the average life expectancy. Impul Medical Institute, based on its mission, respect for the most important values ​​of humanity - health and life. Integration of modern technologies into medical education and education based on international standards. To develop international cooperation and provide opportunities for students to study and practice abroad. This association aims to contribute to the extension of human life, as well as quality and fulfilling life, through the development of medicine and medical education."
+  },
+  "docs": {
+    "text-1": "The State Inspectorate for Quality Control of Education under the Cabinet of Ministers of the Republic of Uzbekistan granted permission for Impuls BSR LLC to provide non-state educational services based on license No. 047559 dated November 9, 2022.",
+    "text-2": "Impuls Medical Institute started its activity on 09.11.2022 based on Impuls BSR LLC license No. 047559. The institute has the educational direction 60910200 - Therapeutic work, which includes a 6-year bachelor's degree. Graduates are awarded a general practitioner bachelor's degree.",
+    "text-3": "Currently, the institute has 6 departments, 110 professors and teachers, and more than 50 clinical practice bases operating on the basis of a contract.",
+    "litsenziya": "License",
+    "guvohnoma": "Testimony",
+    "nizom": "Statute of the institute",
+    "hujjat-nomi": "Document name",
+    "hujjat-raqami": "Document number",
+    "yuklash": "Download",
+    "havola": "Link"
   }
 }

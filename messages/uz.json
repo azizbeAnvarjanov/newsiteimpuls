@@ -144,5 +144,32 @@
     "answer_11": "2024-2025 o'quv yili uchun 1 semesterlik kontrakt miqdori 16 500 000 so'mni tashqil qiladi",
     "question_12": "Kontraktni bo'lib to'lash mumkinmi ?",
     "answer_12": "Intitut ichki tartib nizomiga asosan yillik o'quv yili uchun belgilangan kontrakt miqdorini shartnoma asosida 4 ga bo'lib to'lash mumkin"
+  },
+  "hamkorlarimiz": {
+    "header": "Hamkorlarimiz",
+    "partner-1": "Toshkent Tibbiyot Akademiyasi",
+    "partner-2": "EMU Universiteti",
+    "partner-3": "ADTI Instituti",
+    "partner-4": "Osh Davlat Universiteti",
+    "partner-5": "TGFU Universiteti",
+    "link-text": "Veb sahifasi"
+  },
+  "qadriyatlarimiz": {
+    "vision": "VISION (Tasavvurdagi ko‘rinishi)",
+    "vision_p": "Dunyoda e'tirof etilgan, yetakchi tibbiyot ta'lim muassasasiga aylanish, zamonaviy tibbiy bilim va amaliyotni ilg‘or texnologiyalar bilan uyg‘unlashtirib, jamiyat sog‘lig‘ini yaxshilashga hissa qo‘shish",
+    "mission": "MISSION (Missiyasi)",
+    "mission_p": "Tibbiyot, hamda tibbiy ta'limni rivojlantirish va shu orqali o'rtacha umr davomiyligini oshirish. Impul Tibbiyot Isntituti, o'zining missiyasida insoniyatning eng o'liy qadriyatlari-salomatlik va hayotni e'zozlashni asos qilib olgan. Zamonaviy texnologiyalarni tibbiyot ta’limiga integratsiya qilish va xalqaro standartlar asosida ta’lim berish. Xalqaro hamkorlikni rivojlantirish va talabalarga xorijda ta’lim olish va amaliyot o‘tash imkoniyatlarini taqdim etish.Ushbu muosasa, tibbiyot va tibbiyot ta'limni rivojlantirish orqali inson umrini uzayishiga, shuningdek, sifatli va to'laqonli hayot kechirishiga hissa qo'shishni maqsad qilgan."
+  },
+  "docs": {
+    "text-1": "O'zbekiston Respublikasi vazirlar mahkamasi huzuridagi ta'lim sifatini nazorat qilish davlat inspeksiyasi 9 Noyabr 2022 yildagi №047559 litsenziyaga asosan Impuls BSR MCHJ uchun nodavlat ta'lim hizmatlarini ko'rsatish faoliyati uchun ruxsat etildi. ",
+    "text-2": "Impuls BSR MCHJ №047559 litsenziyaga asosan Impuls Tibbiyot Instituti 09.11.2022 sanasidan o'z faoliyatini boshladi. Institutda 60910200 - Davolash ishi ta'lim yo'nalishi mavjud bo'lib 6 yillik bakalavr daajasini o'z ichiga oladi. Bitiruvchilarga umumiy amaliyot shifokori bakalavr darajasi diplomi beriladi.",
+    "text-3": "Hozirgi vaqtda institutda 6 kafedra, 110 nafar professor o'qituvchi va shartnoma asosida faoliyat yuritilayotgan 50 dan ortiq klinik amaliyot bazalari mavjud",
+    "litsenziya": "Litsenziya",
+    "guvohnoma": "Guvohnoma",
+    "nizom": "Institut nizomi",
+    "hujjat-nomi": "Hujjat nomi",
+    "hujjat-raqami": "Hujjat raqami",
+    "yuklash": "Yuklash",
+    "havola": "Havola"
   }
 }
