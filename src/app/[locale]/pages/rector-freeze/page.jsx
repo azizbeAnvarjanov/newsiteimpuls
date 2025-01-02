@@ -6,7 +6,7 @@ const RectorFreeze = () => {
   const t = useTranslations("Rector-reeze");
 
   return (
-    <div className="p-5">
+    <div className="p-2">
       <div className="w-full">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 gap-8 items-center lg:grid-cols-2 mb-4">

@@ -5,8 +5,6 @@ import { Link } from "@/i18n/routing";
 
 const NavDropdowns = () => {
   const t = useTranslations("Navbar");
-  const localActive = useLocale();
-  console.log(localActive);
 
   return (
     <div className="flex z-50 items-center">
