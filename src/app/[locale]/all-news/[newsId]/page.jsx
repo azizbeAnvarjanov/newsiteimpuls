@@ -143,12 +143,12 @@ const NewsDetailPage = () => {
           <AutoImageCarousel images={allImages} interval={5000} />
         )} */}
         {allImages.length > 1 ? (
-          <>
+          <div className="mb-5">
             <AutoImageCarousel images={allImages} interval={5000} />
-          </>
+          </div>
         ) : (
           <>
-            <div className="w-full h-[30vh] md:h-[50vh] xl:h-[80vh] 2xl:h-[100vh] relative rounded-lg overflow-hidden mb-4">
+            <div className="w-full h-[30vh] md:h-[50vh] xl:h-[80vh] 2xl:h-[100vh] relative rounded-lg overflow-hidden mb-5">
               <Image
                 fill
                 src={news.bannerImage}

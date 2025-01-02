@@ -228,7 +228,7 @@ const NavDropdowns = () => {
           </div>
         </div>
 
-        <div className="mx-auto flex items-center justify-center bg-white">
+        {/* <div className="mx-auto flex items-center justify-center bg-white">
           <div className="group relative cursor-pointer">
             <div className="flex items-center justify-between  bg-white px-4">
               <div className="menu-hover text-base font-medium text-black p-2 rounded-md">
@@ -261,7 +261,7 @@ const NavDropdowns = () => {
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="mx-auto flex items-center justify-center bg-white">
           <div className="group relative cursor-pointer">
             <div className="flex items-center justify-between  bg-white px-4">

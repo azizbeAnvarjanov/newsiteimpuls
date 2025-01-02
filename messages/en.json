@@ -171,5 +171,34 @@
     "hujjat-raqami": "Document number",
     "yuklash": "Download",
     "havola": "Link"
+  },
+  "xalqaro-xamkorlik": {
+    "text": "Impuls Medical Institute pays great attention to international cooperation. Our institute operates in order to establish and develop long-term cooperative relations with leading universities, scientific research centers and medical institutions from different countries. Within the framework of cooperation, scientific research, training programs, exchange of experience of students and professors are organized. We strive to ensure the quality of education in accordance with international standards, encouraging the global exchange of knowledge and innovation.",
+    "havola": "Link",
+    "universitet_nomi": "University name",
+    "osh": "Osh State University",
+    "panjab": "Panjab University",
+    "WHO": "World Health Organization",
+    "WDSO": "World Directory of Medical School",
+    "Nextree": "Nextree of Korea"
+  },
+  "grand": {
+    "text-1": "Outstanding opportunity: 100% scholarships for high-achieving students:",
+    "text-2": "In order to give the students of Impulse Medical Institute stronger motivation every semester, 10% of the students are given 100% grants by the founders of the institute.",
+    "text-3": "These awards are determined at the end of each semester and the winning student is awarded a full grant by the institution. Seize the opportunity and step forward with your academic and practical achievements!",
+    "text-4": "The procedure for conducting grant examinations and calculating the grant results: 10% of students with the highest grant points in each semester will receive a 100% grant for the next semester.",
+    "text-5": "Grant conditions:",
+    "text-6": "Have total grant points;",
+    "text-7": "Membership in one or more clubs organized by the Student Union and active participation in these clubs;",
+    "text-8": "Participation in the Teacher assistant project",
+    "text-9": "Regular participation in any type of sport (mini football, table tennis, chess, checkers, basketball, volleyball, swimming, wrestling, boxing, etc.)",
+    "text-10": "Explanation: If one of the above 4 conditions is not met, the student will not be recommended for the grant.",
+    "text-11": "Procedure for calculating scholarship points:",
+    "text-12": "The average value of the results of the first attempt of the final control exams in special subjects - 40%",
+    "text-13": "The average value of the results of the first attempt of special subject tests conducted with the participation of examiners (independent work evaluations are not taken into account) - 20%",
+    "text-14": "Scholarship exam 2 result - 40%",
+    "text-15": "Total scholarship points: Final exam (40%) + Midterm exam (20%) + Scholarship exam (40%) = 100%.",
+    "text-16": "If the student fails to appear for the first attempt exam for a valid reason, if a document confirming that the valid reason was present on the day of the exam is presented and this document is recognized as valid by the Department of Education Quality, the student's 2nd or 3rd attempt score (if the student fails to appear for the second attempt) is calculated by multiplying the percentage . In this case, 75% of the student's 2nd attempt score and 60% of the 3rd attempt score are added to the grant score. If the student does not appear for the 1st opportunity and cannot provide a valid reason, the student will not be awarded points for that exam when calculating the grant score.",
+    "text-17": "The scholarship exam is held at the end of the semester as a separate exam. In it, students take a test consisting of one (1st courses) or several (senior courses) blocks, each of which contains 40 questions. Tests include simple questions from specialized subjects and situational problems. A certain number of questions in each block (the same amount for the entire course) will be in English. 1 hour is allotted for each block."
   }
 }

@@ -66,7 +66,7 @@ const LatestNewsSider = () => {
     <div className="grid gap-3 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-1">
       {latestNews.map((item) => (
         <Link
-          href={`/${locale}/all-news/${item.id}`}
+          href={`/all-news/${item.id}`}
           key={item.id}
           className="h-[25vh] xl:h-[30vh] w-full border rounded-md relative overflow-hidden relative"
         >
