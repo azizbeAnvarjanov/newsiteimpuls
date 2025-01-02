@@ -9,11 +9,27 @@ export default function Home() {
   const t = useTranslations("News");
   const latestNews = t("latest-news");
   const viewAllNews = t("view-all-news");
+  const c = useTranslations("Hamkor-tashkilotlar");
+  const c_header = c("header");
+  const c_text_1 = c("text-1");
+  const c_text_2 = c("text-2");
+  const c_text_3 = c("text-3");
+  const c_text_4 = c("text-4");
+  const c_text_5 = c("text-5");
+  const c_text_6 = c("text-6");
 
   return (
     <div>
       <Hero />
-      <Carusel />
+      <Carusel
+        t1={c_text_1}
+        t2={c_text_2}
+        t3={c_text_3}
+        t4={c_text_4}
+        t5={c_text_5}
+        t6={c_text_6}
+        header={c_header}
+      />
       <LatestNews latestNewsTitle={latestNews} viewAllNews={viewAllNews} />
       <StatsSection />
       <CaruselStudents />

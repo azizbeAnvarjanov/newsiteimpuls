@@ -27,7 +27,6 @@ export default function RootLayout({
       <body className={inter.className}>
         <div>
           <Toaster position="top-center" reverseOrder={false} />
-
           <Header />
           <div className='pt-[17vh]'>{children}</div>
           <Footer />

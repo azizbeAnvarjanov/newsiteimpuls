@@ -97,11 +97,10 @@ const NewsDetailPage = () => {
           <Skeleton className="h-full w-full" />
         </div>
         <div className="space-y-3">
-
-        <Skeleton className="w-[70%] h-[15px] rounded-full" />
-        <Skeleton className="w-[80%] h-[15px] rounded-full" />
-        <Skeleton className="w-[60%] h-[15px] rounded-full" />
-        <Skeleton className="w-[50%] h-[15px] rounded-full" />
+          <Skeleton className="w-[70%] h-[15px] rounded-full" />
+          <Skeleton className="w-[80%] h-[15px] rounded-full" />
+          <Skeleton className="w-[60%] h-[15px] rounded-full" />
+          <Skeleton className="w-[50%] h-[15px] rounded-full" />
         </div>
       </div>
     );

@@ -41,43 +41,43 @@ const NavDropdowns = () => {
             <div className="invisible absolute z-50 flex w-[300px] flex-col bg-white  text-black shadow-xl group-hover:visible rounded-md">
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
-                href="/rector-freeze"
+                href="/pages/rector-freeze"
               >
-                {t("rektor-murojati")}  
+                {t("rektor-murojati")}
               </Link>
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
-                href={`/institut-of-history`}
+                href={`/pages/institut-of-history`}
               >
                 {t("institut-tarixi")}
               </Link>
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
-                href={`/scientific-council`}
+                href={`/pages/scientific-council`}
               >
                 {t("ilmiy-kengash")}
               </Link>
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
-                href={`/administration-institute`}
+                href={`/pages/administration-institute`}
               >
                 {t("institut-mamuriyati")}
               </Link>
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
-                href={`/trip-the-institute`}
+                href={`/pages/trip-the-institute`}
               >
                 {t("institutga-sayohat")}
               </Link>
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
-                href={`/institute-map`}
+                href={`/pages/institute-map`}
               >
                 {t("institut-xaritasi")}
               </Link>
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
-                href={`/faq`}
+                href={`/pages/faq`}
               >
                 {t("faq")}
               </Link>
@@ -114,25 +114,25 @@ const NavDropdowns = () => {
             <div className="invisible absolute z-50 flex w-[300px] flex-col bg-white  text-black shadow-xl group-hover:visible rounded-md">
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
-                href={`/about-us`}
+                href={`/pages/about-us`}
               >
                 {t("biz-haqimizda")}
               </Link>
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
-                href={`/partner-universities`}
+                href={`/pages/partner-universities`}
               >
                 {t("hamkor-universitetlar")}
               </Link>
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
-                href={`/core-values`}
+                href={`/pages/core-values`}
               >
                 {t("asosiy-qadriyatlar")}
               </Link>
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
-                href={`/basic-documents`}
+                href={`/pages/basic-documents`}
               >
                 {t("asosiy-meyoriy-hujjatlar")}
               </Link>
@@ -170,19 +170,19 @@ const NavDropdowns = () => {
             <div className="invisible absolute z-50 flex w-[300px] flex-col bg-white  text-black shadow-xl group-hover:visible rounded-md">
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
-                href={`/international-cooperation`}
+                href={`/pages/international-cooperation`}
               >
                 {t("xalqaro-hamkorlik")}
               </Link>
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
-                href={`/international-students`}
+                href={`/pages/international-students`}
               >
                 {t("xalqaro-talabalar")}
               </Link>
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
-                href={`/exchange`}
+                href={`/pages/exchange`}
               >
                 {t("almashinuv-dasturi")}
               </Link>
@@ -220,7 +220,7 @@ const NavDropdowns = () => {
             <div className="invisible absolute z-50 flex w-[300px] flex-col bg-white  text-black shadow-xl group-hover:visible rounded-md">
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
-                href={`/bachelors-degree`}
+                href={`/pages/bachelors-degree`}
               >
                 {t("bakalavr-grandi")}
               </Link>
@@ -255,7 +255,7 @@ const NavDropdowns = () => {
             <div className="invisible absolute z-50 flex w-[300px] flex-col bg-white  text-black shadow-xl group-hover:visible rounded-md">
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
-                href={`/journal`}
+                href={`/pages/journal`}
               >
                 {t("ilmiy-jurnal")}
               </Link>
@@ -292,7 +292,7 @@ const NavDropdowns = () => {
             <div className="invisible absolute z-50 flex w-[300px] flex-col bg-white  text-black shadow-xl group-hover:visible rounded-md">
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
-                href={`/student-union`}
+                href={`/pages/student-union`}
               >
                 {t("student-union")}
               </Link>

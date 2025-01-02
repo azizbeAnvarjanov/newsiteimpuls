@@ -14,25 +14,25 @@ const Footer = () => {
       <div className="mt-10 grid gap-10 sm:grid-cols-2 md:grid-cols-3 md:grid-cols-4">
         <div className="flex flex-col text-white space-y-2">
           <p className="font-bold">{t("institut")}</p>
-          <Link className="font-light" href="/rector-freeze">
+          <Link className="font-light" href="/pages/rector-freeze">
             {t("rektor-murojati")}
           </Link>
-          <Link className="font-light" href="/institut-of-history">
+          <Link className="font-light" href="/pages/institut-of-history">
             {t("institut-tarixi")}
           </Link>
-          <Link className="font-light" href="/scientific-council">
+          <Link className="font-light" href="/pages/scientific-council">
             {t("ilmiy-kengash")}
           </Link>
-          <Link className="font-light" href="/administration-institute">
+          <Link className="font-light" href="/pages/administration-institute">
             {t("institut-mamuriyati")}
           </Link>
-          <Link className="font-light" href="/trip-the-institute">
+          <Link className="font-light" href="/pages/trip-the-institute">
             {t("institutga-sayohat")}
           </Link>
-          <Link className="font-light" href="/institute-map">
+          <Link className="font-light" href="/pages/institute-map">
             {t("institut-xaritasi")}
           </Link>
-          <Link className="font-light" href="/faq">
+          <Link className="font-light" href="/pages/faq">
             {t("faq")}
           </Link>
         </div>
@@ -41,22 +41,22 @@ const Footer = () => {
           <Link className="font-light" href="/partner-universities">
             {t("hamkor-universitetlar")}
           </Link>
-          <Link className="font-light" href="/core-values">
+          <Link className="font-light" href="/pages/core-values">
             {t("asosiy-qadriyatlar")}
           </Link>
-          <Link className="font-light" href="/basic-documents">
+          <Link className="font-light" href="/pages/basic-documents">
             {t("asosiy-meyoriy-hujjatlar")}
           </Link>
         </div>
         <div className="flex flex-col text-white space-y-2">
           <p className="font-bold">{t("xalqaro-faoliyat")}</p>
-          <Link className="font-light" href="/international-cooperation">
+          <Link className="font-light" href="/pages/international-cooperation">
             {t("xalqaro-hamkorlik")}
           </Link>
-          <Link className="font-light" href="/international-students">
+          <Link className="font-light" href="/pages/international-students">
             {t("xalqaro-talabalar")}
           </Link>
-          <Link className="font-light" href="/exchange">
+          <Link className="font-light" href="/pages/exchange">
             {t("almashinuv-dasturi")}
           </Link>
         </div>
@@ -64,10 +64,10 @@ const Footer = () => {
           <Link className="font-light" href="/bachelors-degree">
             {t("bakalavr-grandi")}
           </Link>
-          <Link className="font-light" href="/journal">
+          <Link className="font-light" href="/pages/journal">
             {t("ilmiy-jurnal")}
           </Link>
-          <Link className="font-light" href="/student-union">
+          <Link className="font-light" href="/pages/student-union">
             {t("student-union")}
           </Link>
         </div>

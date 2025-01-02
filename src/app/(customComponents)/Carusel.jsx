@@ -9,58 +9,58 @@ import {
 } from "@/components/ui/carousel";
 import Image from "next/image";
 
-const Carusel = () => {
+const Carusel = ({ t1, t2, t3, t4, t5, t6, header }) => {
   const [api, setApi] = useState();
   const [current, setCurrent] = useState(0);
 
   const images = [
     {
       image: "/ttb/2.jpg",
-      text: "Chust TTB",
+      text: t1,
     },
     {
       image: "/ttb/1.jpg",
-      text: "Chortoq TTB",
+      text: t2,
     },
     {
       image: "/ttb/6.jpg",
-      text: "Namangan KTTB",
+      text: t3,
     },
     {
       image: "/ttb/4.jpg",
-      text: "Lor Academy",
+      text: t4,
     },
     {
       image: "/ttb/3.jpg",
-      text: "Kardiologiya",
+      text: t5,
     },
     {
       image: "/ttb/5.jpg",
-      text: "Namangan tuman TB",
+      text: t6,
     },
     {
       image: "/ttb/2.jpg",
-      text: "Chust TTB",
+      text: t1,
     },
     {
       image: "/ttb/1.jpg",
-      text: "Chortoq TTB",
+      text: t2,
     },
     {
       image: "/ttb/6.jpg",
-      text: "Namangan KTTB",
+      text: t3,
     },
     {
       image: "/ttb/4.jpg",
-      text: "Lor Academy",
+      text: t4,
     },
     {
       image: "/ttb/3.jpg",
-      text: "Kardiologiya",
+      text: t5,
     },
     {
       image: "/ttb/5.jpg",
-      text: "Namangan tuman TB",
+      text: t6,
     },
   ];
 
@@ -82,9 +82,7 @@ const Carusel = () => {
 
   return (
     <div className="w-full py-5">
-      <h1 className="mb-5 text-2xl font-bold px-5">
-        Hamkor universitet va tashkilotlar
-      </h1>
+      <h1 className="mb-5 text-2xl font-bold px-5">{header}</h1>
       <div>
         <div className=" gap-5 items-center">
           <div className="relative w-full col-span-4">

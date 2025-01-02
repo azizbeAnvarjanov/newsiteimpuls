@@ -7,6 +7,21 @@
     "biz-haqimizda": "About us",
     "student-union": "Student union"
   },
+  "Hamkor-tashkilotlar": {
+    "header": "Partner organizations",
+    "text-1": "Chust TTB",
+    "text-2": "Chortoq TTB",
+    "text-3": "Namangan KTTM",
+    "text-4": "Lor Academy",
+    "text-5": "Kardiologiya",
+    "text-6": "Namangan tuman TB"
+  },
+  "stats": {
+    "text-1": "Students",
+    "text-2": "Professor teachers",
+    "text-3": "Grants Institute",
+    "text-4": "Base of clinical practice"
+  },
   "Navbar": {
     "impuls": "Impulse",
     "tibbiyot-instituti": "Medical Institute",
@@ -36,5 +51,38 @@
   "News": {
     "latest-news": "Latest news",
     "view-all-news": "View all news"
+  },
+  "Rector-reeze": {
+    "text": "Dear students",
+    "text-2": "I sincerely congratulate you on joining the Impuls Medical Institute family! Today, you are starting an important and responsible path - the path of medicine, which is an honorable profession based not only on knowledge, but also on high values ​​such as humanity, patience and assistance.",
+    "text-3": "In our institute, all conditions are created for you to receive high-level education, and with the help of a team of qualified professors with modern technologies and scientific achievements, you have the opportunity to study knowledge in depth. The education you receive here will not only enhance your professional experience, but also provide a solid foundation for your future path to helping people as a doctor.",
+    "text-4": "Our goal is to develop the potential of each of you at a high level, and to form the necessary skills to become a leader in the field of medicine in the future. This path is not easy, but your hard work, patience and thirst for knowledge will lead you to success.",
+    "text-5": "During your studies at our institute, you will not only gain knowledge and skills in the field of specialization, but also make friends, understand the importance of teamwork and help. The success of each of you is our success. I wish you great achievements, scientific research and fulfillment of your dreams in the new academic year. Join our institute and get ready to do great things!"
+  },
+  "About-us": {
+    "text-1": "Impuls Medical Institute is a leading private medical higher education institution that conducts modern education and scientific research in the field of medicine. The main goal of our institute is to train highly qualified personnel in the field of healthcare, provide medical education based on modern technologies and conduct scientific research.",
+    "text-2": "Our History Impuls Medical Institute started its activity in 2022 as the first private medical institute in Namangan region. Our institute was established to solve the urgent problem of shortage of personnel in the field of medicine. It operates on the basis of license No. 047559 issued by the State Inspection of Education Quality under the Cabinet of Ministers of the Republic of Uzbekistan.",
+    "text-3": "Our Educational Process Educational processes at our institute are based on the credit-module system, and the lessons are organized in a hybrid state. In our institute, the hybrid education system is an educational platform that helps students learn practical training together with the leading professors and teachers of Uzbekistan and the world and, in turn, help them learn independently. Video lessons are understood as a mutually integrated system with situational issues related to training.",
+    "text-4": "Our Institute of Scientific Research and Innovation attaches great importance to scientific research activities. Our scientific research is mainly focused on current issues in the field of health care and directions for making medical education more effective. Our research focuses on developing new treatments, diagnostic technologies and medical education. We cooperate with foreign scientific centers and institutes to organize our scientific research based on international standards and offer practical solutions to medical science.",
+    "text-5": "Our Values ​​Transparency: We prioritize openness and honesty in all our processes. We build trusting and transparent relationships with students, employees and partners.",
+    "text-6": "Trustworthiness: We strive to fulfill the tasks entrusted to us responsibly. We strive to ensure honesty and reliability in everything we do.",
+    "text-7": "Flexibility: We adapt quickly to the rapidly changing modern demands. We are open to accepting innovations and taking advantage of new opportunities.",
+    "text-8": "Sustainability: We support continuous growth and improvement. We constantly strive to develop new knowledge and skills for our students and team."
+  },
+  "Institut-history": {
+    "text-1": "The history of the opening of Impuls Medical Institute",
+    "text-2": "In 2018, Impulse multidisciplinary private clinic was established in Norin district of Namangan region. The purpose of founding the clinic was to provide high-quality and modern medical care to patients. However, in the first period of the clinic's operation, the COVID-19 pandemic began, and it became a severe test for the whole world. Although the clinic was able to help many patients during the pandemic, unfortunately, due to lack of resources, it was not possible to help everyone.",
+    "text-3": "During the pandemic, finding modern technologies, equipment and drugs required a lot of money. The biggest problem was the lack of qualified doctors. The shortage of medical personnel was a big problem not only for our clinic, but also for the whole of Uzbekistan. In such a situation, we realized that we should not only rely on existing specialists, but also take a step to develop the medical field.",
+    "text-4": "Thus, in 2019, the idea of ​​opening our own medical institute was formed in order to train qualified medical personnel. We studied advanced education systems abroad, including medical education and healthcare systems in European, Asian and American countries. In which countries medicine is taught at the highest level, how the best quality care is provided to patients, what kind of education system they have - we analyzed everything.",
+    "text-5": "As a result of the studies, we decided to open a medical institute that conforms to the American USMLE system. In order to achieve this goal, we have engaged and learned from qualified specialists.",
+    "text-6": "Finally, in 2022, as a result of our several years of efforts, the first and only private medical institute in Namangan region - Impulse Medicine, based on license No. The institute was opened. Today, our institute is based on the modern medical education system and aims to train mature specialists in the field of medicine."
+  },
+  "Scientific-council": {
+    "text-1": "The Scientific Council of the Impulse Medical Institute is the main collective body that resolves issues related to the scientific activity of the institute. The Scientific Council conducts its activities in accordance with the Law of the Republic of Uzbekistan No. 637 of September 23, 2020 On Education, Labor Code of the Republic of Uzbekistan No. 161-I, 1995 of the Republic of Uzbekistan According to the Law of the Republic of Uzbekistan dated December 21, 2019 No. 576 It operates in accordance with the Law On Science and Scientific Activity, as well as the Institute's Charter and other local normative legal documents. The Council also operates on the basis of the Institute's Statute On the Scientific Council and acts as an authorized body within the framework of the established legal documents.",
+    "text-2": "The main goal of the scientific council is to make collective decisions on all issues based on scientific activity at the institute and to develop scientific research.",
+    "text-3": "The activity of the scientific council is based on the principles of transparency, collective discussion and problem solving, and requires a responsible approach to the employees and students of the institute.",
+    "text-4": "The main tasks of the scientific council:",
+    "text-5": "Determining the main directions of the institute's scientific development; Legal and normative regulation of the main issues of organization of scientific activity; Development of scientific activity programs of the Institute and their implementation; Reviewing and making decisions on issues of scientific research and information-analytical activity; Approval of the plan of scientific research topics carried out by the institute; Approving work plans of the Scientific Council of the Institute;",
+    "text-6": "The Scientific Council of the Impulse Medical Institute plays an important role in the further development of the institute's scientific and research activities, aiming to achieve high scientific standards."
   }
 }
