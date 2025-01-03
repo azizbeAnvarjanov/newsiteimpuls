@@ -200,5 +200,27 @@
     "text-15": "Total scholarship points: Final exam (40%) + Midterm exam (20%) + Scholarship exam (40%) = 100%.",
     "text-16": "If the student fails to appear for the first attempt exam for a valid reason, if a document confirming that the valid reason was present on the day of the exam is presented and this document is recognized as valid by the Department of Education Quality, the student's 2nd or 3rd attempt score (if the student fails to appear for the second attempt) is calculated by multiplying the percentage . In this case, 75% of the student's 2nd attempt score and 60% of the 3rd attempt score are added to the grant score. If the student does not appear for the 1st opportunity and cannot provide a valid reason, the student will not be awarded points for that exam when calculating the grant score.",
     "text-17": "The scholarship exam is held at the end of the semester as a separate exam. In it, students take a test consisting of one (1st courses) or several (senior courses) blocks, each of which contains 40 questions. Tests include simple questions from specialized subjects and situational problems. A certain number of questions in each block (the same amount for the entire course) will be in English. 1 hour is allotted for each block."
+  },
+  "student-union": {
+    "text-1": "Student Union (student council)",
+    "text-2": "The duties of the Student Union include:",
+    "text-3": "Protection of students' interests: Identifying students' problems and discussing them with the management of the Institute.",
+    "text-4": "1. Organization of social and cultural events: Organization of various events, entertainment and cultural activities for students.",
+    "text-5": "2. Providing Resources: Providing resources and services to help students with their studies, psychological support, and career paths.",
+    "text-6": "3. Support of clubs and organizations: To help students to establish and operate clubs and organizations of their interest.",
+    "text-7": "4. Development of solidarity among students: conducting activities aimed at increasing friendship and cooperation among students.",
+    "text-8": "Clubs and clubs planned to be established at Impuls Medical Institute:",
+    "text-9": "1. Computer Literacy Club",
+    "text-10": "2. Zakovat intellectual club",
+    "text-11": "3. Young Sportsmen's Club",
+    "text-12": "4. Fitness club",
+    "text-13": "5. Club of young readers",
+    "text-14": "6. Volunteer club",
+    "text-15": "7. Ecoclub",
+    "text-16": "8. Art club",
+    "text-17": "9. Med talks club",
+    "text-18": "10. Psychology Club",
+    "text-19": "11. Ambulance Emergency Yodam Club",
+    "text-20": "12. Explorers Club"
   }
 }
