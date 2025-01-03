@@ -23,7 +23,7 @@ function AllNews() {
   const [selectedMonth, setSelectedMonth] = useState("");
   const [selectedYear, setSelectedYear] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage] = useState(8); // Har bir sahifadagi elementlar soni
+  const [itemsPerPage] = useState(10); // Har bir sahifadagi elementlar soni
   const locale = useLocale();
 
   useEffect(() => {
