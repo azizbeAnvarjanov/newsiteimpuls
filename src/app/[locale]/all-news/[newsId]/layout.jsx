@@ -1,6 +1,7 @@
 import React from "react";
 import LatestNewsSider from "../../../(customComponents)/LatestNewsSider";
 
+
 const NewsDetailsLayout = ({ children }) => {
   return (
     <div className="p-2 md:p-5 xl:flex items-start gap-5">
