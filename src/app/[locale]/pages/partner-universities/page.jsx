@@ -11,27 +11,27 @@ const PartnerUniversityies = () => {
     {
       name: t("partner-1"),
       img_path: "/partners-logos/tta.png",
-      url: "#"
+      url: "https://tma.uz/"
     },
     {
       name: t("partner-2"),
       img_path: "/partners-logos/emu.png",
-      url: "#"
+      url: "https://emuni.uz/uz/"
     },
     {
       name: t("partner-3"),
       img_path: "/partners-logos/adti.png",
-      url: "#"
+      url: "https://adti.uz/"
     },
     {
       name: t("partner-4"),
       img_path: "/partners-logos/osh.png",
-      url: "#"
+      url: "https://www.oshsu.kg/kg"
     },
     {
       name: t("partner-5"),
       img_path: "/partners-logos/tgfu.png",
-      url: "#"
+      url: "https://tgfu.uz/uz/"
     },
   ];
 
