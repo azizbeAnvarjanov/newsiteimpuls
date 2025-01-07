@@ -7,7 +7,7 @@ import {
   increment,
   onSnapshot,
 } from "firebase/firestore";
-import { CalendarDays, Eye, Copy, Printer } from "lucide-react";
+import { CalendarDays, Eye, Copy, Printer, Share2 } from "lucide-react";
 import { useLocale } from "next-intl";
 import Image from "next/image";
 import { useParams } from "next/navigation";
@@ -125,7 +125,7 @@ const NewsDetailPage = () => {
               onClick={handleCopyLink}
               className=" text-white py-2 px-4 rounded flex items-center gap-2"
             >
-              <Copy size="30px" />
+              <Share2 size="30px" />
             </Button>
             <Button
               onClick={handlePrint}
