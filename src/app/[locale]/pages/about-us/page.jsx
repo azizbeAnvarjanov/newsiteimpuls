@@ -23,6 +23,8 @@ const AboutUs = () => {
         <p>{t("text-6")}</p>
         <p>{t("text-7")}</p>
         <p>{t("text-8")}</p>
+        <p>{t("text-9")}</p>
+        <p>{t("text-10")}</p>
       </div>
     </div>
   );

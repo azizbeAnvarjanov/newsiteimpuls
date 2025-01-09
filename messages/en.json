@@ -1,6 +1,6 @@
 {
   "Hero": {
-    "text": "You are worthy of an",
+    "text": "you deserve an ",
     "text-2": "honorable profession",
     "qabul": "Admission 2024-2025",
     "talim-dasturi": "Educational program",
@@ -26,8 +26,8 @@
     "impuls": "Impulse",
     "tibbiyot-instituti": "Medical Institute",
     "institut": "Institute",
-    "rektor-murojati": "Rector freeze",
-    "institut-tarixi": "Institute of history",
+    "rektor-murojati": "Rector appeal",
+    "institut-tarixi": "History of the institute",
     "ilmiy-kengash": "Scientific council",
     "institut-mamuriyati": "Administration of the institute",
     "institutga-sayohat": "A trip to the institute",
@@ -62,22 +62,24 @@
 
   
 "About-us": {
-    "text-1": "Impuls Medical Institute is a leading private higher education institution in the field of medicine, offering modern education and scientific research. Our primary goal is to train highly qualified personnel in healthcare, provide medical education based on modern technologies, and conduct scientific research.",
-    "text-2": "Our History Impuls Medical Institute began its operations in 2022 as the first private medical institute in Namangan region. It was established to address the urgent issue of the shortage of personnel in the medical field. The institute operates under license number 047559 issued by the State Inspectorate for Supervision of Education Quality under the Cabinet of Ministers of the Republic of Uzbekistan.",
-    "text-3": "Our Educational Process The educational process at our institute is based on a credit-module system, with classes organized in a hybrid format. Our hybrid education system means that students gain practical training offline with leading professors from Uzbekistan and around the world, while also using an integrated system of educational platforms, video lectures, and case studies to support independent learning.",
-    "text-4": "Research and Innovations Our institute places great emphasis on scientific research. Our research focuses on current issues in healthcare and improving the effectiveness of medical education. We collaborate with foreign scientific centers and institutions to organize our research according to international standards and offer practical solutions to the field of medicine.",
-    "text-5": "Our Values Transparency: We prioritize openness and integrity in all our processes, establishing trustworthy and transparent relationships with students, staff, and partners.",
-    "text-6": "Accountability: We strive to responsibly fulfill the tasks entrusted to us, ensuring honesty and reliability in everything we do.",
-    "text-7": "Adaptability: We quickly adapt to changing modern requirements, embracing innovations and being open to new opportunities.",
-    "text-8": "Development: We support continuous growth and improvement, constantly striving to develop new knowledge and skills for our students and team."
+    "text-1": "Impulse Medical Institute is a leading private higher education institution conducting modern education and scientific research in the field of medicine. The main goal of our institute is to train highly qualified personnel in the healthcare sector, provide medical education based on modern technologies, and carry out scientific research.",
+    "text-2": "To develop medicine and medical education and thereby increase the average life expectancy. Impulse Medical Institute, in its mission, is based on the highest values of humanity—health and the glorification of life. Integrating modern technologies into medical education and providing education based on international standards. Developing international cooperation and providing students with opportunities to study abroad and undergo practical training. This institution aims to contribute to the extension of human life and to ensure a quality and fulfilling life through the development of medicine and medical education.",
+    "text-3": "Impulse Medical Institute began its activities in 2022 as the first private medical institute in the Namangan region. Our institute was established to address the acute shortage of personnel in the medical field. It operates based on the license number 047559 issued by the State Inspectorate for Quality Control in Education under the Cabinet of Ministers of the Republic of Uzbekistan.",
+    "text-4": "At our institute, the educational processes are based on a credit-module system, and classes are organized in a hybrid format. The hybrid education system at our institute refers to a system where students master practical educational sessions offline with leading professors and teachers from Uzbekistan and around the world, and simultaneously benefit from an educational platform, video lessons, and integrated situational tasks to assist in independent learning.",
+    "text-5": "Our institute places great importance on scientific research activities. Our scientific inquiries focus primarily on pressing issues in healthcare and ways to make medical education more effective. Our research is aimed at new treatment methods, diagnostic technologies, and the development of medical education. We collaborate with foreign scientific centers and institutions to organize our scientific research based on international standards and to propose practical solutions for the field of medicine.",
+    "text-6": "Our Values:",
+    "text-7": "Transparency: We prioritize openness and honesty in all our processes. We establish trustworthy and transparent relationships with students, staff, and partners.",
+    "text-8": "Accountability: We strive to fulfill the tasks entrusted to us with responsibility. We aim to ensure honesty and reliability in every action we take.",
+    "text-9": "Flexibility: We quickly adapt to rapidly changing modern requirements. We are open to accepting innovations and utilizing new opportunities.",
+    "text-10": "Development: We support continuous growth and improvement. We constantly strive to develop new knowledge and skills for our students and team."
   },
   "Institut-history": {
-    "text-1": "History of Impuls Medical Institute's Opening",
-    "text-2": "In 2018, Impulse Multidisciplinary Private Clinic was established in Norin district of Namangan region to provide quality and modern medical assistance to patients. However, the early days of the clinic coincided with the outbreak of the COVID-19 pandemic, which became a challenging test for the whole world. Despite helping many patients, the clinic couldn't assist everyone due to resource limitations.",
-    "text-3": "During the pandemic, obtaining modern technologies, equipment, and medicines required significant funds. The biggest issue was the shortage of qualified doctors. The shortage of medical personnel was a major problem not only for our clinic but across Uzbekistan. Realizing this, we understood the need to take a step towards developing the medical field ourselves.",
-    "text-4": "Thus, in 2019, the idea of opening our own medical institute to train qualified personnel in medicine was born. We studied advanced education systems abroad, including medical education and healthcare systems in Europe, Asia, and America, analyzing where the best medical training was provided and how high-quality assistance was delivered to patients.",
-    "text-5": "Based on our research, we decided to open a medical institute that aligns with the USMLE system in the United States. We recruited qualified specialists and learned from them to achieve this goal.",
-    "text-6": "Finally, in 2022, after several years of efforts, Impulse Medical Institute was opened as the first and only private medical institute in Namangan region under license number 047559 issued by the State Inspectorate for Supervision of Education Quality under the Cabinet of Ministers of the Republic of Uzbekistan. Today, our institute is dedicated to preparing competent specialists in the medical field, based on a modern medical education system."
+    "text-1": "The history of the opening of the Impulse Medical Institute",
+    "text-2": "In 2018, the Impulse multi-specialty private clinic was established in the Norin district of the Namangan region. The purpose of founding the clinic was to provide patients with quality and modern medical assistance. However, during the initial period of the clinic's operation, the COVID-19 pandemic began, which was a severe test for the entire world. During the pandemic, although the clinic was able to help many patients, unfortunately, due to a lack of resources, it was not possible to assist everyone.",
+    "text-3": "During the pandemic, finding modern technologies, equipment, and medications required significant funds. The biggest problem was the shortage of qualified doctors. The shortage of medical personnel was a major issue not only for our clinic but also across Uzbekistan. In such a situation, we realized that we needed to take a step towards developing the medical field, not just relying on the available specialists.",
+    "text-4": "Thus, in 2019, the idea of opening our own medical institute for training qualified personnel in medicine formed. We studied advanced educational systems abroad, including medical education and healthcare systems in European, Asian, and American countries. We analyzed which countries have the highest level of medical education, how the best quality care is provided to patients, and what educational systems they have.",
+    "text-5": "As a result of our studies, we decided to open a medical institute that corresponds to the American USMLE system. To achieve this goal, we involved qualified specialists and learned from them.",
+    "text-6": "Finally, in 2022, as a result of several years of our efforts, the first and only private medical institute in the Namangan region — Impulse Medical Institute was opened based on license No. 047559 from the State Inspectorate for Quality Control of Education under the Cabinet of Ministers of the Republic of Uzbekistan. Today, our institute is focused on preparing highly qualified specialists in the medical field based on a modern medical education system."
   },
 
     "Scientific-council": {
@@ -128,28 +130,28 @@
     "qavat-2": "2 floor"
   },
   "faq": {
-    "question_1": "When does the institute's admission take place?",
-    "answer_1": "Once a year, from July to September.",
-    "question_2": "What documents are required for admission?",
-    "answer_2": "A passport or ID for registration for the exam, and a certificate of completion of 11th grade or a college diploma are required. Other documents will be submitted after passing the exam.",
-    "question_4": "Are there entrance exams?",
-    "answer_4": "Yes, there are. The entrance exam includes 50 questions from Biology, Chemistry, Mathematics, and IQ subjects.",
-    "question_5": "When will the entrance exams take place?",
-    "answer_5": "The exam dates will be notified to applicants via SMS after submitting their documents.",
-    "question_6": "What programs are available?",
-    "answer_6": "Currently, only the General Medicine program is available.",
-    "question_7": "What opportunities are available for students who fail the entrance exams?",
-    "answer_7": "Applicants who do not score enough points in the entrance exams or internal exams can attend Prefoundation courses.",
-    "question_8": "In which language are the classes conducted?",
-    "answer_8": "For international students and those with a B1 level certificate in English, classes are conducted in English; for local students, classes are in Uzbek.",
+    "question_1": "When will the admission to the institute take place?",
+    "answer_1": "Once a year, in the months of July to September",
+    "question_2": "What documents are needed for admission?",
+    "answer_2": "To register for the exam, a personal identification document such as a passport or ID, and a certificate of graduation from the 11th grade or a college diploma is required. The remaining documents will be submitted after passing the exam.",
+    "question_4": "Are there entrance examinations available?",
+    "answer_4": "Yes, it is available. In the entrance exam, a total of 50 questions will be asked from Biology, Chemistry, Mathematics, and IQ subjects.",
+    "question_5": "When will the entrance exams be held?",
+    "answer_5": "The dates of the entrance examination will be notified to applicants who submitted documents via SMS.",
+    "question_6": "What directions are there?",
+    "answer_6": "Currently, only the treatment direction is available.",
+    "question_7": "What opportunities are available for students who failed the entrance exam?",
+    "answer_7": "There are pre-foundation courses available for applicants who were unable to score enough points in the internal exams of the institute.",
+    "question_8": "What language will the classes be in?",
+    "answer_8": "For foreign students and students who have a B1 certificate in English - In Uzbek for local students",
     "question_9": "Is there a dormitory for students?",
     "answer_9": "Yes, we currently have a dormitory that can accommodate more than 230 students.",
-    "question_10": "Are there grants?",
-    "answer_10": "Students who achieve the best results during the semester and actively participate in community activities will receive a 100% grant for the semester, provided to the top 10% of students.",
-    "question_11": "How much is the contract fee?",
-    "answer_11": "For the 2024-2025 academic year, the contract fee for one semester is 16,500,000 UZS.",
-    "question_12": "Can the contract fee be paid in installments?",
-    "answer_12": "According to the institute's internal regulations, the annual contract fee can be paid in 4 installments under a contract."
+    "question_10": "Is there a grand?",
+    "answer_10": "Students who achieve the highest results during the semester and are actively involved in the community will be awarded a 100% scholarship for the semester, given to 10% of the total students.",
+    "question_11": "How much is the contract payment?",
+    "answer_11": "The amount of the semester contract for the 2024-2025 academic year is 16,500,000 soums.",
+    "question_12": "Is it possible to pay by installments?",
+    "answer_12": "According to the internal regulations of the institution, the contract amount set for the annual academic year can be paid in four installments based on the contract.s"
   },
   "hamkorlarimiz": {
     "header": "Partners",
@@ -162,24 +164,24 @@
   },
   "qadriyatlarimiz": {
     "vision": "VISION",
-    "vision_p": "To become a globally recognized leading medical education institution, integrating modern medical knowledge and practice with advanced technologies to contribute to improving the health of society.",
+    "vision_p": "Recognized continuous education",
     "mission": "MISSION",
-    "mission_p": "To develop medicine and medical education, thereby increasing life expectancy. The Impuls Medical Institute, in its mission, upholds the highest values of humanity — health and the sanctity of life. It aims to integrate modern technologies into medical education and provide training based on international standards. It also aims to develop international cooperation and provide students with opportunities for education and internships abroad. This institution is dedicated to contributing to the extension of human life and the promotion of a high-quality, fulfilling life through the development of medicine and medical education."
+    "mission_p": "An institution that enhances the future readiness of individuals and organizations through programs that are globally recognized and based on excellence."
   },
   "docs": {
-    "text-1": "Based on the license No. 047559 issued on November 9, 2022, by the State Inspection for Control of Education Quality under the Cabinet of Ministers of the Republic of Uzbekistan, Impuls BSR LLC is authorized to provide non-state educational services.",
-    "text-2": "Impuls BSR LLC, based on license No. 047559, started its activities on November 9, 2022. The Impuls Medical Institute offers a 6-year Bachelor's degree program in the field of General Medicine (60910200), and graduates are awarded a Bachelor’s degree in General Medical Practice.",
-    "text-3": "Currently, the institute has 6 departments, 110 professors and lecturers, and more than 50 clinical practice bases operating under contract.",
+    "text-1": "The State Inspectorate for Quality Control in Education under the Cabinet of Ministers of the Republic of Uzbekistan was authorized to provide non-state educational services for Impuls BSR LLC based on license No. 047559 dated November 9, 2022. ",
+    "text-2": "Impuls BSR LLC commenced its activities on the basis of license No. 047559 from the Impulse Medical Institute as of 11.09.2022. The institute offers a qualification in 60910200 - Medical Treatment, which includes a 6-year bachelor's degree. Graduates receive a bachelor's degree diploma in General Practice Medicine.",
+    "text-3": "Currently, the institute has 6 departments, 110 professors and teachers, and more than 50 clinical practice bases operating under contract.",
     "litsenziya": "License",
     "guvohnoma": "Certificate",
-    "nizom": "Institute Charter",
+    "nizom": "Institute regulation",
     "hujjat-nomi": "Document Name",
     "hujjat-raqami": "Document Number",
     "yuklash": "Download",
     "havola": "Link"
   },
   "xalqaro-xamkorlik": {
-    "text": "Impuls Medical Institute pays great attention to international cooperation. Our institute operates in order to establish and develop long-term cooperative relations with leading universities, scientific research centers and medical institutions from different countries. Within the framework of cooperation, scientific research, training programs, exchange of experience of students and professors are organized. We strive to ensure the quality of education in accordance with international standards, encouraging the global exchange of knowledge and innovation.",
+    "text": "The Impulse Medical Institute pays great attention to international cooperation. Our institute actively works to establish and develop long-term collaborative relationships with leading universities, research centers, and medical institutions from various countries. Within the framework of cooperation, scientific research, professional development programs, and exchange of experiences among students and faculty members are organized. We strive to promote global knowledge and innovation exchange while ensuring education quality that meets international standards.",
     "havola": "Link",
     "universitet_nomi": "University name",
     "osh": "Osh State University",

@@ -29,11 +29,11 @@ const RectorFreeze = () => {
           </p>
           <br />
           <p className="text-sm md:text-xl leading-relaxed tracking-tight text-muted-foreground text-left">
-            {t("text-3")}
+            {t("text-4")}
           </p>
           <br />
           <p className="text-sm md:text-xl leading-relaxed tracking-tight text-muted-foreground text-left">
-            {t("text-4")}
+            {t("text-5")}
           </p>
         </div>
       </div>
