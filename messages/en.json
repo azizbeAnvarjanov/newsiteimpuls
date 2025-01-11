@@ -93,8 +93,9 @@
 
   
       "administration-institute": {
-        "t_head_1": "Department",
-        "t_head_2": "Responsibilities",
+        "t_head_1": "Department head",
+        "t_head_2": "Department",
+        "t_head_3": "Responsibilities",
         "text-1": "Department of Scientific Research and Innovations",
         "p-1": "Manages scientific research and grant projects, enhances the qualifications of teachers and scientific staff, and works on improving the institute's ranking.",
         "text-2": "Department of Youth Affairs and Spiritual-Educational Work",
