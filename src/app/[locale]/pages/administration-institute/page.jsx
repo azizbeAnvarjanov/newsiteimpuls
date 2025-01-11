@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/table";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import ViewImage from "../../../(customComponents)/ViewImage";
 
 const AdministrationInstitute = () => {
   const t = useTranslations("administration-institute");
@@ -105,13 +106,9 @@ const AdministrationInstitute = () => {
           {values.map((item, idx) => (
             <TableRow key={idx}>
               <TableCell>
-                <div className="w-[60px] h-[60px] shadow-lg rounded-lg relative overflow-hidden mx-auto">
-                  <Image
-                    src={item.img}
-                    alt={item.text}
-                    fill
-                    className="object-cover"
-                  />
+                <div className="mx-auto">
+                <ViewImage url={item.img} w="60" h="60" />
+
                 </div>
               </TableCell>
               <TableCell>

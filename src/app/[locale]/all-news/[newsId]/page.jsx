@@ -17,6 +17,7 @@ import { Button } from "@/components/ui/button";
 import toast from "react-hot-toast";
 
 import { Skeleton } from "@/components/ui/skeleton";
+import ViewImage from "@/app/(customComponents)/ViewImage";
 
 const NewsDetailPage = () => {
   const { newsId } = useParams();
@@ -162,6 +163,17 @@ const NewsDetailPage = () => {
         <p className="description_news">
           {news[getLocalizedField("description")]}
         </p>
+        {allImages.length > 1 ? (
+          <div className="justify-center items-center grid lg:grid-cols-4 md:p-5 pt-2 gap-5">
+            {allImages.map((item, idx) => (
+              <div key={idx}>
+                <ViewImage url={item} w="200" h="200" />
+              </div>
+            ))}
+          </div>
+        ) : (
+          <></>
+        )}
       </div>
     </div>
   );
