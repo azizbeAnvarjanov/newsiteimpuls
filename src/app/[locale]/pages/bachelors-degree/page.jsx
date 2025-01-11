@@ -4,7 +4,13 @@ import React from "react";
 
 const BachelosDegree = () => {
   const t = useTranslations("grand");
-  const images = ["/asosiy-qadriyatlar/1.jpg", "/asosiy-qadriyatlar/2.png"];
+  const images = [
+    "/grand-students/1.jpg",
+    "/grand-students/2.jpg",
+    "/grand-students/3.jpg",
+    "/grand-students/4.jpg",
+    "/grand-students/5.jpg",
+  ];
 
   return (
     <div>

@@ -88,8 +88,9 @@
     "text-6": "Impulse Tibbiyot Instituti Ilmiy kengashi, yuqori ilmiy standartlarga erishishni maqsad qilib, institutning ilmiy va tadqiqot faoliyatini yanada rivojlantirishda muhim rol o‘ynaydi."
   },
   "administration-institute": {
-    "t_head_1": "Bo'lim",
-    "t_head_2": "Vazifasi",
+    "t_head_1": "Bo'lim raxbari",
+    "t_head_2": "Bo'lim",
+    "t_head_3": "Vazifasi",
     "text-1": "Ilmiy ishlar va innovatsiyalar bo‘yicha bo'limi",
     "p-1": "Ilmiy tadqiqotlar va grant loyihalarini boshqarish, o‘qituvchilar va ilmiy xodimlarning malakasini oshirish va institut reytingini oshirish bilan shug'ullanadi.",
     "text-2": "Yoshlar masalalari va ma’naviy-ma’rifiy ishlar bo‘yicha bo'limi",

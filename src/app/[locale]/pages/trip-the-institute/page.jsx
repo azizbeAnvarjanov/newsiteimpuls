@@ -3,7 +3,15 @@ import { useTranslations } from "next-intl";
 import React from "react";
 
 const TripInstitute = () => {
-  const images = ["/institut-history/1.jpg", "/institut-history/2.jpg"];
+  const images = [
+    "/institut-history/1.jpg",
+    "/grand-students/1.jpg",
+    "/grand-students/4.jpg",
+    "/grand-students/5.jpg",
+    "/about-us/3.jpg",
+    "/about-us/4.jpg",
+    "/about-us/5.jpg",
+  ];
   const t = useTranslations("Institut-history");
 
   return (
