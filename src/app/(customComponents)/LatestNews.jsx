@@ -14,6 +14,8 @@ const LatestNews = ({ latestNewsTitle, viewAllNews }) => {
   const [latestNews, setLatestNews] = useState([]);
   const [loading, setLoading] = useState(true);
   const locale = useLocale();
+  console.log(latestNews);
+  
 
   useEffect(() => {
     const fetchLatestNews = async () => {
