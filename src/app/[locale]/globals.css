@@ -1,9 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://cdn.synfusion.com/ej2/material.css");
-/* Leaflet CSS */
-@import 'leaflet/dist/leaflet.css';
 
 
 
