@@ -67,12 +67,12 @@ const NavDropdowns = () => {
               >
                 {t("institutga-sayohat")}
               </Link>
-              <Link
+              {/* <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
                 href={`/pages/institute-map`}
               >
                 {t("institut-xaritasi")}
-              </Link>
+              </Link> */}
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
                 href={`/pages/faq`}

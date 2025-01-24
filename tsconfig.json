@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/header.jsx", "src/components/local-switcher.jsx", "src/app/[locale]/page.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/header.jsx", "src/components/local-switcher.jsx", "src/app/[locale]/page.jsx", "src/app/goal/page.tsx"],
   "exclude": ["node_modules"]
 }

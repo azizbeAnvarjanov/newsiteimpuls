@@ -18,36 +18,7 @@ const TripInstitute = () => {
     <div>
       <AutoImageCarousel images={images} interval={5000} />
       <div className="my-3 space-y-10">
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit saepe
-          sed minus dolores culpa! Quas adipisci porro quibusdam numquam
-          cupiditate, aspernatur illum ipsa odio libero minima accusamus unde,
-          doloribus sapiente.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit saepe
-          sed minus dolores culpa! Quas adipisci porro quibusdam numquam
-          cupiditate, aspernatur illum ipsa odio libero minima accusamus unde,
-          doloribus sapiente.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit saepe
-          sed minus dolores culpa! Quas adipisci porro quibusdam numquam
-          cupiditate, aspernatur illum ipsa odio libero minima accusamus unde,
-          doloribus sapiente.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit saepe
-          sed minus dolores culpa! Quas adipisci porro quibusdam numquam
-          cupiditate, aspernatur illum ipsa odio libero minima accusamus unde,
-          doloribus sapiente.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit saepe
-          sed minus dolores culpa! Quas adipisci porro quibusdam numquam
-          cupiditate, aspernatur illum ipsa odio libero minima accusamus unde,
-          doloribus sapiente.
-        </p>
+        
       </div>
     </div>
   );
