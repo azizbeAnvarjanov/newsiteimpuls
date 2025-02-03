@@ -23,7 +23,7 @@ const HeroButtons = () => {
       </Magnetic>
       <Magnetic>
         <Link
-          href="https://qabul.impulsmi.uz/"
+          href="/pages/exchange"
           type="button"
           className="text-white bg-[--brand-blue] py-2 px-10 rounded-full text-[15px] font-normal capitalize"
         >
@@ -35,7 +35,7 @@ const HeroButtons = () => {
       </Magnetic>
       <Magnetic>
         <Link
-          href="https://qabul.impulsmi.uz/"
+          href="/pages/about-us"
           type="button"
           className="text-white bg-[--brand-blue] py-2 px-10 rounded-full text-[15px] font-normal capitalize w-[200px]"
         >
@@ -47,7 +47,7 @@ const HeroButtons = () => {
       </Magnetic>
       <Magnetic>
         <Link
-          href="https://qabul.impulsmi.uz/"
+          href="/pages/student-union"
           type="button"
           className="text-white bg-[--brand-blue] py-2 px-10 rounded-full text-[15px] font-normal capitalize w-[200px]"
         >

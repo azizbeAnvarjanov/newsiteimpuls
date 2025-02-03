@@ -64,7 +64,7 @@ const Footer = () => {
           <Link className="font-light" href="/bachelors-degree">
             {t("bakalavr-grandi")}
           </Link>
-          <Link className="font-light" href="/pages/journal">
+          <Link className="font-light" href="https://impulsjournal.uz/">
             {t("ilmiy-jurnal")}
           </Link>
           <Link className="font-light" href="/pages/student-union">
