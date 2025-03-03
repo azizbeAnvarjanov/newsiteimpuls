@@ -46,10 +46,12 @@
     "ilmiy-faoliyat": "Scientific activity",
     "ilmiy-jurnal": "IMS Journal",
     "student-union": "Student union",
-    "aloqa-markazi": "Call Center"
+    "aloqa-markazi": "Call Center",
+    "el-kutubxona": "Electronic library"
   },
   "News": {
     "latest-news": "Latest news",
+    "tadbir-taqvimi": "Event calendar",
     "view-all-news": "View all news"
   },
     "Rector-reeze": {

@@ -46,10 +46,12 @@
     "ilmiy-faoliyat": "Научная деятельность",
     "ilmiy-jurnal": "Журнал ИМС",
     "student-union": "Student union",
-    "aloqa-markazi": "Контакт центр"
+    "aloqa-markazi": "Контакт центр",
+    "el-kutubxona": "Электронная библиотека"
   },
   "News": {
     "latest-news": "Последние новости",
+    "tadbir-taqvimi": "Календарь событий",
     "view-all-news": "Посмотреть все новости"
   },
   "Rector-reeze": {

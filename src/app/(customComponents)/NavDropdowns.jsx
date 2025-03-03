@@ -43,6 +43,31 @@ const NavDropdowns = () => {
               >
                 {t("rektor-murojati")}
               </Link>
+              <div className="relative group-aboutsUs">
+                <div className="py-2 px-4 hover:bg-gray-100 transition-all cursor-pointer">
+                  {t("biz-haqimizda")}
+                </div>
+                <ul className="absolute opacity-0 invisible right-full top-0 w-[300px] bg-white shadow-lg">
+                  <li className="px-4 py-2 hover:bg-muted">
+                    <Link href="/pages/about-us"> {t("biz-haqimizda")}</Link>
+                  </li>
+                  <li className="px-4 py-2 hover:bg-muted">
+                    <Link href="/pages/partner-universities">
+                      {t("hamkor-universitetlar")}
+                    </Link>
+                  </li>
+                  <li className="px-4 py-2 hover:bg-muted">
+                    <Link href="/pages/core-values">
+                      {t("asosiy-qadriyatlar")}
+                    </Link>
+                  </li>
+                  <li className="px-4 py-2 hover:bg-muted">
+                    <Link href="/pages/basic-documents">
+                      {t("asosiy-meyoriy-hujjatlar")}
+                    </Link>
+                  </li>
+                </ul>
+              </div>
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
                 href={`/pages/institut-of-history`}
@@ -67,6 +92,7 @@ const NavDropdowns = () => {
               >
                 {t("institutga-sayohat")}
               </Link>
+
               {/* <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
                 href={`/pages/institute-map`}
@@ -89,7 +115,7 @@ const NavDropdowns = () => {
                 className="menu-hover text-base font-medium text-black p-2 rounded-md"
                 onClick=""
               >
-                {t("biz-haqimizda")}
+                Tadqiqot inovatsiyalar
               </div>
               <span>
                 <svg
@@ -112,27 +138,21 @@ const NavDropdowns = () => {
             <div className="invisible absolute z-50 flex w-[300px] flex-col bg-white  text-black shadow-xl group-hover:visible rounded-md">
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
-                href={`/pages/about-us`}
+                href="/"
               >
-                {t("biz-haqimizda")}
+                Konferensiya va tadbirlar
               </Link>
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
-                href={`/pages/partner-universities`}
+                href="/"
               >
-                {t("hamkor-universitetlar")}
+                Ilmiy jurnal
               </Link>
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
-                href={`/pages/core-values`}
+                href="/"
               >
-                {t("asosiy-qadriyatlar")}
-              </Link>
-              <Link
-                className="py-2 px-4 hover:bg-gray-100 transition-all"
-                href={`/pages/basic-documents`}
-              >
-                {t("asosiy-meyoriy-hujjatlar")}
+                Ilmiy kengash
               </Link>
             </div>
           </div>
@@ -260,6 +280,7 @@ const NavDropdowns = () => {
             </div>
           </div>
         </div> */}
+
         <div className="mx-auto flex items-center justify-center bg-white">
           <div className="group relative cursor-pointer">
             <div className="flex items-center justify-between  bg-white px-4">
@@ -297,6 +318,12 @@ const NavDropdowns = () => {
             </div>
           </div>
         </div>
+        <Link
+          className="py-2 px-4 hover:bg-gray-100 transition-all"
+          href={`/kutubxona`}
+        >
+          {t("el-kutubxona")}
+        </Link>
       </div>
       <MobileNavbar />
     </div>

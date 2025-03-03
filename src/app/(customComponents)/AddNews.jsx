@@ -19,8 +19,10 @@ import RichTextEditor from "../../components/Editor";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { CircleCheck, GalleryVertical, Image, Images } from "lucide-react";
+import { Checkbox } from "@/components/ui/checkbox";
 
 function AddNews() {
+  const [collectionName, setCollectionName] = useState("news");
   const [form, setForm] = useState({
     title_uz: "",
     title_ru: "",
@@ -79,7 +81,7 @@ function AddNews() {
     // Assuming `RichTextEditor` accepts a `clear` method to reset its content
     // You'll need to pass a `ref` to your editor component to achieve this
     // if your `RichTextEditor` allows resetting, you'd call a method like:
-    // editorRef.current.clear(); 
+    // editorRef.current.clear();
   };
 
   const handleSubmit = async (e) => {
@@ -111,7 +113,7 @@ function AddNews() {
       const storage = getStorage();
 
       // Banner rasmni yuklash
-      const bannerRef = ref(storage, `images/${form.bannerImage.name}`);
+      const bannerRef = ref(storage, `${collectionName}-images/${form.bannerImage.name}`);
       await uploadBytes(bannerRef, form.bannerImage);
       const bannerUrl = await getDownloadURL(bannerRef);
       toast.success("Banner rasmi muvaffaqiyatli yuklandi!");
@@ -120,7 +122,7 @@ function AddNews() {
       // Qo'shimcha rasmlarni yuklash
       const additionalUrls = [];
       for (let file of form.additionalImages) {
-        const imageRef = ref(storage, `images/${file.name}`);
+        const imageRef = ref(storage, `${collectionName}-images/${file.name}`);
         await uploadBytes(imageRef, file);
         const imageUrl = await getDownloadURL(imageRef);
         additionalUrls.push(imageUrl);
@@ -131,7 +133,7 @@ function AddNews() {
       }
 
       // Firestore'ga yozish
-      const newsRef = collection(db, "news");
+      const newsRef = collection(db, collectionName);
       await addDoc(newsRef, {
         title_uz: form.title_uz,
         title_ru: form.title_ru,
@@ -169,143 +171,197 @@ function AddNews() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="w-[90%] mx-auto">
-      <Dialog open={loading}>
-        <DialogContent>
-          <DialogHeader></DialogHeader>
-          <div className="border rounded-md shadow-sm h-12 flex items-center justify-between px-3">
-            <h1>
-              <Image />
-            </h1>
-            <div>
-              {bannerImageLoader ? (
-                <div className="customLoader"></div>
-              ) : (
-                <CircleCheck />
-              )}
-            </div>
+    <div>
+      <div className="p-5 flex gap-5">
+        <div className="flex items-center space-x-2 curs">
+          <div className="flex items-center space-x-2 border p-2 rounded-lg">
+            <Checkbox
+              value={collectionName}
+              checked={collectionName === "news"}
+              onCheckedChange={() => setCollectionName("news")}
+              id="news"
+            />
+            <label
+              htmlFor="news"
+              className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer"
+            >
+              Yangiliklar
+            </label>
           </div>
-          <div className="border rounded-md shadow-sm h-12 flex items-center justify-between px-3">
-            <h1>
-              <Images />
-            </h1>
-            <div>
-              {aditionalImagesLoader ? (
-                <div className="customLoader"></div>
-              ) : (
-                <CircleCheck />
-              )}
-            </div>
+          <div className="flex items-center space-x-2 border p-2 rounded-lg">
+            <Checkbox
+              value={collectionName}
+              checked={collectionName === "tadbir-news"}
+              onCheckedChange={() => setCollectionName("tadbir-news")}
+              id="tadbir-news"
+            />
+            <label
+              htmlFor="tadbir-news"
+              className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer"
+            >
+              Tadbir yangiliklari
+            </label>
           </div>
-          <div className="border rounded-md shadow-sm h-12 flex items-center justify-between px-3">
-            <h1>
-              <GalleryVertical />
-            </h1>
-            <div>
-              {newsContentLoader ? (
-                <div className="customLoader"></div>
-              ) : (
-                <CircleCheck />
-              )}
-            </div>
+          <div className="flex items-center space-x-2 border p-2 rounded-lg">
+            <Checkbox
+              value={collectionName}
+              checked={collectionName === "club-news"}
+              onCheckedChange={() => setCollectionName("club-news")}
+              id="club-news"
+            />
+            <label
+              htmlFor="club-news"
+              className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer"
+            >
+              Klub yangiliklari
+            </label>
           </div>
-        </DialogContent>
-      </Dialog>
-
-      <div className="flex items-center justify-between gap-4">
-        <div className="w-full">
-          <Label>Yangilik nomi (uz):</Label>
-          <Input
-            type="text"
-            name="title_uz"
-            value={form.title_uz}
-            onChange={handleInputChange}
-            required
-          />
-        </div>
-        <div className="w-full">
-          <Label>Yangilik nomi (ru):</Label>
-          <Input
-            type="text"
-            name="title_ru"
-            value={form.title_ru}
-            onChange={handleInputChange}
-            required
-          />
-        </div>
-        <div className="w-full">
-          <Label>Yangilik nomi (en):</Label>
-          <Input
-            type="text"
-            name="title_en"
-            value={form.title_en}
-            onChange={handleInputChange}
-            required
-          />
         </div>
       </div>
+      <form onSubmit={handleSubmit} className="w-[90%] mx-auto">
+        <Dialog open={loading}>
+          <DialogContent>
+            <DialogHeader></DialogHeader>
+            <div className="border rounded-md shadow-sm h-12 flex items-center justify-between px-3">
+              <h1>
+                <Image />
+              </h1>
+              <div>
+                {bannerImageLoader ? (
+                  <div className="customLoader"></div>
+                ) : (
+                  <CircleCheck />
+                )}
+              </div>
+            </div>
+            <div className="border rounded-md shadow-sm h-12 flex items-center justify-between px-3">
+              <h1>
+                <Images />
+              </h1>
+              <div>
+                {aditionalImagesLoader ? (
+                  <div className="customLoader"></div>
+                ) : (
+                  <CircleCheck />
+                )}
+              </div>
+            </div>
+            <div className="border rounded-md shadow-sm h-12 flex items-center justify-between px-3">
+              <h1>
+                <GalleryVertical />
+              </h1>
+              <div>
+                {newsContentLoader ? (
+                  <div className="customLoader"></div>
+                ) : (
+                  <CircleCheck />
+                )}
+              </div>
+            </div>
+          </DialogContent>
+        </Dialog>
 
-      <div className="flex items-start justify-between gap-4">
-        <div className="w-full">
-          <Label>Batafsil malumot (uz):</Label>
-          <RichTextEditor
-            content={form.description_uz}
-            onChange={(value) => handleEditorChange("description_uz", value)}
-          />
+        <div className="flex items-center justify-between gap-4">
+          <div className="w-full">
+            <Label>Yangilik nomi (uz):</Label>
+            <Input
+              type="text"
+              name="title_uz"
+              value={form.title_uz}
+              onChange={handleInputChange}
+              required
+            />
+          </div>
+          <div className="w-full">
+            <Label>Yangilik nomi (ru):</Label>
+            <Input
+              type="text"
+              name="title_ru"
+              value={form.title_ru}
+              onChange={handleInputChange}
+              required
+            />
+          </div>
+          <div className="w-full">
+            <Label>Yangilik nomi (en):</Label>
+            <Input
+              type="text"
+              name="title_en"
+              value={form.title_en}
+              onChange={handleInputChange}
+              required
+            />
+          </div>
         </div>
-        <div className="w-full">
-          <Label>Batafsil malumot (ru):</Label>
-          <RichTextEditor
-            content={form.description_ru}
-            onChange={(value) => handleEditorChange("description_ru", value)}
-          />
-        </div>
-        <div className="w-full">
-          <Label>Batafsil malumot (en):</Label>
-          <RichTextEditor
-            content={form.description_en}
-            onChange={(value) => handleEditorChange("description_en", value)}
-          />
-        </div>
-      </div>
 
-      <div className="flex items-center justify-start gap-4 py-5">
-        <div>
-          <Label>Sana:</Label>
-          <Input
-            type="date"
-            name="date"
-            value={form.date}
-            onChange={handleInputChange}
-            required
-          />
+        <div className="flex items-start justify-between gap-4">
+          <div className="w-full">
+            <Label>Batafsil malumot (uz):</Label>
+            <RichTextEditor
+              content={form.description_uz}
+              onChange={(value) => handleEditorChange("description_uz", value)}
+            />
+          </div>
+          <div className="w-full">
+            <Label>Batafsil malumot (ru):</Label>
+            <RichTextEditor
+              content={form.description_ru}
+              onChange={(value) => handleEditorChange("description_ru", value)}
+            />
+          </div>
+          <div className="w-full">
+            <Label>Batafsil malumot (en):</Label>
+            <RichTextEditor
+              content={form.description_en}
+              onChange={(value) => handleEditorChange("description_en", value)}
+            />
+          </div>
         </div>
-        <div>
-          <Label>Banner rasmi:</Label>
-          <Input
-            type="file"
-            name="bannerImage"
-            onChange={handleFileChange}
-            required
-          />
+
+        <div className="flex items-center justify-start gap-4 py-5">
+          <div>
+            <Label>Sana:</Label>
+            <Input
+              type="date"
+              name="date"
+              value={form.date}
+              onChange={handleInputChange}
+              required
+            />
+          </div>
+          <div>
+            <Label>Banner rasmi:</Label>
+            <Input
+              type="file"
+              name="bannerImage"
+              onChange={handleFileChange}
+              required
+            />
+          </div>
+          <div>
+            <Label>Qoshimcha rasmlar:</Label>
+            <Input
+              type="file"
+              name="additionalImages"
+              multiple
+              onChange={handleFileChange}
+            />
+          </div>
         </div>
-        <div>
-          <Label>Qoshimcha rasmlar:</Label>
-          <Input
-            type="file"
-            name="additionalImages"
-            multiple
-            onChange={handleFileChange}
-          />
-        </div>
-      </div>
 
+        <Button type="submit">Yangilik qoshish</Button>
 
-      <Button type="submit">Yangilik qoshish</Button>
-
-      {/* Clear Form Button */}
-      <Button className="ml-5" variant="destructive" type="button" onClick={handleClear}>Tozalash</Button>
-    </form>
+        {/* Clear Form Button */}
+        <Button
+          className="ml-5"
+          variant="destructive"
+          type="button"
+          onClick={handleClear}
+        >
+          Tozalash
+        </Button>
+      </form>
+    </div>
   );
 }
 

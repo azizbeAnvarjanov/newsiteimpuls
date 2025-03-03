@@ -8,7 +8,7 @@ const PagesLayout = ({ children }) => {
         {children}
       </div>
       <div className="border xl:w-[25%] w-full xl:min-h-[100vh] rounded shadow-xl p-5">
-        <LatestNewsSider />
+        <LatestNewsSider collectionName="news" path="all-news"/>
       </div>
     </div>
   );

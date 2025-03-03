@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Link } from "@/i18n/routing";
 
-const LatestNews = ({ latestNewsTitle, viewAllNews }) => {
+const LatestNews = ({ latestNewsTitle, viewAllNews, collectionName,path }) => {
   const [latestNews, setLatestNews] = useState([]);
   const [loading, setLoading] = useState(true);
   const locale = useLocale();
@@ -21,7 +21,7 @@ const LatestNews = ({ latestNewsTitle, viewAllNews }) => {
     const fetchLatestNews = async () => {
       try {
         // Firestore'dan yangiliklarni olish
-        const newsCollection = collection(db, "news");
+        const newsCollection = collection(db, collectionName);
         const newsSnapshot = await getDocs(newsCollection);
         const newsList = newsSnapshot.docs.map((doc) => ({
           id: doc.id,
@@ -108,7 +108,7 @@ const LatestNews = ({ latestNewsTitle, viewAllNews }) => {
           <h4 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-regular">
             {latestNewsTitle}
           </h4>
-          <Link href={`/all-news`}>
+          <Link href={`/${path}`}>
             <Button className="gap-4 bg-[--brand-blue]">
               {viewAllNews} <MoveRight className="w-4 h-4" />
             </Button>
@@ -118,7 +118,7 @@ const LatestNews = ({ latestNewsTitle, viewAllNews }) => {
           {latestNews.map((item) => (
             <Link
               key={item.id}
-              href={`/all-news/${item.id}`}
+              href={`/${path}/${item.id}`}
               className="flex flex-col gap-2 hover:opacity-75 cursor-pointer"
             >
               <div className="bg-muted rounded-md aspect-video relative mb-4 overflow-hidden">
@@ -128,9 +128,6 @@ const LatestNews = ({ latestNewsTitle, viewAllNews }) => {
                   alt={item[getLocalizedField("title")]}
                   className="object-cover"
                 />
-              <div className="z-10 absolute top-3 left-3 flex items-center gap-2 justify-center rounded-md shadow-sm backdrop-blur-xl border text-white px-2">
-                <Eye size="18px" /> {item.views || 0}
-              </div>
               </div>
               <p className="text-sm text-muted-foreground">{item.date}</p>
               <h3 className="news-description text-xl tracking-tight">

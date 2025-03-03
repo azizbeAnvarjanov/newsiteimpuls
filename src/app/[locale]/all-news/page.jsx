@@ -213,10 +213,7 @@ function AllNews() {
                 href={`/all-news/${item.id}`}
                 className="flex flex-col gap-2 hover:opacity-75 cursor-pointer relative"
               >
-                <div className="px-2 z-10 absolute top-3 left-3 flex items-center gap-2 justify-center rounded-md shadow-sm backdrop-blur-xl border text-white">
-                  {" "}
-                  <Eye size="18px" /> {item.views || 0}
-                </div>
+
                 <div className="rounded-md aspect-video relative overflow-hidden">
                   <Image
                     fill

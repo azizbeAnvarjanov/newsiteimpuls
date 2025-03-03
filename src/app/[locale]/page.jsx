@@ -8,6 +8,7 @@ import { useTranslations } from "next-intl";
 export default function Home() {
   const t = useTranslations("News");
   const latestNews = t("latest-news");
+  const tadbirTaqvimi = t("tadbir-taqvimi");
   const viewAllNews = t("view-all-news");
   const c = useTranslations("Hamkor-tashkilotlar");
   const c_header = c("header");
@@ -30,8 +31,26 @@ export default function Home() {
         t6={c_text_6}
         header={c_header}
       />
-      <LatestNews latestNewsTitle={latestNews} viewAllNews={viewAllNews} />
+      {/* <LatestNews
+        latestNewsTitle={"Klub yangiliklari"}
+        viewAllNews={viewAllNews}
+        collectionName="club-news"
+        path="club-news"
+      /> */}
+
+      <LatestNews
+        latestNewsTitle={latestNews}
+        viewAllNews={viewAllNews}
+        path="all-news"
+        collectionName="news"
+      />
       <StatsSection />
+      {/* <LatestNews
+        latestNewsTitle={tadbirTaqvimi}
+        viewAllNews={viewAllNews}
+        collectionName="tadbir-news"
+        path="tadbir-yangiliklari"
+      /> */}
       <CaruselStudents />
     </div>
   );

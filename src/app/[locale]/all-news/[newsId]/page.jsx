@@ -118,10 +118,7 @@ const NewsDetailPage = () => {
             {news.date}
           </p>
           <div className="flex items-center gap-1 md:gap-2">
-            <Button className="flex items-center gap-3 bg-[--brand-blue] px-3 rounded-md">
-              <Eye className="text-white" size="25px" />
-              <strong className="text-white">{news.views || 0}</strong>
-            </Button>
+
             <Button
               onClick={handleCopyLink}
               className=" text-white py-2 px-4 rounded flex items-center gap-2"

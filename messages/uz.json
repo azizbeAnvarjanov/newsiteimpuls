@@ -46,10 +46,12 @@
     "ilmiy-faoliyat": "Ilmiy faoliyat",
     "ilmiy-jurnal": "IMS Journal",
     "student-union": "Student union",
-    "aloqa-markazi": "Aloqa markazi"
+    "aloqa-markazi": "Aloqa markazi",
+    "el-kutubxona": "Elektron kutubxona"
   },
   "News": {
     "latest-news": "So'ngi yangiliklar",
+    "tadbir-taqvimi": "Tadbir taqvimi",
     "view-all-news": "Hammasini ko'rish"
   },
   "Rector-reeze": {
@@ -90,7 +92,8 @@
   "administration-institute": {
     "t_head_1": "Bo'lim raxbari",
     "t_head_2": "Bo'lim",
-    "t_head_3": "Vazifasi",
+    "t_head_3": "Bo'lim rahbari",
+    "t_head_4": "Vazifasi",
     "text-1": "Ilmiy ishlar va innovatsiyalar bo‘yicha bo'limi",
     "p-1": "Ilmiy tadqiqotlar va grant loyihalarini boshqarish, o‘qituvchilar va ilmiy xodimlarning malakasini oshirish va institut reytingini oshirish bilan shug'ullanadi.",
     "text-2": "Yoshlar masalalari va ma’naviy-ma’rifiy ishlar bo‘yicha bo'limi",
