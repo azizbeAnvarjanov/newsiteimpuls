@@ -17,6 +17,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import PlatformLink from "./PlatformLink";
 
 const MobileNavbar = () => {
   const t = useTranslations("Navbar");
@@ -142,6 +143,7 @@ const MobileNavbar = () => {
                   </AccordionItem>
                 ))}
               </Accordion>
+              <PlatformLink text={t("talim-patformasi")} />
             </SheetDescription>
           </SheetHeader>
         </SheetContent>
