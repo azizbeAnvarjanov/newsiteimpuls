@@ -120,7 +120,7 @@ const Kutubxona = () => {
       </div>
 
       {loading && <p>Yuklanmoqda...</p>}
-      <div className="grid grid-cols-3 items-center justify-center gap-5">
+      <div className="grid grid-cols-4 items-center justify-center gap-5">
         {filteredBooks.map((item, idx) => (
           <Link
             href={item.link}
