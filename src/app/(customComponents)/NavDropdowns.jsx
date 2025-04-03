@@ -49,24 +49,30 @@ const NavDropdowns = () => {
                   {t("biz-haqimizda")}
                 </div>
                 <ul className="absolute opacity-0 invisible right-full top-0 w-[300px] bg-white shadow-lg">
-                  <li className="px-4 py-2 hover:bg-muted">
-                    <Link href="/pages/about-us"> {t("biz-haqimizda")}</Link>
-                  </li>
-                  <li className="px-4 py-2 hover:bg-muted">
-                    <Link href="/pages/partner-universities">
-                      {t("hamkor-universitetlar")}
-                    </Link>
-                  </li>
-                  <li className="px-4 py-2 hover:bg-muted">
-                    <Link href="/pages/core-values">
-                      {t("asosiy-qadriyatlar")}
-                    </Link>
-                  </li>
-                  <li className="px-4 py-2 hover:bg-muted">
-                    <Link href="/pages/basic-documents">
-                      {t("asosiy-meyoriy-hujjatlar")}
-                    </Link>
-                  </li>
+                  <Link
+                    href="/pages/about-us"
+                    className="px-4 py-2 hover:bg-muted w-full flex"
+                  >
+                    {t("biz-haqimizda")}
+                  </Link>
+                  <Link
+                    href="/pages/partner-universities"
+                    className="px-4 py-2 hover:bg-muted w-full flex"
+                  >
+                    {t("hamkor-universitetlar")}
+                  </Link>
+                  <Link
+                    href="/pages/core-values"
+                    className="px-4 py-2 hover:bg-muted w-full flex"
+                  >
+                    {t("asosiy-qadriyatlar")}
+                  </Link>
+                  <Link
+                    href="/pages/basic-documents"
+                    className="px-4 py-2 hover:bg-muted w-full flex"
+                  >
+                    {t("asosiy-meyoriy-hujjatlar")}
+                  </Link>
                 </ul>
               </div>
               <Link
@@ -75,12 +81,7 @@ const NavDropdowns = () => {
               >
                 {t("institut-tarixi")}
               </Link>
-              {/* <Link
-                className="py-2 px-4 hover:bg-gray-100 transition-all"
-                href={`/pages/scientific-council`}
-              >
-                {t("ilmiy-kengash")}
-              </Link> */}
+
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
                 href={`/pages/administration-institute`}
@@ -116,7 +117,7 @@ const NavDropdowns = () => {
                 className="menu-hover text-base font-medium text-black p-2 rounded-md"
                 onClick=""
               >
-                Tadqiqot inovatsiyalar
+                {t("tadqiqot-va-innovatsiyalar")}
               </div>
               <span>
                 <svg
@@ -141,19 +142,19 @@ const NavDropdowns = () => {
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
                 href="/"
               >
-                Konferensiya va tadbirlar
+                {t("konferensiya-va-tadbirlar")}
               </Link>
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
                 href="/"
               >
-                Ilmiy jurnal
+                {t("ilmiy-jurnal")}
               </Link>
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
                 href="/pages/scientific-council"
               >
-                Ilmiy kengash
+                {t("ilmiy-kengash")}
               </Link>
             </div>
           </div>

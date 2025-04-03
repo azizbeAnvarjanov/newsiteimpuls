@@ -44,11 +44,12 @@
     "grandlar": "Grantlar",
     "bakalavr-grandi": "Bakalavr granti",
     "ilmiy-faoliyat": "Ilmiy faoliyat",
-    "ilmiy-jurnal": "IMS Journal",
     "student-union": "Student union",
     "aloqa-markazi": "Aloqa markazi",
     "el-kutubxona": "Elektron kutubxona",
-    "talim-patformasi": "Ta'lim platformasi"
+    "tadqiqot-va-innovatsiyalar": "Tadqiqot va innovatsiyalar",
+    "konferensiya-va-tadbirlar": "Konferensiya va tadbirlar",
+    "ilmiy-jurnal": "Ilmiy jurnal"
   },
   "News": {
     "latest-news": "So'ngi yangiliklar",
