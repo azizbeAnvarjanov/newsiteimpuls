@@ -259,8 +259,8 @@
   "info-11": "Xususiy",
   "title-12": "Manzil",
   "info-12": "2M3M+VH3, Namangan, Namangan viloyati, O‘zbekiston",
-  "title-13": "Rasmiy veb-sayt",
-  "info-13": "https://www.impulsmi.uz/en",
+  "title-13": "Hamkorimiz rasmiy veb-sayti",
+  "info-13": "https://impulsmedicalinstitute.com",
   "recognition-certificate-license": "Tan olinish, Sertifikat va Litsenziya",
   "main-text-1": "Impuls Tibbiyot Instituti - Reyting, Talablar, Kirish Jarayoni",
   "main-p-1": "Namangan shahrida joylashgan Impuls Tibbiyot Instituti, O'zbekistonning markazida joylashgan, dunyo miqyosidagi infratuzilma, tajribali o'qituvchilar, keng qamrovli ingliz tili o'qitish dasturi, kuchli amaliy yondashuv va bularning hammasi arzon o'quv to'lovlari bilan tanilgan, xalqaro tibbiyot ta'limining nufuzli markazlaridan biriga aylanyapti.",
@@ -303,6 +303,11 @@
   "answer-5": "Ha, universitet turar joy bilan ta'minlash xizmatlarini taklif qiladi.",
   "question-6": "Impuls Tibbiyot Instituti'ning MBBS dasturi narxi qancha?",
   "answer-6": "Impuls Tibbiyot Instituti'ning MBBS dasturining to'liq narxi taxminan 25 lakh hind rupiyasini tashkil qiladi."
+},
+"inter-contact": {
+  "title": "Aloqa",
+  "title-p-1": "Impuls Medical Institute (IMI) xabar berishicha, 2025 yildan boshlab IMI Nix Study Abroad U/O Nix Tour India Pvt Ltd bilan eksklyuziv shartnoma tuzgan. Nix Study Abroad – Namangan kampusimizdagi MBBS kursiga xalqaro talabalarni yollash bo‘yicha rasmiy vakolatli va qonuniy vakilimiz.",
+  "title-p-2": "Qabul jarayoni haqida qo'shimcha ma'lumot olish yoki qabul jarayonini boshlash uchun hamkorimizning veb-saytiga tashrif buyuring yoki elektron pochta orqali bog'lanishingiz mumkin"
 }
 
 }

@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="w-[250px] h-[85px] relative">
         <Image src="/footerLogo.png" alt="" className="object-cover" fill />
       </div>
-      <div className="mt-10 grid gap-10 sm:grid-cols-2 md:grid-cols-3 md:grid-cols-4">
+      <div className="mt-10 grid gap-10 sm:grid-cols-2 md:grid-cols-4">
         <div className="flex flex-col text-white space-y-2">
           <p className="font-bold">{t("institut")}</p>
           <Link className="font-light" href="/pages/rector-freeze">

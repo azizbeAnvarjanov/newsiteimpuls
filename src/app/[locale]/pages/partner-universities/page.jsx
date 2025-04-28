@@ -40,7 +40,7 @@ const PartnerUniversityies = () => {
       {partners.map((item, idx) => (
         <div key={idx} className="border flex p-2 rounded-lg shadow-md gap-3">
           <div className="w-[100px] h-[100px] relative rounded-lg">
-            <Image fill src={item.img_path}  alt="" className="object-contain rounded-lg"/>
+            <Image fill src={item.img_path}  alt="wefewdewd" className="object-contain rounded-lg"/>
           </div>
           <div>
             <h1 className="mb-4 font-bold">{item.name}</h1>

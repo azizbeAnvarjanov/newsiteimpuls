@@ -19,10 +19,12 @@ import Image from "next/image";
 import React from "react";
 
 import FeesAndIntakeTable from "@/app/(customComponents)/FeesAndIntakeTable";
+import Link from "next/link";
 
 const InternationalStudents = () => {
   const t = useTranslations("internation-students");
   const f = useTranslations("faq-2");
+  const i = useTranslations("inter-contact");
 
   const images = [
     "/international-students/3.jpg",
@@ -78,10 +80,10 @@ const InternationalStudents = () => {
       title: t("title-12"),
       info: t("info-12"),
     },
-    {
-      title: t("title-13"),
-      info: t("info-13"),
-    },
+    // {
+    //   title: t("title-13"),
+    //   info: t("info-13"),
+    // },
   ];
   const faqs = [
     {
@@ -144,6 +146,14 @@ const InternationalStudents = () => {
                   <TableCell className="py-5">{item.info}</TableCell>
                 </TableRow>
               ))}
+              <TableRow>
+                <TableCell className="py-5">{t("title-13")}</TableCell>
+                <TableCell className="py-5">
+                  <Link href={"https://impulsmedicalinstitute.com"}>
+                    {t("info-13")}
+                  </Link>
+                </TableCell>
+              </TableRow>
             </TableBody>
           </Table>
         </div>
@@ -178,6 +188,14 @@ const InternationalStudents = () => {
             </AccordionItem>
           ))}
         </Accordion>
+      </div>
+      <div className="w-[50%]">
+        <h1 className="font-bold text-4xl my-5 text-[--brand-blue]">
+          {i("title")}
+        </h1>
+        <p>{i("title-p-1")}</p>
+        <br />
+        <p>{i("title-p-2")}</p>
       </div>
     </div>
   );
