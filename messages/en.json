@@ -39,7 +39,7 @@
     "asosiy-meyoriy-hujjatlar": "Basic regulatory documents",
     "xalqaro-faoliyat": "International activities",
     "xalqaro-hamkorlik": "International cooperation",
-    "xalqaro-talabalar": "International students",
+    "xalqaro-talabalar": "International students and our partners",
     "almashinuv-dasturi": "Exchange program",
     "grandlar": "Grands",
     "bakalavr-grandi": "Bachelor's degree",
@@ -236,5 +236,80 @@
     "text-18": "10. Psychology club",
     "text-19": "11. Emergency Medical Assistance club",
     "text-20": "12. Researchers club"
-  }
+  },
+  "internation-students": {
+    "header-1": "University Name",
+    "header-info-1": "Impuls Medical Institute",
+    "title-1": "Founding Year",
+    "info-1": "2019",
+    "title-2": "University Accreditation",
+    "info-2": "NMC & WHO",
+    "title-3": "Medium Of Education",
+    "info-3": "English",
+    "title-4": "Course Duration",
+    "info-4": "6 Years",
+    "title-5": "Eligibility Criteria",
+    "info-5": "50% In Physics, Chemistry & Biology; Qualified NEET, Age 17",
+    "title-6": "Annual Tuition Fee",
+    "info-6": "USD 3300 or INR 2.9 Lakh",
+    "title-7": "Popular Course",
+    "info-7": "General Medicine MBBS",
+    "title-8": "IELTS/TOEFL",
+    "info-8": "Not Required",
+    "title-9": "Entrance Examination",
+    "info-9": "NEET",
+    "title-10": "Intake",
+    "info-10": "September",
+    "title-11": "University Type",
+    "info-11": "Private",
+    "title-12": "Location",
+    "info-12": "2M3M+VH3, Namangan, Namangan Region, Uzbekistan",
+    "title-13": "Official Website",
+    "info-13": "https://www.impulsmi.uz/en",
+    "recognition-certificate-license": "Recognition, Certificate & License",
+    "main-text-1": "Impuls Medical Institute- Ranking, Eligibility, Admission Process",
+    "main-p-1": "Located in Namangan, the heart of Uzbekistan, Impuls Medical Institute is emerging as one of the prestigious hubs for international medical education known for world-class infrastructure, experienced faculty, comprehensive English medium curriculum, a strong practical approach and all these with affordable fee structure.",
+    "main-p-2": "Impuls Medical Institute is accredited by the National Medical Commission of India and the World Health Organization, ensuring its strong academic excellence & global recognition. Additionally, the English medium programs and easy admission procedure make it one of Uzbekistan’s best medical universities."
+
+  },
+  "internatioanl-student-table": {
+    "title-1": "Impuls Medical Institute – Fees Structure 2025",
+    "title-2": "Intake To Study MBBS At Impuls Medical Institute",
+  
+    "particular": "Particular",
+    "year-1": "1st year",
+    "year-2": "2nd year",
+    "year-3": "3rd year",
+    "year-4": "4th year",
+    "year-5": "5th year",
+    "year-6": "6th year",
+  
+    "tuition-fee-usd": "Tuition Fee (USD)",
+    "tuition-fee-inr": "Tuition Fee (INR)",
+    "hostel-fee-usd": "Hostel Fees (USD)",
+    "hostel-fee-inr": "Hostel Fees (INR)",
+  
+    "semester": "Semester",
+    "months": "Months",
+    "autumn": "Autumn",
+    "spring": "Spring",
+    "september": "September",
+    "january": "January"
+  },
+  "faq-2": {
+  "question-1": "Is It Mandatory To Qualify for NEET To Get Admission To Impuls Medical Institute?",
+  "answer-1": "Yes, qualifying for NEET to be admitted to the Impuls Medical Institute is mandatory.",
+  "question-2": "Is The MBBS Program At Impuls Medical Institute Taught In English?",
+  "answer-2": "Yes, the MBBS program at Impuls Medical Institute is delivered in English.",
+  "question-3": "When Is The Admission Intake At Impuls Medical Institute?",
+  "answer-3": "The admission intake at Impuls Medical Institute is held in September every year.",
+  "question-4": "Is Impuls Medical Institute Accredited By WHO & NMC?",
+  "answer-4": "Yes, Impuls Medical Institute is accredited by WHO and NMC.",
+  "question-5": "Does Impuls Medical Institute Offer Hostel Facilities?",
+  "answer-5": "Yes, the University offers accommodation facilities.",
+  "question-6": "What Is The Cost Of MBBS At Impuls Medical Institute?",
+  "answer-6": "The cost of a complete MBBS program at Impuls Medical Institute ranges around 25 Lakhs Indian Rupees."
+}
+
+  
 }
