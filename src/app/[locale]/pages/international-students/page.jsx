@@ -170,7 +170,7 @@ const InternationalStudents = () => {
         <h1 className="font-bold text-4xl my-5 text-[--brand-blue]">FAQ</h1>
         <Accordion type="single" collapsible className="w-full">
           {faqs.map((item, i) => (
-            <AccordionItem value={`item-${i + 1}`}>
+            <AccordionItem key={i + 1} value={`item-${i + 1}`}>
               <AccordionTrigger>{item.question}</AccordionTrigger>
               <AccordionContent className="bg-gray-200 px-3 pt-3 pb-5">
                 {item.answer}
