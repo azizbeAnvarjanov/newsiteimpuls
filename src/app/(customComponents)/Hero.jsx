@@ -1,6 +1,5 @@
 import { TextEffect } from "@/components/ui/text-effect";
 import React from "react";
-import HeroButtons from "./HeroButtons";
 import { useTranslations } from "next-intl";
 
 const Hero = () => {
@@ -16,7 +15,6 @@ const Hero = () => {
           {t("text-2")}
         </TextEffect>
       </div>
-      <HeroButtons />
     </div>
   );
 };
