@@ -196,6 +196,9 @@ const InternationalStudents = () => {
         <p>{i("title-p-1")}</p>
         <br />
         <p>{i("title-p-2")}</p>
+        <br />
+        <p>Email: admission@impulsmedicalinstitute.com</p>
+        <p>Phone number: +91 8252646969</p>
       </div>
     </div>
   );

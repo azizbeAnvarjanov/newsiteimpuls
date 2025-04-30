@@ -101,6 +101,25 @@ const NavDropdowns = () => {
               >
                 {t("institut-xaritasi")}
               </Link> */}
+
+              <Link
+                className="py-2 px-4 hover:bg-gray-100 transition-all"
+                href={`/pages/intership`}
+              >
+                {t("amaliyot")}
+              </Link>
+              <Link
+                className="py-2 px-4 hover:bg-gray-100 transition-all"
+                href={`/pages/preparational-course`}
+              >
+                {t("preparational-course")}
+              </Link>
+              <Link
+                className="py-2 px-4 hover:bg-gray-100 transition-all"
+                href={`/pages/usmle`}
+              >
+                {t("usmle")}
+              </Link>
               <Link
                 className="py-2 px-4 hover:bg-gray-100 transition-all"
                 href={`/pages/faq`}

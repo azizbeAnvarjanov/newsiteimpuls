@@ -50,7 +50,10 @@
     "talim-patformasi": "Ta'lim platforma",
     "tadqiqot-va-innovatsiyalar": "Tadqiqot va innovatsiyalar",
     "konferensiya-va-tadbirlar": "Konferensiya va tadbirlar",
-    "ilmiy-jurnal": "Ilmiy jurnal"
+    "ilmiy-jurnal": "Ilmiy jurnal",
+    "amaliyot": "Amaliyot",
+    "preparational-course": "Tayorlov kurslari",
+    "usmle": "USMLE"
   },
   "News": {
     "latest-news": "So'ngi yangiliklar",
@@ -308,6 +311,26 @@
   "title": "Aloqa",
   "title-p-1": "Impuls Medical Institute (IMI) xabar berishicha, 2025 yildan boshlab IMI Nix Study Abroad U/O Nix Tour India Pvt Ltd bilan eksklyuziv shartnoma tuzgan. Nix Study Abroad – Namangan kampusimizdagi MBBS kursiga xalqaro talabalarni yollash bo‘yicha rasmiy vakolatli va qonuniy vakilimiz.",
   "title-p-2": "Qabul jarayoni haqida qo'shimcha ma'lumot olish yoki qabul jarayonini boshlash uchun hamkorimizning veb-saytiga tashrif buyuring yoki elektron pochta orqali bog'lanishingiz mumkin"
+},
+"Amaliyot": {
+  "title": "Amaliyot",
+  "p-1": "Impuls institutida o‘quv jarayonida amaliyotga katta e’tibor qaratiladi. Talabalar o‘quv vaqtining 50% dan ortig‘ini klinik bazalarda va simulyatsiya markazlarida o‘tkazishadi, nazariy bilimlarni amaliy ko‘nikmalar bilan uyg‘unlashtirib, mustahkamlab borishadi.",
+  "p-2": "Institutning simulyatsiya markazlari zamonaviy jihozlangan bo‘lib, talabalar o‘quv jarayonining birinchi kunidan boshlab u yerda amaliy mashg‘ulotlarni o‘tab, bilimlarini mustahkamlashadi. Bu esa ularning tibbiyotga bo‘lgan qiziqishini oshiradi."
+},
+"Tayorlov": {
+  "title": "Tayyorlov kursi",
+  "p-1": "Bu Impuls Tibbiyot Institutiga kirish uchun tayyorlaydigan maxsus dastur bo‘lib, ushbu dastur orqali abituriyetlarga maxsus sharoitlar asosida Impuls Tibbiyot Institutining talabasi bo‘lish imkoniyatini yaratadi. ",
+  "p-2": "Kurs doirasida o‘quv yili davomida abituriyetlar kimyo, biologiya, anatomiya, ingliz tili va tez tibbiy yordam fanlari bo‘yicha ta'lim olishadi, ularning dasturi institutning birinchi bosqichida o‘qitiladigan fanlar dasturlari asosida tuzilgan bo‘lib, o‘qish jarayonida abuturiyentlar institutning laboratoriyalari va simulyatsiya markazlarida, talabalar bilan birga laboratoriya mashg‘ulotlarini o‘tkazish imkoniyatiga ega bo‘ladilar, bu esa o‘z navbatida abituriyetlar o‘qishga kirganlaridan so‘ng institut ta'lim tizimiga tez moslashishga yordam beradi.",
+  "p-3": "Tayyorlov kurslarini muvaffaqiyatli tamomlagan abituriyentlar yakuniy imtihonlari natijalariga ko‘ra Impuls Tibbiyot Institutiga o‘qishning birinchi semestriga 50% dan 100% gacha Grant asosida imtihonlarsiz o‘qishga kirish imkoniyatiga ega bo‘ladilar."
+},
+"usmle": {
+  "title": "USMLE dasturi",
+  "p-1": "Amerika Qo‘shma Shtatlarida tibbiyot bilan  litsenziya olish uchun har bir shifokor United States Medical Licensing Examination® (USMLE) imtihonlaridan muvaffaqiyatli o‘tishi kerak.",
+  "p-2": "Ushbu imtihondan o‘tish sizni AQSH tibbiyot bitiruvchilari bilan tenglashtiradi va mutaxassislik bo‘-yicha rezidenturaga (ordinatura/ magistratura analogi, ish haqi to‘-lovi bilan) kirish huquqini beradi.",
+  "p-3": "ImpulsMI Amerika Qo‘shma Shtatlari Tibbiy Litsenziyalash Imtihoni (USMLE) tizimi asosida o‘qitiladigan o‘quv dasturini taklif qiladi. Bu bizning bitiruvchilarimiz tibbiy karyeralarida muvaffaqiyatga erishishi uchun yaxshi tayyorgarlik ko‘rishlarini ta’minlaydi.",
+  "p-4" : "Bizning professor o‘qituvchilarimiz, o‘z sohalari bo‘yicha tajribali mutaxassislar hisoblanib, shifokorlik sari chiqqan yo‘lingiz davomida sizga yo‘l yo‘riq ko‘rsatishga bel bog‘lagan mu-rabbiylardir. Biz amaliyotda tibbiyotni o‘zlashtirish va amaliy ko‘nikmalarni rivojlantirish uchun eng zamonaviy laboratoriyalar, simulyatsiya markazlari va klinik jihozlarni taqdim etamiz. "
 }
+
+
 
 }

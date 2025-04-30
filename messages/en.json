@@ -50,7 +50,10 @@
     "el-kutubxona": "Electronic library",
     "talim-patformasi": "Educational platform",
     "tadqiqot-va-innovatsiyalar": "Research and innovation",
-    "konferensiya-va-tadbirlar": "Conferences and events"
+    "konferensiya-va-tadbirlar": "Conferences and events",
+    "amaliyot": "Internship",
+    "preparational-course": "Internship",
+    "usmle": "USMLE"
   },
   "News": {
     "latest-news": "Latest news",
@@ -314,7 +317,26 @@
   "title": "Contact",
   "title-p-1": "Impuls Medical Institute (IMI) informs that since 2025 onwards IMI has entered into an exclusive Agreement with Nix Study Abroad U/O Nix Tour India Pvt Ltd . Nix Study Abroad is our offical Authorised and legal Representative for the recruitment of International students for the course of MBBS at our Namangan Campus.",
   "title-p-2": "For Additional information about the admission process or to start the admission procedure, visit the website of our partner or can be contacted over email"
+},
+"Amaliyot": {
+    "title": "Internship",
+    "p-1": "At Impuls Institute, great attention is paid to practice in the educational process, students spend more than 50% of their time in clinical bases and simulation centers, connecting and strengthening theoretical knowledge with practical skills.",
+    "p-2": "The Institute’s simulation centers are modernly equipped, and students can consolidate their knowledge by undergoing practical training there from the first day of the educational process. This, in turn, increases students' interest in medicine."
+  },
+  "Tayorlov": {
+  "title": "Preparational course",
+  "p-1": "The medical foundation is a special program that prepares applicants for admissions to the Impuls Medical Institute and thanks to the program, under special circumstances, applicants of the Impuls Medical Institute. ",
+  "p-2": "As part of the course, during the academic year, applicants are trained in the subjects of chemistry, biology, anatomy, english, and Emergency medical assistance, the program of which is based on the programs taught in the first year of study at the Institute, and during the training, applicants have the opportunity to take laboratory classes in laboratories and simulation centers of the Institute together with students, which, in turn, helps applicants to adapt to the education system faster after entering the Institute. ",
+  "p-3": "Applicants who have successfully completed Preparational courses, according to the results of final exams, will have the opportunity to enroll in Impuls Medical Institute without exams on the basis of the Founders' grant for the first semester of study from 50% up to 100%"
+},
+"usmle": {
+  "title": "USMLE program",
+  "p-1": "To become licensed to practice medicine in the United States, every physician must successfully pass the United States Medical Licensing Examination® (USMLE).",
+  "p-2": "Passing this exam puts you on par with U.S. medical graduates and qualifies you for residency training (equivalent to a paid residency/master’s degree) in your specialty.",
+  "p-3": "ImpulsMI offers a curriculum based on the United States Medical Licensing Examination (USMLE) system. This ensures that our graduates are well-prepared for success in their medical careers.",
+  "p-4" : "Our faculty are experienced experts in their fields and dedicated to guiding you on your path to becoming a physician. We provide state-of-the-art laboratories, simulation centers, and clinical equipment to help you master medical knowledge and develop practical skills in practice."
 }
+
 
   
 }
