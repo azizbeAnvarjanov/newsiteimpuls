@@ -21,7 +21,7 @@ const RectorFreeze = () => {
               </div>
             </div>
             <div className="bg-muted overflow-hidden aspect-square relative rounded-xl">
-              <Image fill src="/rector.jpg" alt="" />
+              <img src="/rector.jpg" alt="" className="w-full h-full" />
             </div>
           </div>
           <p className="text-sm md:text-xl leading-relaxed tracking-tight text-muted-foreground text-left">

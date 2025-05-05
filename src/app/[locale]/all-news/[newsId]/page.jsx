@@ -147,11 +147,11 @@ const NewsDetailPage = () => {
         ) : (
           <>
             <div className="w-full h-[30vh] md:h-[50vh] xl:h-[80vh] 2xl:h-[100vh] relative rounded-lg overflow-hidden mb-5">
-              <Image
+              <img
                 fill
                 src={news.bannerImage}
                 alt={news[getLocalizedField("title")]}
-                className="object-cover"
+                className="object-cover w-full h-full"
               />
             </div>
           </>

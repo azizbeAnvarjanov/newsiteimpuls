@@ -82,8 +82,7 @@ function CaruselStudents() {
             <CarouselItem key={idx} className="md:basis-1/2 lg:basis-1/3">
               <div className="p-1 flex items-center justify-center flex-col gap-3">
                 <div className="w-[30vh] h-[30vh] shadow-lg rounded-full relative overflow-hidden">
-                  <Image
-                    fill
+                  <img
                     src={item.image}
                     alt="ttb images"
                     className="object-cover"

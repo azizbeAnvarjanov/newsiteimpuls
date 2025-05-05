@@ -70,11 +70,13 @@ const LatestNewsSider = ({ collectionName, path }) => {
           key={item.id}
           className="h-[25vh] xl:h-[30vh] w-full border rounded-md relative overflow-hidden"
         >
-          <Image
-            fill
+          <img
             src={item.bannerImage}
             alt={item[getLocalizedField("title")]}
             className="object-cover w-full h-full"
+            width={500}
+            height={300}
+            priority
           />
 
           <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-40 p-3 flex flex-col justify-between">

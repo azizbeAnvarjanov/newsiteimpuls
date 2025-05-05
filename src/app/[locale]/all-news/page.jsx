@@ -215,11 +215,10 @@ function AllNews() {
               >
 
                 <div className="rounded-md aspect-video relative overflow-hidden">
-                  <Image
-                    fill
+                  <img
                     src={item.bannerImage}
                     alt={item[getLocalizedField("title")]}
-                    className="object-cover"
+                    className="object-cover w-full h-full"
                   />
                 </div>
                 <p className="text-sm">{item.date}</p>

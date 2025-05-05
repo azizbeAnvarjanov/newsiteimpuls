@@ -114,7 +114,7 @@ const InternationalStudents = () => {
   return (
     <div>
       <AutoImageCarousel images={images} interval={5000} />
-      <div className="flex items-start gap-4 w-[80%] mx-auto py-10">
+      {/* <div className="flex items-start gap-4 w-[80%] mx-auto py-10">
         <h1 className="text-3xl text-[--brand-blue] font-bold">
           {t("main-text-1")}
         </h1>
@@ -125,7 +125,7 @@ const InternationalStudents = () => {
       </div>
       <div className="grid grid-cols-2 gap-3">
         <div className="relative">
-          <Image fill src={"/bino.png"} className="object-cover" alt="" />
+          <img src={"/bino.png"} className="object-cover w-full h-full" alt="" />
         </div>
         <div>
           <Table className="w-full overflow-x-scroll min-w-[460px]">
@@ -199,7 +199,7 @@ const InternationalStudents = () => {
         <br />
         <p>Email: admission@impulsmedicalinstitute.com</p>
         <p>Phone number: +91 8252646969</p>
-      </div>
+      </div> */}
     </div>
   );
 };

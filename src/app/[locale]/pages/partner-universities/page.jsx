@@ -11,27 +11,27 @@ const PartnerUniversityies = () => {
     {
       name: t("partner-1"),
       img_path: "/partners-logos/tta.png",
-      url: "https://tma.uz/"
+      url: "https://tma.uz/",
     },
     {
       name: t("partner-2"),
       img_path: "/partners-logos/emu.png",
-      url: "https://emuni.uz/uz/"
+      url: "https://emuni.uz/uz/",
     },
     {
       name: t("partner-3"),
       img_path: "/partners-logos/adti.png",
-      url: "https://adti.uz/"
+      url: "https://adti.uz/",
     },
     {
       name: t("partner-4"),
       img_path: "/partners-logos/osh.png",
-      url: "https://www.oshsu.kg/kg"
+      url: "https://www.oshsu.kg/kg",
     },
     {
       name: t("partner-5"),
       img_path: "/partners-logos/tgfu.png",
-      url: "https://tgfu.uz/uz/"
+      url: "https://tgfu.uz/uz/",
     },
   ];
 
@@ -40,7 +40,11 @@ const PartnerUniversityies = () => {
       {partners.map((item, idx) => (
         <div key={idx} className="border flex p-2 rounded-lg shadow-md gap-3">
           <div className="w-[100px] h-[100px] relative rounded-lg">
-            <Image fill src={item.img_path}  alt="wefewdewd" className="object-contain rounded-lg"/>
+            <img
+              src={item.img_path}
+              alt="wefewdewd"
+              className="object-contain rounded-lg w-full h-full"
+            />
           </div>
           <div>
             <h1 className="mb-4 font-bold">{item.name}</h1>

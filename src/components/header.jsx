@@ -13,7 +13,10 @@ export default function Header() {
       <div className="h-[50%] bg-[--brand-blue] px-5 flex items-center justify-between">
         <div className="flex items-center gap-5">
           <Link className="text-white flex gap-2" href="tel:+998505105015">
-            <span className="lg:flex md:hidden items-center hidden">{t("aloqa-markazi")} </span> +998 50 510 50 15
+            <span className="lg:flex md:hidden items-center hidden">
+              {t("aloqa-markazi")}{" "}
+            </span>{" "}
+            +998 50 510 50 15
           </Link>
           <Link
             className="text-white lg:flex md:hidden items-center hidden"
@@ -39,12 +42,10 @@ export default function Header() {
         </div>
       </div>
       <nav className="flex p-5 items-center justify-between h-[50%]">
-        <Link href="/" className="flex gap-2">
-          <Image
+        <Link href="/" className="flex gap-2 items-center">
+          <img
             src="/logo.png"
-            className="object-contain"
-            width={40}
-            height={40}
+            className="object-contain w-[40px] h-[40px]"
             alt=""
           />
           <div>
@@ -52,7 +53,7 @@ export default function Header() {
             <h1 className="font-bold">{t("tibbiyot-instituti")}</h1>
           </div>
         </Link>
-        <NavDropdowns locc="uz"/>
+        <NavDropdowns locc="uz" />
       </nav>
     </header>
   );

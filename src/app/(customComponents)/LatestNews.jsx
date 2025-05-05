@@ -122,8 +122,7 @@ const LatestNews = ({ latestNewsTitle, viewAllNews, collectionName,path }) => {
               className="flex flex-col gap-2 hover:opacity-75 cursor-pointer"
             >
               <div className="bg-muted rounded-md aspect-video relative mb-4 overflow-hidden">
-                <Image
-                  fill
+                <img
                   src={item.bannerImage}
                   alt={item[getLocalizedField("title")]}
                   className="object-cover"

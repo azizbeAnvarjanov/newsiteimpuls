@@ -136,10 +136,9 @@ const Kutubxona = () => {
             <p className="absolute z-10 bottom-12 text-sm left-12 w-[180px] font-bold">
               {item.name}
             </p>
-            <Image
-              fill
+            <img
               src={"/book.png"}
-              className="book-image transition-all"
+              className="book-image transition-all w-full h-full"
               alt=""
             />
           </Link>

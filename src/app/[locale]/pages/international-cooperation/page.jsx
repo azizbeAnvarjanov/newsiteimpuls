@@ -69,11 +69,10 @@ const InternationalCorporation = () => {
               </TableCell>
               <TableCell>
                 <div className="w-[60px] h-[60px] mx-auto rounded-md overflow-hidden relative">
-                  <Image
+                  <img
                     src={item.imageUrl}
-                    fill
                     alt=""
-                    className="object-contain"
+                    className="object-contain w-full h-full"
                   />
                 </div>
               </TableCell>

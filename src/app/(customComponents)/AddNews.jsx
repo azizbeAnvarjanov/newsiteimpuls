@@ -113,7 +113,10 @@ function AddNews() {
       const storage = getStorage();
 
       // Banner rasmni yuklash
-      const bannerRef = ref(storage, `${collectionName}-images/${form.bannerImage.name}`);
+      const bannerRef = ref(
+        storage,
+        `${collectionName}-images/${form.bannerImage.name}`
+      );
       await uploadBytes(bannerRef, form.bannerImage);
       const bannerUrl = await getDownloadURL(bannerRef);
       toast.success("Banner rasmi muvaffaqiyatli yuklandi!");
@@ -223,9 +226,6 @@ function AddNews() {
           <DialogContent>
             <DialogHeader></DialogHeader>
             <div className="border rounded-md shadow-sm h-12 flex items-center justify-between px-3">
-              <h1>
-                <Image />
-              </h1>
               <div>
                 {bannerImageLoader ? (
                   <div className="customLoader"></div>
@@ -236,7 +236,6 @@ function AddNews() {
             </div>
             <div className="border rounded-md shadow-sm h-12 flex items-center justify-between px-3">
               <h1>
-                <Images />
               </h1>
               <div>
                 {aditionalImagesLoader ? (
