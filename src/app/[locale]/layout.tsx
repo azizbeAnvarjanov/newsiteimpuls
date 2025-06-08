@@ -23,6 +23,9 @@ export default function RootLayout({
 }: Readonly<RootLayoutProps>) {
   return (
     <html lang={locale}>
+      <head>
+        <script defer data-domain="impulsmi.uz" src="https://plausible.io/js/script.hash.pageview-props.tagged-events.js"></script>
+      </head>
       <body className={inter.className}>
         <div>
           <Toaster position="top-center" reverseOrder={false} />
