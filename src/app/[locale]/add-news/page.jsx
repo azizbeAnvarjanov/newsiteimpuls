@@ -4,7 +4,7 @@ import AddNews from "../../(customComponents)/AddNews";
 const AddNewsPage = () => {
   return (
     <div className="py-5">
-      <AddNews />
+      {/* <AddNews /> */}
     </div>
   );
 };
