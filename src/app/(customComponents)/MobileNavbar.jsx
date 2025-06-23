@@ -143,7 +143,7 @@ const MobileNavbar = () => {
                   </AccordionItem>
                 ))}
               </Accordion>
-              <PlatformLink text={t("talim-patformasi")} />
+              <PlatformLink />
             </SheetDescription>
           </SheetHeader>
         </SheetContent>

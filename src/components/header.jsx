@@ -38,8 +38,8 @@ export default function Header() {
           </Link>
         </div>
         <div className="flex gap-5 items-center text-white">
-          <Link href="https://student.impulsmi.uz">{t("hemis")}</Link>
-          <Link href="https://learn.impulsmi.uz">{t("talim-platformasi")}</Link>
+          <Link className="md:flex hidden" href="https://student.impulsmi.uz">{t("hemis")}</Link>
+          <Link className="md:flex hidden" href="https://learn.impulsmi.uz">{t("talim-platformasi")}</Link>
           <LocalSwitcher />
         </div>
       </div>
