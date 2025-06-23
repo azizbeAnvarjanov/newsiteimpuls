@@ -12,11 +12,11 @@ export default function Header() {
     <header className="bg-white border-b shadow-md fixed w-full h-[18vh] z-50">
       <div className="h-[50%] bg-[--brand-blue] px-5 flex items-center justify-between">
         <div className="flex items-center gap-5">
-          <Link className="text-white flex gap-2" href="tel:+998505105015">
+          <Link className="text-white flex gap-2" href="tel:+998555105015">
             <span className="lg:flex md:hidden items-center hidden">
               {t("aloqa-markazi")}{" "}
             </span>{" "}
-            +998 50 510 50 15
+            +998 55 510 50 15
           </Link>
           <Link
             className="text-white lg:flex md:hidden items-center hidden"
@@ -37,7 +37,9 @@ export default function Header() {
             <Instagram />
           </Link>
         </div>
-        <div>
+        <div className="flex gap-5 items-center text-white">
+          <Link href="https://student.impulsmi.uz">{t("hemis")}</Link>
+          <Link href="https://learn.impulsmi.uz">{t("talim-platformasi")}</Link>
           <LocalSwitcher />
         </div>
       </div>
