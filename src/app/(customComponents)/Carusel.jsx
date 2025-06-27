@@ -98,9 +98,10 @@ const Carusel = ({ t1, t2, t3, t4, t5, t6, header }) => {
                       <span className="text-sm absolute w-full h-full bg-black z-10 bg-opacity-50 grid p-5 text-white text-xl">
                         {images[index].text}
                       </span>
-                      <img
+                      <Image
                         src={images[index].image}
                         alt="ttb images"
+                        fill
                         className="object-cover"
                       />
                     </div>

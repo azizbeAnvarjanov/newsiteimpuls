@@ -38,17 +38,23 @@ export default function Header() {
           </Link>
         </div>
         <div className="flex gap-5 items-center text-white">
-          <Link className="md:flex hidden" href="https://student.impulsmi.uz">{t("hemis")}</Link>
-          <Link className="md:flex hidden" href="https://learn.impulsmi.uz">{t("talim-platformasi")}</Link>
+          <Link className="md:flex hidden" href="https://student.impulsmi.uz">
+            {t("hemis")}
+          </Link>
+          <Link className="md:flex hidden" href="https://learn.impulsmi.uz">
+            {t("talim-platformasi")}
+          </Link>
           <LocalSwitcher />
         </div>
       </div>
       <nav className="flex p-5 items-center justify-between h-[50%]">
         <Link href="/" className="flex gap-2 items-center">
-          <img
+          <Image
             src="/logo.png"
-            className="object-contain w-[40px] h-[40px]"
-            alt=""
+            alt="Logo"
+            width={40}
+            height={40}
+            className="object-contain"
           />
           <div>
             <h1 className="font-bold">{t("impuls")}</h1>

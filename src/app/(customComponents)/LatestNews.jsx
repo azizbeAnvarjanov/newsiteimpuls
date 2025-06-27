@@ -10,12 +10,11 @@ import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Link } from "@/i18n/routing";
 
-const LatestNews = ({ latestNewsTitle, viewAllNews, collectionName,path }) => {
+const LatestNews = ({ latestNewsTitle, viewAllNews, collectionName, path }) => {
   const [latestNews, setLatestNews] = useState([]);
   const [loading, setLoading] = useState(true);
   const locale = useLocale();
   console.log(latestNews);
-  
 
   useEffect(() => {
     const fetchLatestNews = async () => {
@@ -28,7 +27,7 @@ const LatestNews = ({ latestNewsTitle, viewAllNews, collectionName,path }) => {
           ...doc.data(),
         }));
 
-        // Yangiliklarni sanasi bo‘yicha tartiblash va 4 tasini olish
+        // Yangiliklarni sanasi bo'yicha tartiblash va 4 tasini olish
         const sortedNews = newsList
           .sort((a, b) => new Date(b.date) - new Date(a.date))
           .slice(0, 4);
@@ -42,9 +41,9 @@ const LatestNews = ({ latestNewsTitle, viewAllNews, collectionName,path }) => {
     };
 
     fetchLatestNews();
-  }, []);
+  }, [collectionName]);
 
-  const getLocalizedField = (field) => `${field}_${locale}`; // Faol til bo‘yicha maydonni aniqlash
+  const getLocalizedField = (field) => `${field}_${locale}`; // Faol til bo'yicha maydonni aniqlash
 
   if (loading) {
     return (
@@ -122,9 +121,10 @@ const LatestNews = ({ latestNewsTitle, viewAllNews, collectionName,path }) => {
               className="flex flex-col gap-2 hover:opacity-75 cursor-pointer"
             >
               <div className="bg-muted rounded-md aspect-video relative mb-4 overflow-hidden">
-                <img
+                <Image
                   src={item.bannerImage}
                   alt={item[getLocalizedField("title")]}
+                  fill
                   className="object-cover"
                 />
               </div>

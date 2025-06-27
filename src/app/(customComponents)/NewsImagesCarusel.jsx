@@ -23,7 +23,12 @@ export default function AutoImageCarousel({ images, interval = 3000 }) {
             index === currentIndex ? "opacity-100" : "opacity-0"
           }`}
         >
-          <img className="object-cover w-full h-full" src={image} alt={index} />
+          <Image
+            className="object-cover w-full h-full"
+            src={image}
+            alt={`Image ${index}`}
+            fill
+          />
         </div>
       ))}
       <div className="absolute bottom-4 left-0 right-0 flex justify-center space-x-2">

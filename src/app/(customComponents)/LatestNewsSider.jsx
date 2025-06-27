@@ -26,7 +26,7 @@ const LatestNewsSider = ({ collectionName, path }) => {
           ...doc.data(),
         }));
 
-        // Yangiliklarni sanasi bo‘yicha tartiblash va 4 tasini olish
+        // Yangiliklarni sanasi bo'yicha tartiblash va 4 tasini olish
         const sortedNews = newsList
           .sort((a, b) => new Date(b.date) - new Date(a.date))
           .slice(0, 4);
@@ -40,9 +40,9 @@ const LatestNewsSider = ({ collectionName, path }) => {
     };
 
     fetchLatestNews();
-  }, []);
+  }, [collectionName]);
 
-  const getLocalizedField = (field) => `${field}_${locale}`; // Faol til bo‘yicha maydonni aniqlash
+  const getLocalizedField = (field) => `${field}_${locale}`; // Faol til bo'yicha maydonni aniqlash
 
   if (loading) {
     return (
@@ -70,12 +70,11 @@ const LatestNewsSider = ({ collectionName, path }) => {
           key={item.id}
           className="h-[25vh] xl:h-[30vh] w-full border rounded-md relative overflow-hidden"
         >
-          <img
+          <Image
             src={item.bannerImage}
             alt={item[getLocalizedField("title")]}
+            fill
             className="object-cover w-full h-full"
-            width={500}
-            height={300}
             priority
           />
 

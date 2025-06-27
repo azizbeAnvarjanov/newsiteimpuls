@@ -16,7 +16,7 @@ const ViewImage = ({ url, w, h }) => {
         <div
           className={`w-[${w}px] h-[${h}px] shadow-lg rounded-lg relative overflow-hidden mx-auto`}
         >
-          <img
+          <Image
             src={url}
             alt="image"
             fill
@@ -27,7 +27,7 @@ const ViewImage = ({ url, w, h }) => {
       <DialogContent>
         <DialogHeader>
           <div className="!min-w-[80vw] rounded-xl w-auto h-[50vh] md:!h-[90vh] overflow-hidden relative">
-            <img
+            <Image
               src={url}
               alt="image"
               fill
