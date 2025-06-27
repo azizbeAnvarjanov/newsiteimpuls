@@ -20,6 +20,29 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Environment Variables
+
+This project uses Firebase for backend services. You need to set up environment variables before running the application.
+
+1. Copy the example environment file:
+
+```bash
+cp .env.example .env.local
+```
+
+2. Fill in your Firebase configuration values in `.env.local`:
+
+```env
+NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key_here
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project_id.firebaseapp.com
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_project_id.appspot.com
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
+```
+
+You can get these values from your Firebase project console at [https://console.firebase.google.com/](https://console.firebase.google.com/).
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
