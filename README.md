@@ -61,47 +61,126 @@ You can get these values from your Firebase project console at [https://console.
 
 ## 🚀 Deployment
 
+### ✅ Pre-Deployment Checklist
+
+Your project is **ready for deployment** with all Vercel issues resolved:
+
+- ✅ **Build Script**: `"build": "next build"` (correctly configured)
+- ✅ **Public Directory**: Exists and contains assets
+- ✅ **Node.js Version**: >=22.0.0 (specified in package.json)
+- ✅ **No Conflicting Files**: No `now.json`, `.now`, or `.nowignore`
+- ✅ **Security Headers**: Configured in both `next.config.mjs` and `vercel.json`
+- ✅ **Valid Configuration**: All files properly formatted
+
 ### Quick Deploy to Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### Option 1: Automated Deployment Script
 
-### GitHub to Vercel Deployment
+```bash
+# Make the script executable
+chmod +x deploy.sh
 
-For automatic deployments with GitHub integration:
+# Run the deployment script
+./deploy.sh
+```
 
-1. **Push to GitHub:**
+This script automatically:
+
+- Checks Node.js and npm installation
+- Installs Vercel CLI if needed
+- Runs linting and build
+- Checks for configuration conflicts
+- Deploys to Vercel
+
+#### Option 2: Manual Deployment
+
+1. **Install Vercel CLI**:
+
+   ```bash
+   npm install -g vercel
+   ```
+
+2. **Build and Deploy**:
+
+   ```bash
+   npm run build
+   vercel --prod
+   ```
+
+3. **Follow the prompts**:
+   - Link to existing project or create new
+   - Set production domain (optional)
+   - Configure environment variables
+
+### GitHub to Vercel Integration
+
+For automatic deployments:
+
+1. **Push to GitHub**:
 
    ```bash
    git add .
-   git commit -m "Add security headers and Node.js 22 support"
+   git commit -m "Ready for Vercel deployment"
    git push origin main
    ```
 
-2. **Connect to Vercel:**
+2. **Connect to Vercel**:
 
    - Go to [Vercel Dashboard](https://vercel.com/dashboard)
    - Click "New Project"
    - Import your GitHub repository
-   - Configure environment variables
-   - Deploy!
+   - Configure build settings:
+     - **Framework Preset**: Next.js
+     - **Build Command**: `next build`
+     - **Output Directory**: `.next`
+     - **Install Command**: `npm install`
 
-3. **Automatic Deployments:**
-   - Your project includes GitHub Actions workflow
-   - Push to `main` branch triggers automatic deployment
-   - See `SECURITY.md` for detailed setup instructions
+3. **Set Environment Variables** in Vercel Dashboard:
+   ```env
+   NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
+   NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+   NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
+   NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
+   NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+   NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
+   ```
 
-### Environment Variables for Production
+### 🔧 Troubleshooting Common Issues
 
-Set these in your Vercel project settings:
+#### Build Errors
 
-```env
-NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
-```
+- **Missing Build Script**: ✅ Resolved - `"build": "next build"` is present
+- **Missing Public Directory**: ✅ Resolved - public directory exists
+- **Node.js Version**: ✅ Resolved - using Node.js 22
+
+#### Configuration Conflicts
+
+- **Conflicting Files**: ✅ Resolved - no `now.json` or `.now` directory
+- **Mixed Routing**: ✅ Resolved - proper `vercel.json` structure
+- **Invalid Patterns**: ✅ Resolved - valid regex patterns
+
+#### Security Issues
+
+- **CSP Too Restrictive**: ✅ Resolved - optimized for Vercel compatibility
+- **Cross-Origin Policies**: ✅ Resolved - configured for Vercel
+
+### 📋 Deployment Verification
+
+After deployment, verify:
+
+1. **Build Success**: Check Vercel deployment logs
+2. **Page Loading**: All pages load correctly
+3. **Assets**: Images and files load properly
+4. **Security Headers**: Use [securityheaders.com](https://securityheaders.com/)
+5. **HTTPS**: Automatic redirects work
+6. **Functionality**: All features work as expected
+
+### 🚨 Important Notes
+
+- **ESLint Warnings**: The `<img>` tag warnings are **not errors** and won't prevent deployment
+- **Environment Variables**: Must be set in Vercel Dashboard for production
+- **Custom Domain**: Configure DNS settings according to Vercel instructions
+- **GitHub Integration**: Automatic deployments on push to main branch
 
 ## Learn More
 

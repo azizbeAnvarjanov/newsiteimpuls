@@ -40,21 +40,21 @@ const nextConfig = {
             value:
               "geolocation=(), microphone=(), camera=(), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=()",
           },
-          // Content Security Policy
+          // Content Security Policy - Less restrictive for better compatibility
           {
             key: "Content-Security-Policy",
             value: [
               "default-src 'self'",
-              "script-src 'self' 'unsafe-inline' 'unsafe-eval'",
+              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://vercel.live",
               "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
-              "font-src 'self' https://fonts.gstatic.com",
-              "img-src 'self' data: https: blob: https://firebasestorage.googleapis.com",
-              "connect-src 'self' https://firebase.googleapis.com https://identitytoolkit.googleapis.com https://securetoken.googleapis.com",
-              "frame-src 'self'",
+              "font-src 'self' https://fonts.gstatic.com data:",
+              "img-src 'self' data: https: blob: https://firebasestorage.googleapis.com https://vercel.live",
+              "connect-src 'self' https://firebase.googleapis.com https://identitytoolkit.googleapis.com https://securetoken.googleapis.com https://vercel.live wss://vercel.live",
+              "frame-src 'self' https://vercel.live",
               "object-src 'none'",
               "base-uri 'self'",
               "form-action 'self'",
-              "frame-ancestors 'none'",
+              "frame-ancestors 'self'",
               "upgrade-insecure-requests",
             ].join("; "),
           },
@@ -68,18 +68,18 @@ const nextConfig = {
             key: "X-DNS-Prefetch-Control",
             value: "on",
           },
-          // Cross-Origin Policies
+          // Cross-Origin Policies - Less restrictive for Vercel compatibility
           {
             key: "Cross-Origin-Embedder-Policy",
-            value: "require-corp",
+            value: "unsafe-none",
           },
           {
             key: "Cross-Origin-Opener-Policy",
-            value: "same-origin",
+            value: "same-origin-allow-popups",
           },
           {
             key: "Cross-Origin-Resource-Policy",
-            value: "same-origin",
+            value: "cross-origin",
           },
         ],
       },

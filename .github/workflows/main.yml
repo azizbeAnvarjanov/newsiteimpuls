@@ -112,3 +112,8 @@ jobs:
                 body: statusBody
               });
             }
+
+      - name: Deploy to Vercel
+        run: |
+          chmod +x deploy.sh
+          ./deploy.sh
