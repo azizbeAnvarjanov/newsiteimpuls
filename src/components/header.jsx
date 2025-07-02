@@ -3,7 +3,15 @@ import NavDropdowns from "../app/(customComponents)/NavDropdowns";
 import { Facebook, Instagram, Youtube } from "lucide-react";
 import LocalSwitcher from "./local-switcher";
 import Image from "next/image";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { Link } from "@/i18n/routing";
+import RegionSelect from "../app/(customComponents)/RegionSelect";
 
 export default function Header() {
   const t = useTranslations("Navbar");
@@ -37,7 +45,9 @@ export default function Header() {
             <Instagram />
           </Link>
         </div>
+
         <div className="flex gap-5 items-center text-white">
+          <RegionSelect />
           <Link className="md:flex hidden" href="https://student.impulsmi.uz">
             {t("hemis")}
           </Link>

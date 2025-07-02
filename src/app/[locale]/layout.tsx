@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
+import "../[locale]/globals.css";
 import Header from "@/components/header";
 import { Toaster } from "react-hot-toast";
 import Footer from "../(customComponents)/Footer";
@@ -28,13 +28,6 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
-      <head>
-        <script
-          defer
-          data-domain="impulsmi.uz"
-          src="https://plausible.io/js/script.hash.pageview-props.tagged-events.js"
-        ></script>
-      </head>
       <body className={inter.className}>
         <NextIntlClientProvider messages={messages}>
           <div>
@@ -42,6 +35,7 @@ export default async function RootLayout({
             <Header />
             <div className="pt-[17vh]">{children}</div>
             <Footer />
+            
           </div>
         </NextIntlClientProvider>
       </body>

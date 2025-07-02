@@ -8,7 +8,7 @@ const NavDropdowns = () => {
   const t = useTranslations("Navbar");
 
   return (
-    <div className="flex z-50 items-center">
+    <div className="flex  items-center">
       <div className="lg:flex md:hidden items-center hidden">
         <div className="mx-auto flex items-center justify-center bg-white">
           <div className="group relative cursor-pointer">

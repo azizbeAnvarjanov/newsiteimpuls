@@ -5,6 +5,7 @@ import React from "react";
 
 const Footer = () => {
   const t = useTranslations("Navbar");
+  const f = useTranslations("footer");
 
   return (
     <div className="footer w-full min-h-[85vh] px-5 py-10 md:px-10">
@@ -77,6 +78,11 @@ const Footer = () => {
           </Link>
         </div>
       </div>
+      <br />
+      <p className="text-white">{f("footer-text-2")}</p>
+      <footer className="text-white py-6">
+        <p>&copy; {f("footer-text")}</p>
+      </footer>
     </div>
   );
 };

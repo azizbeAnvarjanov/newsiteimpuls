@@ -55,23 +55,26 @@
     "preparational-course": "Internship",
     "usmle": "USMLE",
     "hemis": "Hemis",
-    "talim-platformasi": "Educational platform"
+    "talim-platformasi": "Educational platform",
+    "branch": "Branch",
+    "branch-namangan": "Namangan",
+    "branch-tashkent": "Tashkent",
+    "branch-andijon": "Andijan"
   },
   "News": {
     "latest-news": "Latest news",
     "tadbir-taqvimi": "Event calendar",
     "view-all-news": "View all news"
   },
-    "Rector-reeze": {
-      "text": "Dear Students",
-      "text-2": "I sincerely congratulate you on joining the Impuls Medical Institute family! Today, you are embarking on an important and responsible path — the path of medicine, which is not only about knowledge but also about humanity, patience, and the noble values of helping others.",
-      "text-3": "At our institute, all conditions are created for you to receive high-quality education, and with the help of a team of qualified professors equipped with modern technologies and scientific achievements, you have the opportunity to deeply explore knowledge. The education you receive here will not only enhance your professional experience but also lay a strong foundation for helping people as a future doctor.",
-      "text-4": "Our goal is to develop each of your potentials to the highest level and to equip you with the necessary skills to become leaders in the medical field in the future. This path is not easy, but your diligence, patience, and thirst for knowledge will lead you to success.",
-      "text-5": "During your studies at our institute, you will not only acquire knowledge and skills in your specialty but also make friends, understand the importance of teamwork, and learn to provide assistance. Each of your successes is our success. I wish you great achievements, scientific discoveries, and the realization of your dreams in the new academic year. Join our institute and be ready to accomplish great things!"
-    },
+  "Rector-reeze": {
+    "text": "Dear Students",
+    "text-2": "I sincerely congratulate you on joining the Impuls Medical Institute family! Today, you are embarking on an important and responsible path — the path of medicine, which is not only about knowledge but also about humanity, patience, and the noble values of helping others.",
+    "text-3": "At our institute, all conditions are created for you to receive high-quality education, and with the help of a team of qualified professors equipped with modern technologies and scientific achievements, you have the opportunity to deeply explore knowledge. The education you receive here will not only enhance your professional experience but also lay a strong foundation for helping people as a future doctor.",
+    "text-4": "Our goal is to develop each of your potentials to the highest level and to equip you with the necessary skills to become leaders in the medical field in the future. This path is not easy, but your diligence, patience, and thirst for knowledge will lead you to success.",
+    "text-5": "During your studies at our institute, you will not only acquire knowledge and skills in your specialty but also make friends, understand the importance of teamwork, and learn to provide assistance. Each of your successes is our success. I wish you great achievements, scientific discoveries, and the realization of your dreams in the new academic year. Join our institute and be ready to accomplish great things!"
+  },
 
-  
-"About-us": {
+  "About-us": {
     "text-1": "Impuls Medical Institute is a leading private higher education institution conducting modern education and scientific research in the field of medicine. The main goal of our institute is to train highly qualified personnel in the healthcare sector, provide medical education based on modern technologies, and carry out scientific research.",
     "text-2": "To develop medicine and medical education and thereby increase the average life expectancy. Impuls Medical Institute, in its mission, is based on the highest values of humanity—health and the glorification of life. Integrating modern technologies into medical education and providing education based on international standards. Developing international cooperation and providing students with opportunities to study abroad and undergo practical training. This institution aims to contribute to the extension of human life and to ensure a quality and fulfilling life through the development of medicine and medical education.",
     "text-3": "Impuls Medical Institute began its activities in 2022 as the first private medical institute in the Namangan region. Our institute was established to address the acute shortage of personnel in the medical field. It operates based on the license number 047559 issued by the State Inspectorate for Quality Control in Education under the Cabinet of Ministers of the Republic of Uzbekistan.",
@@ -92,48 +95,47 @@
     "text-6": "Finally, in 2022, as a result of several years of our efforts, the first and only private medical institute in the Namangan region — Impuls Medical Institute was opened based on license No. 047559 from the State Inspectorate for Quality Control of Education under the Cabinet of Ministers of the Republic of Uzbekistan. Today, our institute is focused on preparing highly qualified specialists in the medical field based on a modern medical education system."
   },
 
-    "Scientific-council": {
-      "text-1": "The Scientific Council of the Impuls Medical Institute is the main collective body that addresses issues related to the institute's scientific activities. The Scientific Council operates in accordance with the Law of the Republic of Uzbekistan 'On Education' No. 637 dated September 23, 2020, the Labor Code of the Republic of Uzbekistan No. 161-I, the Law of the Republic of Uzbekistan dated December 21, 1995, the Law 'On Science and Scientific Activities' No. 576 dated October 29, 2019, and other local regulatory legal documents, as well as the institute's Charter. The council also functions based on the institute's 'Regulation on the Scientific Council' and acts as an authorized body within the framework of the established legal documents.",
-      "text-2": "The main goal of the Scientific Council is to make collective decisions on all issues based on scientific activities at the institute and to promote scientific research.",
-      "text-3": "The activities of the Scientific Council are based on the principles of transparency, collective discussion, and problem-solving, requiring a responsible approach before the institute's staff and students.",
-      "text-4": "The main tasks of the Scientific Council:",
-      "text-5": "Defining the main directions of the institute's scientific development; Legally and normatively regulating the main issues of organizing scientific activities; Developing and implementing scientific activity programs of the institute; Reviewing and deciding on issues of research and analytical activities; Approving the plan of scientific research topics carried out by the institute; Approving the work plans of the Institute's Scientific Council;",
-      "text-6": "The Scientific Council of the Impuls Medical Institute plays an important role in further developing the institute's scientific and research activities, aiming to achieve high scientific standards."
-    },
+  "Scientific-council": {
+    "text-1": "The Scientific Council of the Impuls Medical Institute is the main collective body that addresses issues related to the institute's scientific activities. The Scientific Council operates in accordance with the Law of the Republic of Uzbekistan 'On Education' No. 637 dated September 23, 2020, the Labor Code of the Republic of Uzbekistan No. 161-I, the Law of the Republic of Uzbekistan dated December 21, 1995, the Law 'On Science and Scientific Activities' No. 576 dated October 29, 2019, and other local regulatory legal documents, as well as the institute's Charter. The council also functions based on the institute's 'Regulation on the Scientific Council' and acts as an authorized body within the framework of the established legal documents.",
+    "text-2": "The main goal of the Scientific Council is to make collective decisions on all issues based on scientific activities at the institute and to promote scientific research.",
+    "text-3": "The activities of the Scientific Council are based on the principles of transparency, collective discussion, and problem-solving, requiring a responsible approach before the institute's staff and students.",
+    "text-4": "The main tasks of the Scientific Council:",
+    "text-5": "Defining the main directions of the institute's scientific development; Legally and normatively regulating the main issues of organizing scientific activities; Developing and implementing scientific activity programs of the institute; Reviewing and deciding on issues of research and analytical activities; Approving the plan of scientific research topics carried out by the institute; Approving the work plans of the Institute's Scientific Council;",
+    "text-6": "The Scientific Council of the Impuls Medical Institute plays an important role in further developing the institute's scientific and research activities, aiming to achieve high scientific standards."
+  },
 
-  
-      "administration-institute": {
-        "t_head_1": "Department head",
-        "t_head_2": "Department",
-        "t_head_3": "Responsibilities",
-        "text-1": "Department of Scientific Research and Innovations",
-        "p-1": "Manages scientific research and grant projects, enhances the qualifications of teachers and scientific staff, and works on improving the institute's ranking.",
-        "text-2": "Department of Youth Affairs and Spiritual-Educational Work",
-        "p-2": "Supports students and ensures their moral and ethical development, manages student dormitories and sports activities.",
-        "text-3": "Department of Education",
-        "p-3": "Organizes the educational process, monitors its quality, and coordinates cooperation with teachers.",
-        "text-4": "Department of Educational Quality and Quality Control",
-        "p-4": "Evaluates the quality of the educational process, the pedagogical skills of teachers, tests, and educational resources.",
-        "text-5": "Department of International Relations",
-        "p-5": "Develops international cooperation, attracts international students, and manages international grants.",
-        "text-6": "Department of Marketing",
-        "p-6": "Promotes the institute's products and services, conducts market research, and develops marketing strategies.",
-        "text-7": "Department of Finance",
-        "p-7": "Plans the budget, manages financial records, and monitors expenses and revenues.",
-        "text-8": "Department of Supply",
-        "p-8": "Purchases materials and resources for the institute, conducts inventory, and manages logistics processes.",
-        "text-9": "HR (Human Resources) Department",
-        "p-9": "Recruits staff, develops them, and manages payroll.",
-        "text-10": "Legal Advisor",
-        "p-10": "Monitors all legal activities of the institute and develops legal documents.",
-        "text-12": "Student Union",
-        "p-12": "The responsibilities of the Student Union include: Protecting student interests: Identifying student problems and discussing them with the institute leadership. Organizing social and cultural events. Supporting clubs and organizations: Helping students establish and operate clubs and organizations of their interest. Promoting unity among students: Organizing activities aimed at increasing friendship and cooperation among students.",
-        "text-13": "Student Support (Registrar's Office)",
-        "p-13": "Coordinates and monitors the students' academic process, protects and stores their personal information, and ensures the provision of qualified administrative services. Provides services to students related to the educational process through the system. Provides information to students regarding the academic process and electronic platforms (HEMIS, Moodle, LMS). Coordinates students' dormitory and housing arrangements. Assists students in scientific and innovative activities. Provides advice to faculty members regarding systems. Organizes student admission, transfers, reinstatements, and expulsions. Maintains statistics on students and inputs them into the system. Provides information about class schedules and exams. Issues academic transcripts and certificates. Provides GPA (grade point average) certificates. Issues student certificates and housing documents. Monitors students' academic debts and works with them. Provides assistance to students with rental subsidies.",
-        "text-14": "ARM (Information Resource Center)",
-        "p-14": "Manages information resources: Manages all information resources of the institute and ensures their efficient use. Manages library activities: Organizes and supervises the daily operations of the library. Provides assistance to students and teachers: Provides advice and support on information resources and library services. Prepares electronic educational materials: Prepares electronic learning materials and multimedia resources and monitors their quality."
-      },
-    
+  "administration-institute": {
+    "t_head_1": "Department head",
+    "t_head_2": "Department",
+    "t_head_3": "Responsibilities",
+    "text-1": "Department of Scientific Research and Innovations",
+    "p-1": "Manages scientific research and grant projects, enhances the qualifications of teachers and scientific staff, and works on improving the institute's ranking.",
+    "text-2": "Department of Youth Affairs and Spiritual-Educational Work",
+    "p-2": "Supports students and ensures their moral and ethical development, manages student dormitories and sports activities.",
+    "text-3": "Department of Education",
+    "p-3": "Organizes the educational process, monitors its quality, and coordinates cooperation with teachers.",
+    "text-4": "Department of Educational Quality and Quality Control",
+    "p-4": "Evaluates the quality of the educational process, the pedagogical skills of teachers, tests, and educational resources.",
+    "text-5": "Department of International Relations",
+    "p-5": "Develops international cooperation, attracts international students, and manages international grants.",
+    "text-6": "Department of Marketing",
+    "p-6": "Promotes the institute's products and services, conducts market research, and develops marketing strategies.",
+    "text-7": "Department of Finance",
+    "p-7": "Plans the budget, manages financial records, and monitors expenses and revenues.",
+    "text-8": "Department of Supply",
+    "p-8": "Purchases materials and resources for the institute, conducts inventory, and manages logistics processes.",
+    "text-9": "HR (Human Resources) Department",
+    "p-9": "Recruits staff, develops them, and manages payroll.",
+    "text-10": "Legal Advisor",
+    "p-10": "Monitors all legal activities of the institute and develops legal documents.",
+    "text-12": "Student Union",
+    "p-12": "The responsibilities of the Student Union include: Protecting student interests: Identifying student problems and discussing them with the institute leadership. Organizing social and cultural events. Supporting clubs and organizations: Helping students establish and operate clubs and organizations of their interest. Promoting unity among students: Organizing activities aimed at increasing friendship and cooperation among students.",
+    "text-13": "Student Support (Registrar's Office)",
+    "p-13": "Coordinates and monitors the students' academic process, protects and stores their personal information, and ensures the provision of qualified administrative services. Provides services to students related to the educational process through the system. Provides information to students regarding the academic process and electronic platforms (HEMIS, Moodle, LMS). Coordinates students' dormitory and housing arrangements. Assists students in scientific and innovative activities. Provides advice to faculty members regarding systems. Organizes student admission, transfers, reinstatements, and expulsions. Maintains statistics on students and inputs them into the system. Provides information about class schedules and exams. Issues academic transcripts and certificates. Provides GPA (grade point average) certificates. Issues student certificates and housing documents. Monitors students' academic debts and works with them. Provides assistance to students with rental subsidies.",
+    "text-14": "ARM (Information Resource Center)",
+    "p-14": "Manages information resources: Manages all information resources of the institute and ensures their efficient use. Manages library activities: Organizes and supervises the daily operations of the library. Provides assistance to students and teachers: Provides advice and support on information resources and library services. Prepares electronic educational materials: Prepares electronic learning materials and multimedia resources and monitors their quality."
+  },
+
   "institute-map": {
     "branch-1": "Chorsu",
     "branch-2": "Do'stlik",
@@ -275,12 +277,11 @@
     "main-text-1": "Impuls Medical Institute- Ranking, Eligibility, Admission Process",
     "main-p-1": "Located in Namangan, the heart of Uzbekistan, Impuls Medical Institute is emerging as one of the prestigious hubs for international medical education known for world-class infrastructure, experienced faculty, comprehensive English medium curriculum, a strong practical approach and all these with affordable fee structure.",
     "main-p-2": "Impuls Medical Institute is accredited by the National Medical Commission of India and the World Health Organization, ensuring its strong academic excellence & global recognition. Additionally, the English medium programs and easy admission procedure make it one of Uzbekistan’s best medical universities."
-
   },
   "internatioanl-student-table": {
     "title-1": "Impuls Medical Institute – Fees Structure 2025",
     "title-2": "Intake To Study MBBS At Impuls Medical Institute",
-  
+
     "particular": "Particular",
     "year-1": "1st year",
     "year-2": "2nd year",
@@ -288,12 +289,12 @@
     "year-4": "4th year",
     "year-5": "5th year",
     "year-6": "6th year",
-  
+
     "tuition-fee-usd": "Tuition Fee (USD)",
     "tuition-fee-inr": "Tuition Fee (INR)",
     "hostel-fee-usd": "Hostel Fees (USD)",
     "hostel-fee-inr": "Hostel Fees (INR)",
-  
+
     "semester": "Semester",
     "months": "Months",
     "autumn": "Autumn",
@@ -302,43 +303,44 @@
     "january": "January"
   },
   "faq-2": {
-  "question-1": "Is It Mandatory To Qualify for NEET To Get Admission To Impuls Medical Institute?",
-  "answer-1": "Yes, qualifying for NEET to be admitted to the Impuls Medical Institute is mandatory.",
-  "question-2": "Is The MBBS Program At Impuls Medical Institute Taught In English?",
-  "answer-2": "Yes, the MBBS program at Impuls Medical Institute is delivered in English.",
-  "question-3": "When Is The Admission Intake At Impuls Medical Institute?",
-  "answer-3": "The admission intake at Impuls Medical Institute is held in September every year.",
-  "question-4": "Is Impuls Medical Institute Accredited By WHO & NMC?",
-  "answer-4": "Yes, Impuls Medical Institute is accredited by WHO and NMC.",
-  "question-5": "Does Impuls Medical Institute Offer Hostel Facilities?",
-  "answer-5": "Yes, the University offers accommodation facilities.",
-  "question-6": "What Is The Cost Of MBBS At Impuls Medical Institute?",
-  "answer-6": "The cost of a complete MBBS program at Impuls Medical Institute ranges around 25 Lakhs Indian Rupees."
-},
-"inter-contact": {
-  "title": "Contact",
-  "title-p-1": "Impuls Medical Institute (IMI) informs that since 2025 onwards IMI has entered into an exclusive Agreement with Nix Study Abroad U/O Nix Tour India Pvt Ltd . Nix Study Abroad is our offical Authorised and legal Representative for the recruitment of International students for the course of MBBS at our Namangan Campus.",
-  "title-p-2": "For Additional information about the admission process or to start the admission procedure, visit the website of our partner or can be contacted over email"
-},
-"Amaliyot": {
+    "question-1": "Is It Mandatory To Qualify for NEET To Get Admission To Impuls Medical Institute?",
+    "answer-1": "Yes, qualifying for NEET to be admitted to the Impuls Medical Institute is mandatory.",
+    "question-2": "Is The MBBS Program At Impuls Medical Institute Taught In English?",
+    "answer-2": "Yes, the MBBS program at Impuls Medical Institute is delivered in English.",
+    "question-3": "When Is The Admission Intake At Impuls Medical Institute?",
+    "answer-3": "The admission intake at Impuls Medical Institute is held in September every year.",
+    "question-4": "Is Impuls Medical Institute Accredited By WHO & NMC?",
+    "answer-4": "Yes, Impuls Medical Institute is accredited by WHO and NMC.",
+    "question-5": "Does Impuls Medical Institute Offer Hostel Facilities?",
+    "answer-5": "Yes, the University offers accommodation facilities.",
+    "question-6": "What Is The Cost Of MBBS At Impuls Medical Institute?",
+    "answer-6": "The cost of a complete MBBS program at Impuls Medical Institute ranges around 25 Lakhs Indian Rupees."
+  },
+  "inter-contact": {
+    "title": "Contact",
+    "title-p-1": "Impuls Medical Institute (IMI) informs that since 2025 onwards IMI has entered into an exclusive Agreement with Nix Study Abroad U/O Nix Tour India Pvt Ltd . Nix Study Abroad is our offical Authorised and legal Representative for the recruitment of International students for the course of MBBS at our Namangan Campus.",
+    "title-p-2": "For Additional information about the admission process or to start the admission procedure, visit the website of our partner or can be contacted over email"
+  },
+  "Amaliyot": {
     "title": "Internship",
     "p-1": "At Impuls Institute, great attention is paid to practice in the educational process, students spend more than 50% of their time in clinical bases and simulation centers, connecting and strengthening theoretical knowledge with practical skills.",
     "p-2": "The Institute’s simulation centers are modernly equipped, and students can consolidate their knowledge by undergoing practical training there from the first day of the educational process. This, in turn, increases students' interest in medicine."
   },
   "Tayorlov": {
-  "title": "Preparational course",
-  "p-1": "The medical foundation is a special program that prepares applicants for admissions to the Impuls Medical Institute and thanks to the program, under special circumstances, applicants of the Impuls Medical Institute. ",
-  "p-2": "As part of the course, during the academic year, applicants are trained in the subjects of chemistry, biology, anatomy, english, and Emergency medical assistance, the program of which is based on the programs taught in the first year of study at the Institute, and during the training, applicants have the opportunity to take laboratory classes in laboratories and simulation centers of the Institute together with students, which, in turn, helps applicants to adapt to the education system faster after entering the Institute. ",
-  "p-3": "Applicants who have successfully completed Preparational courses, according to the results of final exams, will have the opportunity to enroll in Impuls Medical Institute without exams on the basis of the Founders' grant for the first semester of study from 50% up to 100%"
-},
-"usmle": {
-  "title": "USMLE program",
-  "p-1": "To become licensed to practice medicine in the United States, every physician must successfully pass the United States Medical Licensing Examination® (USMLE).",
-  "p-2": "Passing this exam puts you on par with U.S. medical graduates and qualifies you for residency training (equivalent to a paid residency/master’s degree) in your specialty.",
-  "p-3": "ImpulsMI offers a curriculum based on the United States Medical Licensing Examination (USMLE) system. This ensures that our graduates are well-prepared for success in their medical careers.",
-  "p-4" : "Our faculty are experienced experts in their fields and dedicated to guiding you on your path to becoming a physician. We provide state-of-the-art laboratories, simulation centers, and clinical equipment to help you master medical knowledge and develop practical skills in practice."
-}
-
-
-  
+    "title": "Preparational course",
+    "p-1": "The medical foundation is a special program that prepares applicants for admissions to the Impuls Medical Institute and thanks to the program, under special circumstances, applicants of the Impuls Medical Institute. ",
+    "p-2": "As part of the course, during the academic year, applicants are trained in the subjects of chemistry, biology, anatomy, english, and Emergency medical assistance, the program of which is based on the programs taught in the first year of study at the Institute, and during the training, applicants have the opportunity to take laboratory classes in laboratories and simulation centers of the Institute together with students, which, in turn, helps applicants to adapt to the education system faster after entering the Institute. ",
+    "p-3": "Applicants who have successfully completed Preparational courses, according to the results of final exams, will have the opportunity to enroll in Impuls Medical Institute without exams on the basis of the Founders' grant for the first semester of study from 50% up to 100%"
+  },
+  "usmle": {
+    "title": "USMLE program",
+    "p-1": "To become licensed to practice medicine in the United States, every physician must successfully pass the United States Medical Licensing Examination® (USMLE).",
+    "p-2": "Passing this exam puts you on par with U.S. medical graduates and qualifies you for residency training (equivalent to a paid residency/master’s degree) in your specialty.",
+    "p-3": "ImpulsMI offers a curriculum based on the United States Medical Licensing Examination (USMLE) system. This ensures that our graduates are well-prepared for success in their medical careers.",
+    "p-4": "Our faculty are experienced experts in their fields and dedicated to guiding you on your path to becoming a physician. We provide state-of-the-art laboratories, simulation centers, and clinical equipment to help you master medical knowledge and develop practical skills in practice."
+  },
+  "footer": {
+    "footer-text": "2025 Namangan Branch. All rights reserved.",
+    "footer-text-2": "Address: 226A, Abdulla Qodiriy Street, Chirchik City, Tashkent Region, Uzbekistan"
+  }
 }
