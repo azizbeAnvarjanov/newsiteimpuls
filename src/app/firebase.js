@@ -5,6 +5,7 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 import { GoogleAuthProvider } from "firebase/auth";
 
+// Firebase configuration using environment variables from .env.local
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API,
   authDomain: process.env.NEXT_PUBLIC_FIREBASE_DOMAIN,
@@ -14,9 +15,27 @@ const firebaseConfig = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-export const auth = getAuth(app);
-export const db = getFirestore(app);
-export const storage = getStorage(app);
-export const provider = new GoogleAuthProvider();
+// Initialize Firebase with error handling
+let app, auth, db, storage, provider;
+
+try {
+  console.log("🔧 Initializing Firebase with environment variables...");
+  app = initializeApp(firebaseConfig);
+
+  // Initialize services
+  auth = getAuth(app);
+  db = getFirestore(app);
+  storage = getStorage(app);
+  provider = new GoogleAuthProvider();
+
+  console.log("✅ Firebase initialized successfully");
+} catch (error) {
+  console.error("❌ Firebase initialization failed:", error);
+  // Provide fallback objects to prevent app crashes
+  auth = null;
+  db = null;
+  storage = null;
+  provider = null;
+}
+
+export { auth, db, storage, provider };

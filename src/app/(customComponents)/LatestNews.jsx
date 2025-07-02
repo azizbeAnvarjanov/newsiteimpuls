@@ -19,6 +19,13 @@ const LatestNews = ({ latestNewsTitle, viewAllNews, collectionName, path }) => {
   useEffect(() => {
     const fetchLatestNews = async () => {
       try {
+        // Check if Firebase is available
+        if (!db) {
+          console.error("❌ Firebase db is not available");
+          setLoading(false);
+          return;
+        }
+
         // Firestore'dan yangiliklarni olish
         const newsCollection = collection(db, collectionName);
         const newsSnapshot = await getDocs(newsCollection);

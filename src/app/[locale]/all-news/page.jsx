@@ -29,6 +29,13 @@ function AllNews() {
   useEffect(() => {
     const fetchNews = async () => {
       try {
+        // Check if Firebase is available
+        if (!db) {
+          console.error("❌ Firebase db is not available");
+          setLoading(false);
+          return;
+        }
+
         const newsCollection = collection(db, "news");
         const newsSnapshot = await getDocs(newsCollection);
         const newsList = newsSnapshot.docs.map((doc) => ({
@@ -44,7 +51,7 @@ function AllNews() {
         setFilteredNews(sortedNews);
         setLoading(false);
       } catch (error) {
-        console.error("Xatolik yuz berdi:", error);
+        console.error("❌ Error fetching news:", error);
         setLoading(false);
       }
     };
@@ -213,7 +220,6 @@ function AllNews() {
                 href={`/all-news/${item.id}`}
                 className="flex flex-col gap-2 hover:opacity-75 cursor-pointer relative"
               >
-
                 <div className="rounded-md aspect-video relative overflow-hidden">
                   <img
                     src={item.bannerImage}
