@@ -1,63 +1,63 @@
-# Staging configuration - Commented out until staging environment is set up
-# runConfig:
-#   cpu: 1
-#   memoryMiB: 512
-#   maxInstances: 5
-#   minInstances: 0
-#   concurrency: 40
+# Staging configuration - Conservative resource limits
+runConfig:
+  cpu: 0.5
+  memoryMiB: 256
+  maxInstances: 3
+  minInstances: 0
+  concurrency: 20
 
-# env:
-#   # Firebase Configuration for Staging
-#   - variable: NEXT_PUBLIC_FIREBASE_API
-#     value: your-staging-api-key
-#     availability:
-#       - BUILD
-#       - RUNTIME
+env:
+  # Firebase Configuration for Staging
+  - variable: NEXT_PUBLIC_FIREBASE_API
+    value: AIzaSyBC39k0GVssvBfKjk8XWzHmS5ChleZdPoY
+    availability:
+      - BUILD
+      - RUNTIME
 
-#   - variable: NEXT_PUBLIC_FIREBASE_DOMAIN
-#     value: your-staging-project.firebaseapp.com
-#     availability:
-#       - BUILD
-#       - RUNTIME
+  - variable: NEXT_PUBLIC_FIREBASE_DOMAIN
+    value: lmsplatform-34183.firebaseapp.com
+    availability:
+      - BUILD
+      - RUNTIME
 
-#   - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
-#     value: your-staging-project-id
-#     availability:
-#       - BUILD
-#       - RUNTIME
+  - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+    value: lmsplatform-34183
+    availability:
+      - BUILD
+      - RUNTIME
 
-#   - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
-#     value: your-staging-project.appspot.com
-#     availability:
-#       - BUILD
-#       - RUNTIME
+  - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+    value: lmsplatform-34183.appspot.com
+    availability:
+      - BUILD
+      - RUNTIME
 
-#   - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
-#     value: "your-staging-sender-id"
-#     availability:
-#       - BUILD
-#       - RUNTIME
+  - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+    value: "546025729505"
+    availability:
+      - BUILD
+      - RUNTIME
 
-#   - variable: NEXT_PUBLIC_FIREBASE_APP_ID
-#     value: "your-staging-app-id"
-#     availability:
-#       - BUILD
-#       - RUNTIME
+  - variable: NEXT_PUBLIC_FIREBASE_APP_ID
+    value: "1:546025729505:web:ee7f9fbd5da85c8fc1b6a0"
+    availability:
+      - BUILD
+      - RUNTIME
 
-#   # Next.js Configuration for Staging
-#   - variable: NODE_ENV
-#     value: production
-#     availability:
-#       - BUILD
-#       - RUNTIME
+  # Next.js Configuration for Staging
+  - variable: NODE_ENV
+    value: production
+    availability:
+      - BUILD
+      - RUNTIME
 
-#   # Application Configuration for Staging
-#   - variable: APP_ENV
-#     value: staging
-#     availability:
-#       - BUILD
-#       - RUNTIME
+  # Application Configuration for Staging
+  - variable: APP_ENV
+    value: staging
+    availability:
+      - BUILD
+      - RUNTIME
 
-# scripts:
-#   buildCommand: npm run build
-#   runCommand: npm start
+scripts:
+  buildCommand: npm run apphosting:build
+  runCommand: npm start
