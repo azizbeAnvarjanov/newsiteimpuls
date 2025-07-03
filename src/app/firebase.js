@@ -7,12 +7,12 @@ import { GoogleAuthProvider } from "firebase/auth";
 
 // Firebase configuration using environment variables from .env.local
 const firebaseConfig = {
-  apiKey: process.env.next_public_firebase_api,
-  authDomain: process.env.next_public_firebase_domain,
-  projectId: process.env.next_public_firebase_p_id,
-  storageBucket: process.env.next_public_storage_bucket,
-  messagingSenderId: process.env.next_public_m_sender_id,
-  appId: process.env.next_public_firebase_app_id,
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API,
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_DOMAIN,
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_P_ID,
+  storageBucket: process.env.NEXT_PUBLIC_STORAGE_BUCKET,
+  messagingSenderId: process.env.NEXT_PUBLIC_M_SENDER_ID,
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
 };
 
 // Initialize Firebase with error handling
