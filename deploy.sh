@@ -96,8 +96,8 @@ print_success "No conflicting configuration files found"
 
 # Check environment variables
 print_status "Checking environment variables..."
-if [ ! -f ".env.local" ]; then
-    print_warning "No .env.local file found. Make sure to set environment variables in Vercel Dashboard:"
+if [ ! -f ".env" ]; then
+    print_warning "No .env file found. Make sure to set environment variables in Vercel Dashboard:"
     echo "  - NEXT_PUBLIC_FIREBASE_API_KEY"
     echo "  - NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN"
     echo "  - NEXT_PUBLIC_FIREBASE_PROJECT_ID"

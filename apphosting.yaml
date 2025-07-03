@@ -7,37 +7,37 @@ runConfig:
 
 env:
   # Firebase Configuration
-  - variable: next_public_firebase_api
+  - variable: NEXT_PUBLIC_FIREBASE_API
     secret: firebase-api-key
     availability:
       - BUILD
       - RUNTIME
 
-  - variable: next_public_firebase_domain
+  - variable: NEXT_PUBLIC_FIREBASE_DOMAIN
     secret: firebase-auth-domain
     availability:
       - BUILD
       - RUNTIME
 
-  - variable: next_public_firebase_p_id
+  - variable: NEXT_PUBLIC_FIREBASE_P_ID
     secret: firebase-project-id
     availability:
       - BUILD
       - RUNTIME
 
-  - variable: next_public_storage_bucket
+  - variable: NEXT_PUBLIC_STORAGE_BUCKET
     secret: firebase-storage-bucket
     availability:
       - BUILD
       - RUNTIME
 
-  - variable: next_public_m_sender_id
+  - variable: NEXT_PUBLIC_M_SENDER_ID
     secret: firebase-messaging-sender-id
     availability:
       - BUILD
       - RUNTIME
 
-  - variable: next_public_firebase_app_id
+  - variable: NEXT_PUBLIC_FIREBASE_APP_ID
     secret: firebase-app-id
     availability:
       - BUILD
@@ -50,15 +50,14 @@ env:
       - BUILD
       - RUNTIME
 
-  - variable: NEXTAUTH_URL
-    value: https://your-production-domain.com
-    availability:
-      - BUILD
-      - RUNTIME
-
   # Application Configuration
   - variable: APP_ENV
     value: production
     availability:
       - BUILD
       - RUNTIME
+
+# Build and run scripts for Next.js
+scripts:
+  buildCommand: npm run build
+  runCommand: npm start

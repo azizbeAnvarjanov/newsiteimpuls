@@ -166,7 +166,7 @@ service firebase.storage {
 
 The workflow automatically:
 
-1. Creates `.env.local` during build
+1. Creates `.env` during build
 2. Uploads environment backup to Firebase Storage at `/config/`
 3. Maintains separate staging configs at `/config/staging/`
 

@@ -198,8 +198,8 @@ fi
 
 # 14. Environment variables
 print_status "14. Checking environment variables..."
-if [ -f ".env.local" ]; then
-    FIREBASE_VARS=$(grep -c "NEXT_PUBLIC_FIREBASE" .env.local 2>/dev/null || echo "0")
+if [ -f ".env" ]; then
+    FIREBASE_VARS=$(grep -c "NEXT_PUBLIC_FIREBASE" .env 2>/dev/null || echo "0")
     if [ "$FIREBASE_VARS" -gt 0 ]; then
         print_success "Found $FIREBASE_VARS Firebase environment variables"
         ((SUCCESSES++))
@@ -208,7 +208,7 @@ if [ -f ".env.local" ]; then
         ((WARNINGS++))
     fi
 else
-    print_warning "No .env.local file found"
+    print_warning "No .env file found"
     ((WARNINGS++))
 fi
 

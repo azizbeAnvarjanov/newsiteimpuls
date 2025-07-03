@@ -140,18 +140,18 @@ echo ""
 print_status "Checking environment variables..."
 
 # Check for .env files
-if [ -f ".env.local" ]; then
-    print_success ".env.local found"
+if [ -f ".env" ]; then
+    print_success ".env found"
     
     # Check for Firebase variables
-    FIREBASE_VARS=$(grep -c "NEXT_PUBLIC_FIREBASE" .env.local 2>/dev/null || echo "0")
+    FIREBASE_VARS=$(grep -c "NEXT_PUBLIC_FIREBASE" .env 2>/dev/null || echo "0")
     if [ "$FIREBASE_VARS" -gt 0 ]; then
         print_success "Found $FIREBASE_VARS Firebase environment variables"
     else
-        print_warning "No Firebase environment variables found in .env.local"
+        print_warning "No Firebase environment variables found in .env"
     fi
 else
-    print_warning ".env.local not found"
+    print_warning ".env not found"
 fi
 
 echo ""

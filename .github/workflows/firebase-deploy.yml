@@ -43,8 +43,8 @@ jobs:
 
       - name: Create environment file
         run: |
-          echo "Creating .env.local file for build..."
-          cat > .env.local << EOF
+          echo "Creating .env file for build..."
+          cat > .env << EOF
           NEXT_PUBLIC_FIREBASE_API=${{ secrets.NEXT_PUBLIC_FIREBASE_API }}
           NEXT_PUBLIC_FIREBASE_DOMAIN=${{ secrets.NEXT_PUBLIC_FIREBASE_DOMAIN }}
           NEXT_PUBLIC_FIREBASE_P_ID=${{ secrets.NEXT_PUBLIC_FIREBASE_P_ID }}
@@ -141,8 +141,8 @@ jobs:
 
       - name: Create staging environment file
         run: |
-          echo "Creating staging .env.local file..."
-          cat > .env.local << EOF
+          echo "Creating staging .env file..."
+          cat > .env << EOF
           NEXT_PUBLIC_FIREBASE_API=${{ secrets.NEXT_PUBLIC_FIREBASE_API_STAGING }}
           NEXT_PUBLIC_FIREBASE_DOMAIN=${{ secrets.NEXT_PUBLIC_FIREBASE_DOMAIN_STAGING }}
           NEXT_PUBLIC_FIREBASE_P_ID=${{ secrets.NEXT_PUBLIC_FIREBASE_P_ID_STAGING }}

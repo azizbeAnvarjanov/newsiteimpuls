@@ -1,4 +1,4 @@
-# 🔥 Firebase Deployment Summary
+# 🔥 Firebase Hosting Deployment Summary
 
 ## 📁 Files Created/Modified
 
@@ -74,7 +74,7 @@
 1. **Push to GitHub** → Triggers workflow
 2. **Build Process**:
    - Install dependencies
-   - Create `.env.local` from GitHub secrets
+   - Create `.env` from GitHub secrets
    - Build Next.js application
    - Export static files to `out/` directory
 3. **Deploy to Firebase**:

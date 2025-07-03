@@ -43,10 +43,10 @@ This project uses Firebase for backend services. You need to set up environment 
 1. Copy the example environment file:
 
 ```bash
-cp .env.example .env.local
+cp .env.example .env
 ```
 
-2. Fill in your Firebase configuration values in `.env.local`:
+2. Fill in your Firebase configuration values in `.env`:
 
 ```env
 NEXT_PUBLIC_FIREBASE_API=your_firebase_api_key_here
