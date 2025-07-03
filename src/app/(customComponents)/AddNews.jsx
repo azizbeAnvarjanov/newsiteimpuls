@@ -235,8 +235,7 @@ function AddNews() {
               </div>
             </div>
             <div className="border rounded-md shadow-sm h-12 flex items-center justify-between px-3">
-              <h1>
-              </h1>
+              <h1></h1>
               <div>
                 {aditionalImagesLoader ? (
                   <div className="customLoader"></div>
