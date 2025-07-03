@@ -6,39 +6,39 @@ runConfig:
   concurrency: 80
 
 env:
-  # Firebase Configuration
+  # Firebase Configuration - Using direct values instead of secrets
   - variable: NEXT_PUBLIC_FIREBASE_API
-    secret: firebase-api-key
+    value: AIzaSyBC39k0GVssvBfKjk8XWzHmS5ChleZdPoY
     availability:
       - BUILD
       - RUNTIME
 
   - variable: NEXT_PUBLIC_FIREBASE_DOMAIN
-    secret: firebase-auth-domain
+    value: lmsplatform-34183.firebaseapp.com
     availability:
       - BUILD
       - RUNTIME
 
-  - variable: NEXT_PUBLIC_FIREBASE_P_ID
-    secret: firebase-project-id
+  - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+    value: lmsplatform-34183
     availability:
       - BUILD
       - RUNTIME
 
-  - variable: NEXT_PUBLIC_STORAGE_BUCKET
-    secret: firebase-storage-bucket
+  - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+    value: lmsplatform-34183.appspot.com
     availability:
       - BUILD
       - RUNTIME
 
-  - variable: NEXT_PUBLIC_M_SENDER_ID
-    secret: firebase-messaging-sender-id
+  - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+    value: "546025729505"
     availability:
       - BUILD
       - RUNTIME
 
   - variable: NEXT_PUBLIC_FIREBASE_APP_ID
-    secret: firebase-app-id
+    value: "1:546025729505:web:ee7f9fbd5da85c8fc1b6a0"
     availability:
       - BUILD
       - RUNTIME

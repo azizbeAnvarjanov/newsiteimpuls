@@ -1,64 +1,63 @@
-runConfig:
-  cpu: 1
-  memoryMiB: 512
-  maxInstances: 5
-  minInstances: 0
-  concurrency: 40
+# Staging configuration - Commented out until staging environment is set up
+# runConfig:
+#   cpu: 1
+#   memoryMiB: 512
+#   maxInstances: 5
+#   minInstances: 0
+#   concurrency: 40
 
-env:
-  # Firebase Configuration for Staging
-  - variable: next_public_firebase_api
-    secret: firebase-api-key-staging
-    availability:
-      - BUILD
-      - RUNTIME
+# env:
+#   # Firebase Configuration for Staging
+#   - variable: NEXT_PUBLIC_FIREBASE_API
+#     value: your-staging-api-key
+#     availability:
+#       - BUILD
+#       - RUNTIME
 
-  - variable: next_public_firebase_domain
-    secret: firebase-auth-domain-staging
-    availability:
-      - BUILD
-      - RUNTIME
+#   - variable: NEXT_PUBLIC_FIREBASE_DOMAIN
+#     value: your-staging-project.firebaseapp.com
+#     availability:
+#       - BUILD
+#       - RUNTIME
 
-  - variable: next_public_firebase_p_id
-    secret: firebase-project-id-staging
-    availability:
-      - BUILD
-      - RUNTIME
+#   - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+#     value: your-staging-project-id
+#     availability:
+#       - BUILD
+#       - RUNTIME
 
-  - variable: next_public_storage_bucket
-    secret: firebase-storage-bucket-staging
-    availability:
-      - BUILD
-      - RUNTIME
+#   - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+#     value: your-staging-project.appspot.com
+#     availability:
+#       - BUILD
+#       - RUNTIME
 
-  - variable: next_public_m_sender_id
-    secret: firebase-messaging-sender-id-staging
-    availability:
-      - BUILD
-      - RUNTIME
+#   - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+#     value: "your-staging-sender-id"
+#     availability:
+#       - BUILD
+#       - RUNTIME
 
-  - variable: next_public_firebase_app_id
-    secret: firebase-app-id-staging
-    availability:
-      - BUILD
-      - RUNTIME
+#   - variable: NEXT_PUBLIC_FIREBASE_APP_ID
+#     value: "your-staging-app-id"
+#     availability:
+#       - BUILD
+#       - RUNTIME
 
-  # Next.js Configuration for Staging
-  - variable: NODE_ENV
-    value: production
-    availability:
-      - BUILD
-      - RUNTIME
+#   # Next.js Configuration for Staging
+#   - variable: NODE_ENV
+#     value: production
+#     availability:
+#       - BUILD
+#       - RUNTIME
 
-  - variable: NEXTAUTH_URL
-    value: https://your-staging-domain.com
-    availability:
-      - BUILD
-      - RUNTIME
+#   # Application Configuration for Staging
+#   - variable: APP_ENV
+#     value: staging
+#     availability:
+#       - BUILD
+#       - RUNTIME
 
-  # Application Configuration for Staging
-  - variable: APP_ENV
-    value: staging
-    availability:
-      - BUILD
-      - RUNTIME
+# scripts:
+#   buildCommand: npm run build
+#   runCommand: npm start
