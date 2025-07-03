@@ -1,0 +1,64 @@
+runConfig:
+  cpu: 2
+  memoryMiB: 1024
+  maxInstances: 10
+  minInstances: 0
+  concurrency: 80
+
+env:
+  # Firebase Configuration
+  - variable: next_public_firebase_api
+    secret: firebase-api-key
+    availability:
+      - BUILD
+      - RUNTIME
+
+  - variable: next_public_firebase_domain
+    secret: firebase-auth-domain
+    availability:
+      - BUILD
+      - RUNTIME
+
+  - variable: next_public_firebase_p_id
+    secret: firebase-project-id
+    availability:
+      - BUILD
+      - RUNTIME
+
+  - variable: next_public_storage_bucket
+    secret: firebase-storage-bucket
+    availability:
+      - BUILD
+      - RUNTIME
+
+  - variable: next_public_m_sender_id
+    secret: firebase-messaging-sender-id
+    availability:
+      - BUILD
+      - RUNTIME
+
+  - variable: next_public_firebase_app_id
+    secret: firebase-app-id
+    availability:
+      - BUILD
+      - RUNTIME
+
+  # Next.js Configuration
+  - variable: NODE_ENV
+    value: production
+    availability:
+      - BUILD
+      - RUNTIME
+
+  - variable: NEXTAUTH_URL
+    value: https://your-production-domain.com
+    availability:
+      - BUILD
+      - RUNTIME
+
+  # Application Configuration
+  - variable: APP_ENV
+    value: production
+    availability:
+      - BUILD
+      - RUNTIME

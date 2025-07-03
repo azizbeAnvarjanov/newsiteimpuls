@@ -1,0 +1,204 @@
+name: Deploy to Firebase Hosting
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: "Environment to deploy to"
+        required: true
+        default: "production"
+        type: choice
+        options:
+          - production
+          - staging
+
+env:
+  FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+  FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run linting
+        run: npm run lint
+        continue-on-error: true
+
+      - name: Create environment file
+        run: |
+          echo "Creating .env.local file for build..."
+          cat > .env.local << EOF
+          NEXT_PUBLIC_FIREBASE_API=${{ secrets.NEXT_PUBLIC_FIREBASE_API }}
+          NEXT_PUBLIC_FIREBASE_DOMAIN=${{ secrets.NEXT_PUBLIC_FIREBASE_DOMAIN }}
+          NEXT_PUBLIC_FIREBASE_P_ID=${{ secrets.NEXT_PUBLIC_FIREBASE_P_ID }}
+          NEXT_PUBLIC_STORAGE_BUCKET=${{ secrets.NEXT_PUBLIC_STORAGE_BUCKET }}
+          NEXT_PUBLIC_M_SENDER_ID=${{ secrets.NEXT_PUBLIC_M_SENDER_ID }}
+          NEXT_PUBLIC_FIREBASE_APP_ID=${{ secrets.NEXT_PUBLIC_FIREBASE_APP_ID }}
+          NODE_ENV=production
+          EOF
+          echo "✅ Environment file created"
+
+      - name: Build application
+        run: npm run build
+        env:
+          NEXT_PUBLIC_FIREBASE_API: ${{ secrets.NEXT_PUBLIC_FIREBASE_API }}
+          NEXT_PUBLIC_FIREBASE_DOMAIN: ${{ secrets.NEXT_PUBLIC_FIREBASE_DOMAIN }}
+          NEXT_PUBLIC_FIREBASE_P_ID: ${{ secrets.NEXT_PUBLIC_FIREBASE_P_ID }}
+          NEXT_PUBLIC_STORAGE_BUCKET: ${{ secrets.NEXT_PUBLIC_STORAGE_BUCKET }}
+          NEXT_PUBLIC_M_SENDER_ID: ${{ secrets.NEXT_PUBLIC_M_SENDER_ID }}
+          NEXT_PUBLIC_FIREBASE_APP_ID: ${{ secrets.NEXT_PUBLIC_FIREBASE_APP_ID }}
+          NODE_ENV: production
+
+      - name: Export static files
+        run: |
+          echo "Exporting static files for Firebase Hosting..."
+          npm run export || npx next export
+          echo "✅ Static export completed"
+
+      - name: Setup Firebase CLI
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          PROJECT_PATH: "./"
+
+      - name: Deploy to Firebase Hosting
+        run: |
+          echo "🚀 Deploying to Firebase Hosting..."
+          firebase deploy --only hosting --project ${{ secrets.FIREBASE_PROJECT_ID }}
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+
+      - name: Upload environment file to Firebase Storage
+        run: |
+          echo "📁 Uploading .env file to Firebase Storage..."
+
+          # Create a temporary .env file for storage
+          cat > .env.backup << EOF
+          # Firebase Configuration Backup
+          # Generated on: $(date)
+          # Branch: ${{ github.ref_name }}
+          # Commit: ${{ github.sha }}
+
+          NEXT_PUBLIC_FIREBASE_API=${{ secrets.NEXT_PUBLIC_FIREBASE_API }}
+          NEXT_PUBLIC_FIREBASE_DOMAIN=${{ secrets.NEXT_PUBLIC_FIREBASE_DOMAIN }}
+          NEXT_PUBLIC_FIREBASE_P_ID=${{ secrets.NEXT_PUBLIC_FIREBASE_P_ID }}
+          NEXT_PUBLIC_STORAGE_BUCKET=${{ secrets.NEXT_PUBLIC_STORAGE_BUCKET }}
+          NEXT_PUBLIC_M_SENDER_ID=${{ secrets.NEXT_PUBLIC_M_SENDER_ID }}
+          NEXT_PUBLIC_FIREBASE_APP_ID=${{ secrets.NEXT_PUBLIC_FIREBASE_APP_ID }}
+          NODE_ENV=production
+          EOF
+
+          # Upload to Firebase Storage using Firebase CLI
+          firebase storage:upload .env.backup /config/ --project ${{ secrets.FIREBASE_PROJECT_ID }}
+
+          echo "✅ Environment file uploaded to Firebase Storage"
+
+      - name: Deploy success notification
+        run: |
+          echo "🎉 Deployment completed successfully!"
+          echo "🌐 Your app is now live on Firebase Hosting"
+          echo "📊 Project ID: ${{ secrets.FIREBASE_PROJECT_ID }}"
+          echo "🔗 Firebase Console: https://console.firebase.google.com/project/${{ secrets.FIREBASE_PROJECT_ID }}"
+          echo "📁 Environment file uploaded to Firebase Storage"
+
+  # Separate job for staging deployment
+  deploy-staging:
+    runs-on: ubuntu-latest
+    if: github.event.inputs.environment == 'staging' || github.ref == 'refs/heads/develop'
+    needs: build-and-deploy
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Create staging environment file
+        run: |
+          echo "Creating staging .env.local file..."
+          cat > .env.local << EOF
+          NEXT_PUBLIC_FIREBASE_API=${{ secrets.NEXT_PUBLIC_FIREBASE_API_STAGING }}
+          NEXT_PUBLIC_FIREBASE_DOMAIN=${{ secrets.NEXT_PUBLIC_FIREBASE_DOMAIN_STAGING }}
+          NEXT_PUBLIC_FIREBASE_P_ID=${{ secrets.NEXT_PUBLIC_FIREBASE_P_ID_STAGING }}
+          NEXT_PUBLIC_STORAGE_BUCKET=${{ secrets.NEXT_PUBLIC_STORAGE_BUCKET_STAGING }}
+          NEXT_PUBLIC_M_SENDER_ID=${{ secrets.NEXT_PUBLIC_M_SENDER_ID_STAGING }}
+          NEXT_PUBLIC_FIREBASE_APP_ID=${{ secrets.NEXT_PUBLIC_FIREBASE_APP_ID_STAGING }}
+          NODE_ENV=production
+          EOF
+
+      - name: Build staging application
+        run: npm run build
+        env:
+          NEXT_PUBLIC_FIREBASE_API: ${{ secrets.NEXT_PUBLIC_FIREBASE_API_STAGING }}
+          NEXT_PUBLIC_FIREBASE_DOMAIN: ${{ secrets.NEXT_PUBLIC_FIREBASE_DOMAIN_STAGING }}
+          NEXT_PUBLIC_FIREBASE_P_ID: ${{ secrets.NEXT_PUBLIC_FIREBASE_P_ID_STAGING }}
+          NEXT_PUBLIC_STORAGE_BUCKET: ${{ secrets.NEXT_PUBLIC_STORAGE_BUCKET_STAGING }}
+          NEXT_PUBLIC_M_SENDER_ID: ${{ secrets.NEXT_PUBLIC_M_SENDER_ID_STAGING }}
+          NEXT_PUBLIC_FIREBASE_APP_ID: ${{ secrets.NEXT_PUBLIC_FIREBASE_APP_ID_STAGING }}
+          NODE_ENV: production
+
+      - name: Export static files for staging
+        run: |
+          echo "Exporting static files for staging..."
+          npm run export || npx next export
+
+      - name: Deploy to Firebase Hosting (Staging)
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting:staging
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_STAGING }}
+          PROJECT_PATH: "./"
+
+      - name: Upload staging environment file
+        run: |
+          echo "📁 Uploading staging .env file to Firebase Storage..."
+
+          cat > .env.staging << EOF
+          # Firebase Configuration Backup - STAGING
+          # Generated on: $(date)
+          # Branch: ${{ github.ref_name }}
+          # Commit: ${{ github.sha }}
+
+          NEXT_PUBLIC_FIREBASE_API=${{ secrets.NEXT_PUBLIC_FIREBASE_API_STAGING }}
+          NEXT_PUBLIC_FIREBASE_DOMAIN=${{ secrets.NEXT_PUBLIC_FIREBASE_DOMAIN_STAGING }}
+          NEXT_PUBLIC_FIREBASE_P_ID=${{ secrets.NEXT_PUBLIC_FIREBASE_P_ID_STAGING }}
+          NEXT_PUBLIC_STORAGE_BUCKET=${{ secrets.NEXT_PUBLIC_STORAGE_BUCKET_STAGING }}
+          NEXT_PUBLIC_M_SENDER_ID=${{ secrets.NEXT_PUBLIC_M_SENDER_ID_STAGING }}
+          NEXT_PUBLIC_FIREBASE_APP_ID=${{ secrets.NEXT_PUBLIC_FIREBASE_APP_ID_STAGING }}
+          NODE_ENV=production
+          EOF
+
+          firebase storage:upload .env.staging /config/staging/ --project ${{ secrets.FIREBASE_PROJECT_ID_STAGING }}
+
+      - name: Staging deployment notification
+        run: |
+          echo "🎉 Staging deployment completed!"
+          echo "🌐 Staging app is now live"
+          echo "📊 Staging Project ID: ${{ secrets.FIREBASE_PROJECT_ID_STAGING }}"
