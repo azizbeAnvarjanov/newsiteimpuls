@@ -6,6 +6,11 @@ const withNextIntl = createNextIntlPlugin();
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  output: "standalone",
+  productionBrowserSourceMaps: false,
+  experimental: {
+    optimizePackageImports: ["@radix-ui/react-*", "lucide-react"],
+  },
   webpack: (config) => {
     config.resolve.alias = {
       ...config.resolve.alias,
@@ -14,6 +19,7 @@ const nextConfig = {
     return config;
   },
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
