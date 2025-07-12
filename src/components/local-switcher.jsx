@@ -39,8 +39,8 @@ export default function LocalSwitcher() {
       onValueChange={onSelectChange}
       disabled={isPending}
     >
-      <SelectTrigger className="w-[180px]">
-        <SelectValue placeholder="Select a language" />
+      <SelectTrigger className="w-fit">
+        <SelectValue className="text-black" placeholder="Select a language" />
       </SelectTrigger>
       <SelectContent>
         <SelectGroup>

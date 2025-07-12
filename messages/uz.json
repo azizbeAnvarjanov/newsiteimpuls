@@ -271,12 +271,7 @@
     "text-9": "Sportning istalgan turi bilan doimiy shug‘ulanib borish (mini futbol, stol tennis, shaxmat, shashka, basketbol, valebol, suzish, kurash, boks va h,k)",
     "text-10": "Izox: Yuqoridagi 4 ta shartlardan birini bajarilmagan xolda talabaga grant uchun tavsiya berilmaydi.",
     "text-11": "Grant ballarini hisoblash tartibi:",
-    "text-12": "Maxsus fanlardan yakuniy nazorat imtixonlari birinchi urinish natijalari oʻrtacha qiymati - 40%",
-    "text-13": "Maxsus fanlardan imtixon nazoratchilari ishtirokida oʻtkazilgan ONlar (mustaqil ish baholari hisobga olinmaydi) birinchi urinish natijalari oʻrtacha qiymati - 20%",
-    "text-14": "Grant imtihoni 2 natijasi - 40%",
-    "text-15": "Jami grant ballari: Yakuniy nazorat (40%) + Oraliq nazorat (20%) + Grant imtihoni (40%) = 100%.",
-    "text-16": "Agar talaba uzrli sabab bilan birinchi urinish imtixoniga kela olmasa, uzrli sababning imtixon kunida boʻlganini tasdiqlovchi hujjat taqdim qilinib, bu hujjat Taʼlim sifati boʻlimi tomonidan haqiqiy deb topilsa, talabaning 2- yoki 3-(ikkinchi urinishga ham kela olmasa) urinish ballari foizga koʻpaytirilgan holda hisoblanadi. Bunda talabaning 2-urinish balining 75%ni, 3-urinish balining 60%ni grant baliga qoʻshiladi. Agar talaba 1-imkoniyatga kelmasa va uzrli sabab koʻrsata olmasa, grant bali hisoblanganda shu imtixon uchun talabaga ball berilmaydi.",
-    "text-17": "Grant imtihoni alohida imtixon boʻlib semester yakunida oʻtkaziladi. Unda talabalar har biri 40 ta savolni oʻz ichiga oladigan bir (1-kurslar) yoki bir necha (katta kurslar) blokdan iborat test topshirishadi. Testlar mutaxasislik fanlaridan oddiy savollar va vaziyatli masalalarni oʻz ichiga oladi. Har bir blokdagi savollarning maʼlum qismi (butun kurs uchun bir xil miqdorda) ingliz tilida boʻladi. Har bir blok uchun 1 soat vaqt ajratiladi."
+    "text-12": "Talabalar uchun yaratilgan Handbook va institut nizomlarida keltirilgan tartib asosida hisoblanadi."
   },
   "student-union": {
     "text-1": "Student union  (talabalar kengashi)",
@@ -413,7 +408,7 @@
     "stom": "Stomatologiya",
     "s-oquv-shakli": "kredit-modul tizimi",
     "s-talim-shakli": "kunduzgi",
-    "s-muddati": "6-yil",
+    "s-muddati": "5-yil",
     "s-tili": "o'zbek",
     "s-p-1": "Bitiruvchilarga beriladigan ixtisoslik (kvalifikatsiya) – Oilaviy shifokor",
     "s-p-2": "Toshkent tibbiyot akademiyasida o‘qish kredit-modul tizimida olib boriladi.",
@@ -430,5 +425,91 @@
     "p-p-3": "Talaba 6 yil davomida jami 360 kredit, har yili 60 kredit to‘plashi lozim.",
     "p-p-4": "Ta’lim dasturi: 1-3 kurslarda ijtimoiy-gumanitar, tibbiy-biologik va fundamental fanlar, 4-6 kurslarda – klinik fanlar o‘qitiladi. 6 kursda talabalar bevosita oilaviy shifokor dasturi bo‘yicha tayyorlanadi.",
     "p-p-5": "Davolash ishi ta’lim yo‘nalishi bitiruvchilari sog‘liqni saqlashning birlamchi bo‘g‘ini tibbiy-sanitariya muassasalarida oilaviy shifokor sifatida faoliyat yuritishlari yoki o‘zlari tanlagan mutaxassislik bo‘yicha magistratura yoki klinik ordinaturada o‘qishni davom ettirishlari mumkin."
+  },
+  "qabul-tartibi": {
+    "title": "Qabul tartibi",
+    "p-1": "“IMI” xorijiy va mahalliy abituriyentlar uchun o‘zbek va ingliz tillarida quyidagi o‘quv dasturini taklif etadi:",
+    "p-2": "“IMI”da barcha o‘quv dasturlar to‘lov-kontrakt asosida amalga oshiriladi",
+    "Dasturlar": "Dasturlar",
+    "Talim shakli": "Talim shakli",
+    "Talim tili": "Talim tili",
+    "Qish davomiyligi": "Qish davomiyligi",
+    "p-3": "Kunduzgi ta’lim – mashg‘ulotlar o‘qituvchi tomonidan o‘quv rejalari (ma’ruza, amaliy mashg‘ulot, laboratoriya) asosida auditoriya va klinik bazalarda olib boriladi va talabalar hafta davomida mashg‘ulotlarga qatnashadilar, mashg‘ulotlar 3 paradan bo‘lib, 1-semena va 2-semenalardan iborat.",
+    "p-4": "Gibrid ta’lim – an’anaviy ta’lim usullari va elektron ta’limning (ya’ni, raqamli yoki tarmoqqa ulangan ta’lim) afzalliklarini birlashtirib, yaxshiroq ta’lim berish usullarini yaratadi, bunda talaba darsdan so‘ng mustaqil ta’lim uchun institut platformalaridagi O‘qituvchilarimiz tomonidan har bir fan mavzularidan tartibga solingan videodarslar, nazorot testlari va vaziyatli masalalarni onlayn holatda foydalanishlari mumkin.",
+    "p-5": "Abituriyentlarning ro‘yxatdan o‘tish tartibi",
+    "p-6": "Abituriyentlar ro‘yxartdan o‘tish tartibi ikki xil ko‘rinishda Offline va Onlayn o‘tishlari kerak:",
+    "p-7": "Offline ro‘yxatdan o‘tish tartibi – 15-iyun kunidan boshlab asosiy binodan joylashgan qabulxonaga kelib uchrashiladi, tashrif buyurgan har bir abituriyent uchun mas’ul xodimlar tomonidan institut haqida va o‘zlarini qiziqtirgan savollariga oid kerakli ma’lumot beriladi hamda abituriyentning shaxsiy ma’lumotlari IMI qabul tizimiga kiritiladi.",
+    "p-8": "Onlayn ro‘yxatdan o‘tish tartibi - https://qabul.impulsmi.uz ijtimoiy tarmoq orqali ro‘yxatdan o‘tishadi va ma’lum vaqtdan so‘ng operator xodimlari tomonidan abituriyentga qo‘ng‘iroq qilinadi va institut haqida va o‘zlarini qiziqtirgan savollariga oid kerakli ma’lumot beriladi.",
+    "p-9": "Abituriyent kerakli ma’lumot olganidan so‘ng imtihon uchun to‘lovni Naqd ko‘rinishida yoki Payme, Click ilovalari orqali pul o‘tkazish yo‘li bilan amalga oshirishi mumkin. Imtihon uchun to‘lov imtihon jarayonlarini tashkil qilish uchun sarflangan resurslarni qoplash maqsadida joriy etilgan.",
+    "p-10": "Imtihon shartlari",
+    "p-11": "Impuls tibbiyot institutida qabul qilish 2025-yil 15-iyunidan 30-sentabriga qadar davom etadi.",
+    "p-12": "Abituriyentning bilimi murakkablik darajasiga ko‘ra O‘zbekiston umumta’lim maktablari dasturiga mos keluvchi Kimyo, Biologiya, Matematika, IQ savollardan iborat testlar jamlanmasi asosida, fanlardan tuzilgan testlar ta’lim sifati tomonidan tekshiruvdan o‘tgan va shu test  orqali baholanadi.",
+    "p-13": "Imtihonlar jarayonida rioya etilishi lozim bo‘lgan qoidalar",
+    "p-14": "Abituriyentlar qabul imtihoni jarayoni davomida quyidagi qoidalarga rioya etishlari lozim: Boshqa abituriyentlar bilan muloqot qilish taqiqlanadi; Uyali telefon, kompyuter, telekommunikatsiya vositalari va shpargalkalar olib kirishga harakat qilish yoki olib kirish taqiqlanadi; Abituriyentlar bilan muloqot qilish, imtihon paytida atrofga qarash, suhbatlashish yoki boshqalarni bezovta qilish va har qanday intizom va tartib qoidalarini buzish taqiqlanadi; Xato savollar bo‘lsa, qo‘llarini ko‘tarishadi va yoniga nazoratchi kelishini kutadi; Abituriyentlar imtihon vaqtida xonadan chiqishi taqiqlanadi.",
+    "p-15": "Apellyatsiya",
+    "p-16": "IMI qabul imtihoni natijalari va test sinovi savollaridan norozi bo‘lgan abituriyent e’tiroz bildirish huquqiga ega, jumladan: Abituriyent test jarayonida savol va javoblar variantlaridan qoniqmaslik holati yuzaga kelsa, test variantini berilgan maxsus qog‘ozga yozib oladi va test jarayoni yakunlanganidan so‘ng uni hamda rektor nomiga yozilgan apellyatsiya shikoyatini mas’ul xodimga yozma ravishda taqdim etadi. Agar test variantini berilgan maxsus qog‘ozga yozib olmagan bo‘lsa, abituriyentning yozma arizasiga muvofiq apellyatsiya shikoyati ko‘rib chiqiladi. Apellyatsiya natijalari 3 (uch) ish kuni davomida Qabul komissiyasi tomonidan o‘rganib chiqiladi. Abituriyentning etirozi asosli deb topilgan bo‘lsa, tegishli miqdordagi ballarni test sinov natijalariga qo‘shib beriladi.",
+    "p-17": "Imtiyoz va Chegirmalar",
+    "p-18": "Hamkor tibbiy klinikalarning (davlat va xususiy) ayol tibbiyot xodimlari uchun qabul imtihonlari to‘lovidan ozod qilinadi *",
+    "p-19": "* ish staji 1 (bir) yildan kam bo‘lmasligi kerak.",
+    "p-20": "Hamkor tibbiy klinikalarning (davlat va xususiy) ayol tibbiyot xodimlariga tayyorlov kursi (podkurs) uchun 20 % (foiz) li, ya’ni bir marotabalik chegirma imtiyozi taqdim etiladi.",
+    "p-21": "Qabul imtihonlari natijalariga ko‘ra IMI tomonidan rektor buyrug‘iga asosan 1 (bir) semester uchun grant taqdim etiladi.",
+    "p-22": "1 (bir) semestrlik grant quydagi tartibda beriladi:",
+    "p-23": "50 % lik grant (kuzgi semestr uchun)",
+    "p-24": "40 % lik grant (qish semestr uchun)",
+    "p-25": "30 % lik grant (qish semestr uchun)",
+    "p-26": "20 % lik grant (qish semestr uchun)",
+    "p-27": "*Bahorgi semestr uchun grand berish tartibi talabalarga o‘qish davomida grand berish tartibida belgilab o‘tilgan, bunda institut tomonidan beriladigan grandlar talabalarning o‘zlashtirishiga ko‘ra o‘zgaruvchan hisoblanadi.",
+    "p-28": "O‘zbekiston Respublikasi Prezidentining 09.09.2019 yildagi PF-5816-sonli O‘zbekiston Respublikasida notariat tizimini tubdan isloh qilish chora-tadbirlari to‘g‘risidagi Farmoni 9-bandi 1-xatboshida yaqin qarindoshlar sifatida ota-ona, er-xotin, bolalar, aka-ukalar, opa-singillar sanab o‘tilgan shaxslarga kontrakt summasidan 10 % lik chegirma har bir shaxs uchun to‘liq o‘qish yili davomiyligi muddatiga beriladi." ,
+    "p-29": "2024-2025-O‘quv yilidan boshlab Nogironligi mavjud bo‘lgan shaxslar uchun quyidagi imtiyoz va chegirmalar taqdim etiladi (Suhbat asosida).",
+    "p-30": "Qabul uchun to‘lov 100 % tekin, ya’ni hech qanday to‘lovlarsiz imtihonda ishtirok etadi",
+    "p-31": "Yotoqxona 2 yil bepul",
+    "p-32": "“Ayollar daftari”, “Temir daftar”da ro‘yxatda turgan ayol-qizlar qabul imtihoni to‘lovlaridan ozod etiladi."
+    
+  },
+  "library-note": {
+    "title": "Kutubxona",
+    "intro": "Institut kutubxonasi talabalar, o‘qituvchilar va ilmiy xodimlar uchun bilim va axborot manbai sifatida xizmat qiladi. Kutubxonada turli yo‘nalishlardagi o‘quv, ilmiy va badiiy adabiyotlar, davriy nashrlar, elektron resurslar hamda ma'lumotnomalar jamlangan.",
+
+    "rules-title": "Kutubxonadan foydalanish tartib-qoidalari",
+    "rules-1": "Kutubxonadan foydalanish huquqiga institut talabalari, o‘qituvchilari va xodimlari ega.",
+    "rules-2": "Kitob va materiallarni olish uchun talabalar shaxsiy guvohnoma orqali ro‘yxatdan o‘tadi.",
+    "rules-3": "Kitoblar muayyan muddatga beriladi; muddat tugagach, uni uzaytirish talab etiladi.",
+    "rules-4": "Materiallarga ehtiyotkorlik bilan munosabatda bo‘lish shart. Yirtish, yozish yoki yo‘qotish holatlari moddiy javobgarlikka olib keladi.",
+    "rules-5": "Jimlik saqlash va umumiy tartibga rioya qilish majburiydir.",
+
+    "resources-title": "Elektron va axborot resurslari",
+    "resources-1": "Elektron kitoblar va jurnallar bazasi",
+    "resources-2": "Onlayn ilmiy jurnallar va maqolalarga kirish imkoni",
+    "resources-3": "Kompyuterlar va internet aloqasi orqali axborot izlash imkoniyati",
+    "resources-4": "Mavzuga oid ma’lumotlar bazasi va ma’lumotnomalar",
+
+    "footer": "Kutubxona jamoasi sizga ilmiy izlanishlar, tahlil ishlari va o‘qish jarayonida doimiy yordam berishga tayyor. Sizdan faqat foydalanish qoidalariga rioya qilish va resurslardan samarali foydalanish talab etiladi."
+  },
+  "Sport": {
+    "title": "Sport",
+    "membership": {
+      "title": "Fitnes klublarga a’zolik",
+      "description": "Institut tomonidan homiylik asosida bir qator fitnes klublar bilan hamkorlik yo‘lga qo‘yilgan. Talabalar ushbu klublarga a'zolik asosida muntazam tashrif buyurishlari va sog‘lig‘ini mustahkamlashlari mumkin."
+    },
+    "facilities": {
+      "title": "Sport zallari va maydonchalari",
+      "description": "Institut hududida joylashgan zamonaviy sport zallari va ochiq sport maydonchalari talabalar ixtiyorida:",
+      "items": {
+        "football": "Mini-futbol",
+        "basketball": "Basketbol",
+        "volleyball": "Voleybol",
+        "tennis": "Stol tennisi",
+        "athletics": "Yengil atletika mashg‘ulotlari"
+      }
+    },
+    "rules": {
+      "title": "Foydalanish tartibi",
+      "items": {
+        "access": "Sport maydonchalari darsdan bo‘sh vaqtlarida ochiq.",
+        "registration": "Zal uchun navbat asosida ro‘yxatdan o‘tiladi.",
+        "cleanliness": "Tozalik va xavfsizlik qoidalariga amal qilinadi."
+      }
+    },
+    "footer": "Impuls Tibbiyot Instituti sog‘lom turmush tarzini doimiy qo‘llab-quvvatlaydi."
   }
 }

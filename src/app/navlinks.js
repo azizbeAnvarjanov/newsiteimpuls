@@ -59,7 +59,7 @@ const navLinks = [
       },
       {
         name: "grant-stipendiya",
-        href: "/",
+        href: "/pages/bachelors-degree",
       },
     ],
   },
@@ -69,7 +69,7 @@ const navLinks = [
     subLinks: [
       {
         name: "qabul-nizomi",
-        href: "/",
+        href: "/pages/addmission-rules",
       },
       {
         name: "online-ariza",
@@ -91,7 +91,7 @@ const navLinks = [
       },
       {
         name: "sport",
-        href: "/",
+        href: "/pages/sport",
       },
       {
         name: "student-union",
@@ -99,7 +99,7 @@ const navLinks = [
       },
       {
         name: "kutubxona",
-        href: "/pages/library",
+        href: "/kutubxona",
       },
       {
         name: "yangiliklar-va-aloqa",

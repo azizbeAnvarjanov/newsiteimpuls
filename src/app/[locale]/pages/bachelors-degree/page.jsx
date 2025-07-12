@@ -28,11 +28,6 @@ const BachelosDegree = () => {
         <p>{t("text-10")}</p>
         <p className="mt-3 font-bold">{t("text-11")}</p>
         <p>{t("text-12")}</p>
-        <p>{t("text-13")}</p>
-        <p>{t("text-14")}</p>
-        <p className="mt-4 font-bold">{t("text-15")}</p>
-        <p>{t("text-16")}</p>
-        <p>{t("text-17")}</p>
       </div>
     </div>
   );

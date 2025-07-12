@@ -9,6 +9,7 @@ import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 import { toast } from "react-hot-toast";
 import * as XLSX from "xlsx"; // Excel fayllarni o‘qish uchun
+import LibraryNote from "@/app/(customComponents)/library-note";
 
 const Kutubxona = () => {
   const [books, setBooks] = useState([]);
@@ -94,7 +95,8 @@ const Kutubxona = () => {
   }
 
   return (
-    <div className="excel-import p-10">
+    <div className="excel-import px-10 pt-[20vh]">
+      <LibraryNote />
       {/* <div className="excel-import">
         <Button onClick={handleButtonClick} disabled={loading}>
           Import <Sheet />
@@ -108,7 +110,7 @@ const Kutubxona = () => {
         />
         {loading && <p>Yuklanmoqda...</p>}
       </div> */}
-      <div className="flex items-center justify-between mb-4">
+      {/* <div className="flex items-center justify-between mb-4">
         <h1 className="font-bold text-2xl">IMPULS ARM</h1>
         <Input
           type="text"
@@ -117,10 +119,10 @@ const Kutubxona = () => {
           onChange={handleSearchChange}
           className="w-64 border p-2 rounded-md"
         />
-      </div>
+      </div> */}
 
       {loading && <p>Yuklanmoqda...</p>}
-      <div className="grid grid-cols-4 items-center justify-center gap-5">
+      {/* <div className="grid grid-cols-4 items-center justify-center gap-5">
         {filteredBooks.map((item, idx) => (
           <Link
             href={item.link}
@@ -143,7 +145,7 @@ const Kutubxona = () => {
             />
           </Link>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };

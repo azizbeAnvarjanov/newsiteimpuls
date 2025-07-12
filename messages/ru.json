@@ -412,7 +412,7 @@
     "stom": "Стоматология",
     "s-oquv-shakli": "кредитно-модульная система",
     "s-talim-shakli": "очная форма",
-    "s-muddati": "6 лет",
+    "s-muddati": "5 лет",
     "s-tili": "узбекский",
     "s-p-1": "Присваиваемая квалификация – Семейный врач",
     "s-p-2": "Обучение в Ташкентской медицинской академии проводится по кредитно-модульной системе.",
@@ -430,5 +430,89 @@
     "p-p-3": "Студент должен набрать 360 кредитов за 6 лет, по 60 кредитов в год.",
     "p-p-4": "Учебная программа: 1–3 курсы – социально-гуманитарные, медико-биологические и фундаментальные науки; 4–6 курсы – клинические дисциплины. На 6 курсе студенты проходят подготовку по программе семейного врача.",
     "p-p-5": "Выпускники направления 'Лечебное дело' могут работать семейными врачами в учреждениях первичной медико-санитарной помощи или продолжить обучение в магистратуре или клинической ординатуре по выбранной специальности."
+  },
+  "qabul-tartibi": {
+    "title": "Qabul tartibi",
+    "p-1": "“IMI” xorijiy va mahalliy abituriyentlar uchun o‘zbek va ingliz tillarida quyidagi o‘quv dasturini taklif etadi:",
+    "p-2": "“IMI”da barcha o‘quv dasturlar to‘lov-kontrakt asosida amalga oshiriladi",
+    "Dasturlar": "Dasturlar",
+    "Talim shakli": "Talim shakli",
+    "Talim tili": "Talim tili",
+    "Qish davomiyligi": "Qish davomiyligi",
+    "p-3": "Kunduzgi ta’lim – mashg‘ulotlar o‘qituvchi tomonidan o‘quv rejalari (ma’ruza, amaliy mashg‘ulot, laboratoriya) asosida auditoriya va klinik bazalarda olib boriladi va talabalar hafta davomida mashg‘ulotlarga qatnashadilar, mashg‘ulotlar 3 paradan bo‘lib, 1-semena va 2-semenalardan iborat.",
+    "p-4": "Gibrid ta’lim – an’anaviy ta’lim usullari va elektron ta’limning (ya’ni, raqamli yoki tarmoqqa ulangan ta’lim) afzalliklarini birlashtirib, yaxshiroq ta’lim berish usullarini yaratadi, bunda talaba darsdan so‘ng mustaqil ta’lim uchun institut platformalaridagi O‘qituvchilarimiz tomonidan har bir fan mavzularidan tartibga solingan videodarslar, nazorot testlari va vaziyatli masalalarni onlayn holatda foydalanishlari mumkin.",
+    "p-5": "Abituriyentlarning ro‘yxatdan o‘tish tartibi",
+    "p-6": "Abituriyentlar ro‘yxartdan o‘tish tartibi ikki xil ko‘rinishda Offline va Onlayn o‘tishlari kerak:",
+    "p-7": "Offline ro‘yxatdan o‘tish tartibi – 15-iyun kunidan boshlab asosiy binodan joylashgan qabulxonaga kelib uchrashiladi, tashrif buyurgan har bir abituriyent uchun mas’ul xodimlar tomonidan institut haqida va o‘zlarini qiziqtirgan savollariga oid kerakli ma’lumot beriladi hamda abituriyentning shaxsiy ma’lumotlari IMI qabul tizimiga kiritiladi.",
+    "p-8": "Onlayn ro‘yxatdan o‘tish tartibi - https://qabul.impulsmi.uz ijtimoiy tarmoq orqali ro‘yxatdan o‘tishadi va ma’lum vaqtdan so‘ng operator xodimlari tomonidan abituriyentga qo‘ng‘iroq qilinadi va institut haqida va o‘zlarini qiziqtirgan savollariga oid kerakli ma’lumot beriladi.",
+    "p-9": "Abituriyent kerakli ma’lumot olganidan so‘ng imtihon uchun to‘lovni Naqd ko‘rinishida yoki Payme, Click ilovalari orqali pul o‘tkazish yo‘li bilan amalga oshirishi mumkin. Imtihon uchun to‘lov imtihon jarayonlarini tashkil qilish uchun sarflangan resurslarni qoplash maqsadida joriy etilgan.",
+    "p-11": "Impuls tibbiyot institutida qabul qilish 2025-yil 15-iyunidan 30-sentabriga qadar davom etadi.",
+    "p-12": "Abituriyentning bilimi murakkablik darajasiga ko‘ra O‘zbekiston umumta’lim maktablari dasturiga mos keluvchi Kimyo, Biologiya, Matematika, IQ savollardan iborat testlar jamlanmasi asosida, fanlardan tuzilgan testlar ta’lim sifati tomonidan tekshiruvdan o‘tgan va shu test  orqali baholanadi.",
+    "p-13": "Imtihonlar jarayonida rioya etilishi lozim bo‘lgan qoidalar",
+    "p-14": "Abituriyentlar qabul imtihoni jarayoni davomida quyidagi qoidalarga rioya etishlari lozim: Boshqa abituriyentlar bilan muloqot qilish taqiqlanadi; Uyali telefon, kompyuter, telekommunikatsiya vositalari va shpargalkalar olib kirishga harakat qilish yoki olib kirish taqiqlanadi; Abituriyentlar bilan muloqot qilish, imtihon paytida atrofga qarash, suhbatlashish yoki boshqalarni bezovta qilish va har qanday intizom va tartib qoidalarini buzish taqiqlanadi; Xato savollar bo‘lsa, qo‘llarini ko‘tarishadi va yoniga nazoratchi kelishini kutadi; Abituriyentlar imtihon vaqtida xonadan chiqishi taqiqlanadi.",
+    "p-15": "Apellyatsiya",
+    "p-16": "IMI qabul imtihoni natijalari va test sinovi savollaridan norozi bo‘lgan abituriyent e’tiroz bildirish huquqiga ega, jumladan: Abituriyent test jarayonida savol va javoblar variantlaridan qoniqmaslik holati yuzaga kelsa, test variantini berilgan maxsus qog‘ozga yozib oladi va test jarayoni yakunlanganidan so‘ng uni hamda rektor nomiga yozilgan apellyatsiya shikoyatini mas’ul xodimga yozma ravishda taqdim etadi. Agar test variantini berilgan maxsus qog‘ozga yozib olmagan bo‘lsa, abituriyentning yozma arizasiga muvofiq apellyatsiya shikoyati ko‘rib chiqiladi. Apellyatsiya natijalari 3 (uch) ish kuni davomida Qabul komissiyasi tomonidan o‘rganib chiqiladi. Abituriyentning etirozi asosli deb topilgan bo‘lsa, tegishli miqdordagi ballarni test sinov natijalariga qo‘shib beriladi.",
+    "p-17": "Льготы и скидки",
+    "p-18": "Женщины-медики из партнерских медицинских клиник (государственных и частных) освобождаются от оплаты вступительных экзаменов *",
+    "p-19": "* Стаж работы должен быть не менее 1 года.",
+    "p-20": "Женщинам-медработникам из партнерских клиник предоставляется одноразовая скидка в размере 20 % на подготовительные курсы (подкурсы).",
+    "p-21": "По результатам вступительных экзаменов по приказу ректора предоставляется грант на 1 семестр.",
+    "p-22": "Грант на 1 семестр предоставляется в следующем порядке:",
+    "p-23": "50 % грант (на осенний семестр)",
+    "p-24": "40 % грант (на зимний семестр)",
+    "p-25": "30 % грант (на зимний семестр)",
+    "p-26": "20 % грант (на зимний семестр)",
+    "p-27": "*Порядок предоставления грантов на весенний семестр определяется в процессе обучения, гранты варьируются в зависимости от академической успеваемости студентов.",
+    "p-28": "Согласно Указу Президента Республики Узбекистан № PF-5816 от 09.09.2019, лицам, признанным близкими родственниками (родители, супруги, дети, братья, сестры), предоставляется 10 % скидка от суммы контракта на весь учебный год.",
+    "p-29": "С 2024–2025 учебного года для лиц с инвалидностью предоставляются следующие льготы и скидки (на основе собеседования):",
+    "p-30": "100 % бесплатное участие в вступительных экзаменах, без какой-либо оплаты.",
+    "p-31": "Общежитие предоставляется бесплатно на 2 года.",
+    "p-32": "Женщины и девушки, зарегистрированные в «Женской тетради» и «Железной тетради», освобождаются от оплаты вступительных экзаменов."
+  },
+  "library-note": {
+    "title": "Библиотека",
+    "intro": "Библиотека института служит источником знаний и информации для студентов, преподавателей и научных сотрудников. В библиотеке собраны учебные, научные и художественные издания, периодические издания, электронные ресурсы и справочники.",
+
+    "rules-title": "Правила пользования библиотекой",
+    "rules-1": "Право пользования библиотекой имеют студенты, преподаватели и сотрудники института.",
+    "rules-2": "Для получения книг и материалов студенты регистрируются по личному удостоверению.",
+    "rules-3": "Книги выдаются на определённый срок; по его окончании необходимо продление.",
+    "rules-4": "Материалы необходимо беречь. За порчу, утерю или порванные книги предусмотрена материальная ответственность.",
+    "rules-5": "Необходимо соблюдать тишину и общие правила поведения.",
+
+    "resources-title": "Электронные и информационные ресурсы",
+    "resources-1": "База электронных книг и журналов",
+    "resources-2": "Доступ к онлайн-научным журналам и статьям",
+    "resources-3": "Возможность поиска информации через компьютеры и интернет",
+    "resources-4": "Базы данных и справочники по тематике",
+
+    "footer": "Коллектив библиотеки всегда готов помочь вам в научных исследованиях, анализах и учебном процессе. Требуется только соблюдать правила и эффективно использовать ресурсы."
+  },
+  "Sport": {
+    "title": "Спорт",
+    "membership": {
+      "title": "Абонементы в фитнес-клубы",
+      "description": "Институт организовал сотрудничество с рядом фитнес-клубов на спонсорской основе. Студенты могут регулярно посещать эти клубы по абонементу и укреплять своё здоровье."
+    },
+    "facilities": {
+      "title": "Спортивные залы и площадки",
+      "description": "На территории института расположены современные спортивные залы и открытые площадки, доступные для студентов:",
+      "items": {
+        "football": "Мини-футбол",
+        "basketball": "Баскетбол",
+        "volleyball": "Волейбол",
+        "tennis": "Настольный теннис",
+        "athletics": "Легкая атлетика"
+      }
+    },
+    "rules": {
+      "title": "Правила использования",
+      "items": {
+        "access": "Спортплощадки доступны в свободное от занятий время.",
+        "registration": "Для зала требуется предварительная регистрация.",
+        "cleanliness": "Соблюдение чистоты и правил безопасности обязательно."
+      }
+    },
+    "footer": "Институт Impuls поддерживает здоровый образ жизни студентов."
   }
 }
