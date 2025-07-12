@@ -17,8 +17,8 @@ export default function Header() {
   const t = useTranslations("Navbar");
 
   return (
-    <header className="bg-white border-b shadow-md fixed w-full h-[18vh] z-50">
-      <div className="h-[50%] bg-[--brand-blue] px-5 flex items-center justify-between">
+    <header className="border-b shadow-md fixed w-full h-[18vh] z-50">
+      <div className="h-[50%]  backdrop-blur-md bg-blue-700/30 px-5 flex items-center justify-between">
         <div className="flex items-center gap-5">
           <Link className="text-white flex gap-2" href="tel:+998555105015">
             <span className="lg:flex md:hidden items-center hidden">
@@ -57,7 +57,7 @@ export default function Header() {
           <LocalSwitcher />
         </div>
       </div>
-      <nav className="flex p-5 items-center justify-between h-[50%]">
+      <nav className="flex p-5 items-center justify-between h-[50%] backdrop-blur-md bg-white/30">
         <Link href="/" className="flex gap-2 items-center">
           <Image
             src="/logo.png"

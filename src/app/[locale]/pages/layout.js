@@ -3,7 +3,7 @@ import React from "react";
 
 const PagesLayout = ({ children }) => {
   return (
-    <div className="xl:flex items-start gap-5 px-3 py-5 space-y-5 md:space-y-0">
+    <div className="xl:flex items-start gap-5 px-3 py-5 space-y-5 md:space-y-0 pt-40">
       <div className="w-full xl:w-[75%] border p-5 min-h-[100vh] rounded shadow-xl">
         {children}
       </div>

@@ -33,7 +33,7 @@ export default async function RootLayout({
           <div>
             <Toaster position="top-center" reverseOrder={false} />
             <Header />
-            <div className="pt-[17vh]">{children}</div>
+            <div className="">{children}</div>
             <Footer />
             
           </div>

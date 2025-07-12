@@ -6,6 +6,7 @@ import React from "react";
 
 const PartnerUniversityies = () => {
   const t = useTranslations("hamkorlarimiz");
+  const t2 = useTranslations("xalqaro-xamkorlik");
 
   const partners = [
     {
@@ -36,27 +37,35 @@ const PartnerUniversityies = () => {
   ];
 
   return (
-    <div className="grid md:grid-cols-2 gap-5">
-      {partners.map((item, idx) => (
-        <div key={idx} className="border flex p-2 rounded-lg shadow-md gap-3">
-          <div className="w-[100px] h-[100px] relative rounded-lg">
-            <img
-              src={item.img_path}
-              alt="wefewdewd"
-              className="object-contain rounded-lg w-full h-full"
-            />
+    <div>
+      <h1 className="">{t2("hamkorlik-text")}</h1>
+      <br />
+      <h1 className="">{t2("hamkorlik-text-2")}</h1>
+      <br />
+      <h1 className="">{t2("hamkorlik-text-3")}</h1>
+      <br />
+      <div className="grid md:grid-cols-2 gap-5">
+        {partners.map((item, idx) => (
+          <div key={idx} className="border flex p-2 rounded-lg shadow-md gap-3">
+            <div className="w-[100px] h-[100px] relative rounded-lg">
+              <img
+                src={item.img_path}
+                alt="wefewdewd"
+                className="object-contain rounded-lg w-full h-full"
+              />
+            </div>
+            <div>
+              <h1 className="mb-4 font-bold">{item.name}</h1>
+              <Link
+                href={item.url}
+                className="text-white py-2 px-4 bg-[--brand-blue] rounded-md"
+              >
+                {t("link-text")}
+              </Link>
+            </div>
           </div>
-          <div>
-            <h1 className="mb-4 font-bold">{item.name}</h1>
-            <Link
-              href={item.url}
-              className="text-white py-2 px-4 bg-[--brand-blue] rounded-md"
-            >
-              {t("link-text")}
-            </Link>
-          </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };

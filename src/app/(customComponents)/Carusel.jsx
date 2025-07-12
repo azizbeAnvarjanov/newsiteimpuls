@@ -81,7 +81,7 @@ const Carusel = ({ t1, t2, t3, t4, t5, t6, header }) => {
   }, [api, current]);
 
   return (
-    <div className="w-full py-5">
+    <div className="w-full py-5 pattern">
       <h1 className="mb-5 text-2xl font-bold px-5">{header}</h1>
       <div>
         <div className=" gap-5 items-center">

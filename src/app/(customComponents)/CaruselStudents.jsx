@@ -70,7 +70,7 @@ function CaruselStudents() {
     },
   ];
   return (
-    <div className="relative h-[60vh] flex justify-center items-center">
+    <div className="relative pattern h-[60vh] flex justify-center items-center">
       <Carousel
         opts={{
           align: "start",

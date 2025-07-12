@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -71,10 +69,11 @@
 }
 
 .hero {
-  background: url("/hero.jpg") center;
+  background: url("/hero.png") center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: top;
   position: relative;
 }
 
@@ -135,18 +134,17 @@
   background-size: cover;
 }
 
-
-.group-aboutsUs:hover > ul
-{
+.group-aboutsUs:hover > ul {
   opacity: 1;
   visibility: visible;
 }
 
-
-
-
-
-.book:hover
-{
+.book:hover {
   transform: translateY(-10px);
+}
+
+.pattern {
+  background: url("/bg-pattern-4.png") center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
