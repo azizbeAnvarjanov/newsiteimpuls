@@ -79,7 +79,7 @@ const Footer = () => {
         </div>
       </div>
       <br />
-      <p className="text-white">{f("footer-text-2")}</p>
+      {/* <p className="text-white">{f("footer-text-2")}</p> */}
       <footer className="text-white py-6">
         <p>&copy; {f("footer-text")}</p>
       </footer>
