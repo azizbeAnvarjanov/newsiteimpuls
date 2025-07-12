@@ -11,29 +11,65 @@ const PartnerUniversityies = () => {
   const partners = [
     {
       name: t("partner-1"),
-      img_path: "/partners-logos/tta.png",
-      url: "https://tma.uz/",
     },
     {
       name: t("partner-2"),
-      img_path: "/partners-logos/emu.png",
-      url: "https://emuni.uz/uz/",
     },
     {
       name: t("partner-3"),
-      img_path: "/partners-logos/adti.png",
-      url: "https://adti.uz/",
     },
     {
       name: t("partner-4"),
-      img_path: "/partners-logos/osh.png",
-      url: "https://www.oshsu.kg/kg",
     },
     {
       name: t("partner-5"),
-      img_path: "/partners-logos/tgfu.png",
-      url: "https://tgfu.uz/uz/",
     },
+    {
+      name: t("partner-6"),
+    },
+    {
+      name: t("partner-7"),
+    },
+    {
+      name: t("partner-8"),
+    },
+    {
+      name: t("partner-9"),
+    },
+    {
+      name: t("partner-10"),
+    },
+    {
+      name: t("partner-11"),
+    },
+    {
+      name: t("partner-12"),
+    },
+    {
+      name: t("partner-14"),
+    },
+    {
+      name: t("partner-14"),
+    },
+    {
+      name: t("partner-15"),
+    },
+    {
+      name: t("partner-16"),
+    },
+    {
+      name: t("partner-17"),
+    },
+    {
+      name: t("partner-18"),
+    },
+    {
+      name: t("partner-19"),
+    },
+    {
+      name: t("partner-20"),
+    },
+
   ];
 
   return (
@@ -44,27 +80,25 @@ const PartnerUniversityies = () => {
       <br />
       <h1 className="">{t2("hamkorlik-text-3")}</h1>
       <br />
-      <div className="grid md:grid-cols-2 gap-5">
-        {partners.map((item, idx) => (
-          <div key={idx} className="border flex p-2 rounded-lg shadow-md gap-3">
-            <div className="w-[100px] h-[100px] relative rounded-lg">
-              <img
-                src={item.img_path}
-                alt="wefewdewd"
-                className="object-contain rounded-lg w-full h-full"
-              />
-            </div>
-            <div>
-              <h1 className="mb-4 font-bold">{item.name}</h1>
-              <Link
-                href={item.url}
-                className="text-white py-2 px-4 bg-[--brand-blue] rounded-md"
-              >
-                {t("link-text")}
-              </Link>
-            </div>
-          </div>
-        ))}
+      <div className="overflow-x-auto">
+        <table className="min-w-full border border-gray-300 rounded-lg">
+          <thead className="bg-gray-100">
+            <tr>
+              <th className="text-left p-3 border-b">№</th>
+              <th className="text-left p-3 border-b">{t("nomi")}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {partners.map((item, idx) => (
+              <tr key={idx} className="border-b hover:bg-gray-50">
+                <td className="p-3 whitespace-nowrap">{idx + 1}</td>
+                <td className="p-3 whitespace-nowrap font-medium">
+                  {item.name}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </div>
     </div>
   );

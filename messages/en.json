@@ -210,12 +210,27 @@
   },
   "hamkorlarimiz": {
     "header": "Partners",
-    "partner-1": "Tashkent Medical Academy",
-    "partner-2": "EMU Universitety",
-    "partner-3": "ADTI Institute",
-    "partner-4": "Osh State University",
-    "partner-5": "TGFU Universitety",
-    "link-text": "Web page"
+    "partner-1": "Toshkent Tibbiyot Akademiyasi",
+    "partner-2": "EMU Universiteti",
+    "partner-3": "ADTI Instituti",
+    "partner-4": "Osh Davlat Universiteti",
+    "partner-5": "TGFU Universiteti",
+    "partner-6": "Andijon davlat tibbiyot instituti",
+    "partner-7": "O'zbekiston adaptiv sport turlari assotsiatsiyasi Namangan viloyati boshqarmasi",
+    "partner-8": "Namangan viloyati voleybol boshqarmasi",
+    "partner-9": "New future success academy",
+    "partner-10": "O'zbekiston Respublikasi Qurolli kuchlari harbiy tibbiyot akademiyasi",
+    "partner-11": "Osh davlat universiteti",
+    "partner-12": "Al-farobiy nomidagi Qozog'iston milliy universiteti",
+    "partner-13": "Turkiya Anqaradagi Yuksek ihtisas universiteti",
+    "partner-14": "Turkiya Istanbul Arel universiteti",
+    "partner-15": "Turkiya Istanbul Nişantaşı universiteti",
+    "partner-16": "Hindistondagi Neo Institute of medical sciences and technology L.T.D",
+    "partner-17": "Litvadagi Lithuanian University of Health Science",
+    "partner-18": "BAA Dubai Medical college for girls",
+    "partner-19": "Koreadagi Nextree INC. agentligi",
+    "partner-20": "Tojikiston Panjikent shahridagi pedagogika instituti",
+    "nomi": "Name"
   },
   "qadriyatlarimiz": {
     "vision": "VISION",
@@ -399,7 +414,7 @@
     "d-p-3": "A student must earn a total of 360 credits over 6 years, 60 credits each year.",
     "d-p-4": "Curriculum: social-humanitarian, medical-biological, and fundamental subjects in years 1-3; clinical subjects in years 4-6. In the 6th year, students are trained directly under the family doctor program.",
     "d-p-5": "Graduates of the General Medicine program may work as family doctors in primary health care facilities or continue their education in a specialty of their choice through master's or clinical residency programs.",
-    
+
     "stom": "Stomatology",
     "s-oquv-shakli": "credit-module system",
     "s-talim-shakli": "full-time",
@@ -410,7 +425,7 @@
     "s-p-3": "A student must earn a total of 360 credits over 6 years, 60 credits each year.",
     "s-p-4": "Curriculum: social-humanitarian, medical-biological, and fundamental subjects in years 1-3; clinical subjects in years 4-6. In the 6th year, students are trained directly under the family doctor program.",
     "s-p-5": "Graduates of the General Medicine program may work as family doctors in primary health care facilities or continue their education in a specialty of their choice through master's or clinical residency programs.",
-    
+
     "pediatriya": "Pediatrics",
     "p-oquv-shakli": "credit-module system",
     "p-talim-shakli": "full-time",
