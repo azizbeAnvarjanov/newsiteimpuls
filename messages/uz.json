@@ -459,12 +459,11 @@
     "p-25": "30 % lik grant (qish semestr uchun)",
     "p-26": "20 % lik grant (qish semestr uchun)",
     "p-27": "*Bahorgi semestr uchun grand berish tartibi talabalarga o‘qish davomida grand berish tartibida belgilab o‘tilgan, bunda institut tomonidan beriladigan grandlar talabalarning o‘zlashtirishiga ko‘ra o‘zgaruvchan hisoblanadi.",
-    "p-28": "O‘zbekiston Respublikasi Prezidentining 09.09.2019 yildagi PF-5816-sonli O‘zbekiston Respublikasida notariat tizimini tubdan isloh qilish chora-tadbirlari to‘g‘risidagi Farmoni 9-bandi 1-xatboshida yaqin qarindoshlar sifatida ota-ona, er-xotin, bolalar, aka-ukalar, opa-singillar sanab o‘tilgan shaxslarga kontrakt summasidan 10 % lik chegirma har bir shaxs uchun to‘liq o‘qish yili davomiyligi muddatiga beriladi." ,
+    "p-28": "O‘zbekiston Respublikasi Prezidentining 09.09.2019 yildagi PF-5816-sonli O‘zbekiston Respublikasida notariat tizimini tubdan isloh qilish chora-tadbirlari to‘g‘risidagi Farmoni 9-bandi 1-xatboshida yaqin qarindoshlar sifatida ota-ona, er-xotin, bolalar, aka-ukalar, opa-singillar sanab o‘tilgan shaxslarga kontrakt summasidan 10 % lik chegirma har bir shaxs uchun to‘liq o‘qish yili davomiyligi muddatiga beriladi.",
     "p-29": "2024-2025-O‘quv yilidan boshlab Nogironligi mavjud bo‘lgan shaxslar uchun quyidagi imtiyoz va chegirmalar taqdim etiladi (Suhbat asosida).",
     "p-30": "Qabul uchun to‘lov 100 % tekin, ya’ni hech qanday to‘lovlarsiz imtihonda ishtirok etadi",
     "p-31": "Yotoqxona 2 yil bepul",
     "p-32": "“Ayollar daftari”, “Temir daftar”da ro‘yxatda turgan ayol-qizlar qabul imtihoni to‘lovlaridan ozod etiladi."
-    
   },
   "library-note": {
     "title": "Kutubxona",
@@ -511,5 +510,114 @@
       }
     },
     "footer": "Impuls Tibbiyot Instituti sog‘lom turmush tarzini doimiy qo‘llab-quvvatlaydi."
+  },
+  "departments": {
+    "title": "Kafedralar",
+    "name": "Kafedra nomi",
+    "teacher": "Kafedra mudiri",
+    "details": "Batafsil",
+    "if": "IJTIMOIY-GUMANITAR VA ANIQ FANLAR KAFEDRASI",
+    "mk": "Morfologiya",
+    "pf": "Patalogiya",
+    "tkbf": "Tibbiy va Biologik kimyo, Farmakologiya",
+    "xtf": "Xorijiy tillar",
+    "xf": "Xirurgiya"
+  },
+  "social-department": {
+    "name": "IJTIMOIY-GUMANITAR VA ANIQ FANLAR KAFEDRASI",
+    "teacher": "Boymirzayev Azamat Soliyevich",
+    "teacher-img": "/social-department/1.png",
+    "teacher-info": "1958-yil 16-martda Namangan viloyati, Norin  tumanida tug‘ilgan. 1980-yilda Toshkent davlat universitetini fizika ixtisosligi bo‘yicha tamomlagan.1988 yilda Rossiya Fanlar Akademiysining Leningrad shaxridagi Yuqori molekulyar birikmalar institutida fan nomzodi dissertatsiyasini, 2017 yilda O’zbekistan Respublikasi Fanlar Akademiyasi Polimerlar kimyosi va fizikasi institutida fan doktori dissertatsiyasini himoya qilgan",
+    "kafedra-tarixi": "Kafedra tarixi",
+    "kafedra-tarixi-detail": "Ijtimoiy-gumanitar va aniq fanlar” kafedrasi 2024 yilda tashkil etilgan. Kafedrada ayni paytda 12 ta professor - o’qituvchilar faoliyat yuiritib kelmoqdalar. Kafedrada quyidagi fanlardan o’quv mashg’ulotlari olib boriladi: Tibbiy va biologik fizika, Tibby psixologiya, O’zbekistanning eng yangi tarixi, Dinshunoslik, Falsafa va Tibbiyotda axborot texnologiyalari. Kafedra a’zolari 1 va 2- bosqich talabalari uchun yuqorida ko’rsatilgan fanlar bo’yicha darsliklar, o’quv va o’quv-uslubiy qo’llanmalar yaratishda xamda xalqaro anjumanlar va simpoziumlarda faol ishtirok etishmoqda. Hozirgi kunda kafedra a’zolari tomonidan 40 dan ortiq tezis, 50 dan ziyod ilmiy maqolalar nashr etilgan.",
+    "kafedra-tarkibi": "Kafedra tarkibi",
+    "kafedra-tarkibi-detail": "1. Boymirzayev Azamat Soliyevich, kimyo fanlari doktori, professor – email: azamat58@mail.ru\n2. Melanova Nazira Rashidovna, biologiya fanlari bo‘yicha falsafa doktori (PhD) – email: melaniva@mail.ru\n3. Topildiyev Nasirjon Rahimjanovich, tarix fanlari nomzodi\n4. Usmanova Saodat Umarovna, pedagogika fanlari nomzodi, dotsent – email: usmanovasaodat67@gmail.com\n5. Quchkarov Behzod Hoshimjonovich, fizika-matematika fanlari bo‘yicha falsafa doktori (PhD)\n6. Azimova Xamrohon Mirzaxakimovna, tibbiyot fanlari nomzodi\n7. Qozakov Tohirjon Qodiraliyevich, tarix fanlari nomzodi\n8. O’rinboyev Xoshimjon Bunatvoy o’g’li, siyosatshunoslik fanlari nomzodi\n9. To’rayeva Sharifa Egamberdiyevna, o‘qituvchi\n10. Mamasodiqova Nodira Olimovna, o‘qituvchi\n11. Abduraxmonov Zuxriddin Xoldorali o’g’li, o‘qituvchi – email: abdurahmonovzuhriddin9495@gmail.com\n12. Kaxxorov Raximjon Samijonovich, o‘qituvchi",
+    "kafedra-professor-oqituvchilar": "Kafedra professor-o‘qituvchilar quyidagi yo‘nalishlarda:",
+    "kafedra-professor-oqituvchilar-detail": "02.00.06 -   Yuqori molekulyar birikmalar ixtisosligi\n03.00.02  -  Biofizika va radiobiologiya ixtisosligi\n07.00.01.-   O’zbekiston tarixi ixtisosligi bo‘yicha ilmiy faoliyat olib boradilar.",
+    "kafedra-professor-oqituvchilar-detail-2": "2024-2025 o’quv yilida kafedra dotsenti X.O’rinboyev va Z.Abduraxmonovlarning “Falsafa” va “Estetik tarbiyaning turlari va yo’nalishlari” nomli o’quv-uslubiy qo’llanmalari, N.Topildiyevning “Dinshunoslik” darsligi nashrga topshirildi, dotsent S. Usmanova Oliy ta'lim, fan va innovatsiyalar vazirining “Ko‘p yillik samarali  mehnati hamda o‘z xizmat  vazifasiga bo‘lgan sadoqati uchun” faxriy yorlig'i bilan taqdirlandi. 2024 yil 23 dekabr` kuni  Turkiyaning Istambul shahrida o'tkazilgan Yil ayoli-2024  tanlovining g'olibi sifatida  hamda Oliy ta'lim,fan va innovatsiyalar  vazirligi tomonidan faxriy yorliq  taqdirlandi.\nKafedra xodimlari tomonidan barcha bosqichlar uchun namunaviy va ishchi dasturlar, sillabuslar ishlab chiqilgan, qator o‘quv qo‘llanmalar, elektron darsliklar, o‘quv-uslubiy qo‘llanmalar yaratilgan va chop etilgan xamda ko‘plab ma’naviy-ma’rifiy va tashkiliy-tarbiyaviy ishlar olib borilmoqda.   ",
+    "foto-galereya": [
+      "/social-department/2.png",
+      "/social-department/3.png",
+      "/social-department/4.png"
+    ]
+  },
+  "morphology": {
+    "name": "MORFOLOGIYA KAFEDRASI",
+    "teacher": "Mirzakarimov Boburmirzo",
+    "teacher-img": "/morphology/1.jpg",
+    "teacher-info": "1991-yil 24-oktabrda Namangan viloyati, Uychi tumanida tug‘ilgan. 2010-yilda Namangan viloyati, Uychi tumanidagi 26-sonli umumta’lim maktabini tugatgan. 2017-yil Toshkent Tibbiyot Akademiyasi Davolash fakultetini tamomlagan. 2022-yilda Andijon Davlat Tibbiyot Institutining Morfologiya yo’nalishini tugallab,  magistr darajasini olgan. ",
+    "kafedra-tarixi": "Kafedra tarixi",
+    "kafedra-tarixi-detail": "Kafedra institut tarkibida 2024-2025-o’quv yili boshida tashkil etilgan bo‘lib, oldingi “Tibbiyot” kafedrasi tarkibidan ajralib chiqqan va “Morfologiya” kafedrasi deb nomlangan.  ",
+    "kafedra-tarkibi": "Kafedra tarkibi",
+    "kafedra-tarkibi-detail": "1. Asqarova Nargiza Davlatmirzayevna, Lotin tili va tibbiy terminologiya\n2. G'affarova Ra'no, Lotin tili va tibbiy terminologiya\n3. Kamoliddinova Sadoqat, Lotin tili va tibbiy terminologiya\n4. Rahimov Xolmirza  Muqumovich, Tibbiy biologiya\n5. Qosimova Zuxra, Tibbiy biologiya\n6. Rahmonberdiyeva E’zoza, tibbiy biologiya\n7. Erkinov Islomjon, Tibbiy biologiya\n8. Asqarova Namuna  Alisher qizi, Gistologiya, sitologiya va embriologiya\n9. Jo'razoda Faxriddin Muxaydin o’g’li, Gistologiya, sitologiya va embriologiya\n10. Sharipov Alyor Axrorovich, Gistologiya, sitologiya va embriologiya\n11. Shertoyeva Rislig'oy Sirojiddin qizi, Gistologiya, sitologiya va embriologiya\n12. Xayitboyev Azamat  Madaminovich, Gistologiya, sitologiya va embriologiya\n13. Adhamjon Nematullayev, Anatomiya va klinik anatomiya\n14. G'ofurov Sardorbek, Anatomiya va klinik anatomiya\n15. Haydarov Rahimboy Rajabboy o’g’li, Anatomiya va klinik anatomiya\n16. Jamalov Jaxongir Baxrom o’g’li, Anatomiya va klinik anatomiya\n17. Karimov Muhammadali Abduholiqovich, Anatomiya va klinik anatomiya\n18. Mirzakarimov Boburmirzo Nurmuhammat o’g’li, Anatomiya va klinik anatomiya\n19. Mo'minov Odiljon, Anatomiya va klinik anatomiya\n20. Ziyovuddinov Bexzod  Bohodirjon o’g’li, Anatomiya va klinik anatomiya\n21. Hoshimjanov Abdulloh, Anatomiya va klinik anatomiya\n22. Mahammadumarov Kamoliddin Ahmadbek O’g’li, Anatomiya va klinik anatomiya\n23. Qurbonov Boburjon, Anatomiya va klinik anatomiya",
+    "kafedra-professor-oqituvchilar": "Kafedrada olib borilayotgan ishlar:",
+    "kafedra-professor-oqituvchilar-detail": "USMLE tizimi bo‘yicha o‘quv va ilmiy faoliyat olib borilmoqda.\nKafedra xodimlari tomonidan barcha bosqichlar uchun namunaviy va ishchi dasturlar, sillabuslar ishlab chiqilgan, qator o‘quv qo‘llanmalar, elektron darsliklar, o‘quv-uslubiy qo‘llanmalar tuzilgan va chop etilgan.\nKafedra professor-o‘qituvchilari tomonidan ko‘plab ma’naviy-ma’rifiy va tashkiliy-tarbiyaviy ishlar olib borilmoqda.   ",
+    "kafedra-professor-oqituvchilar-detail-2": "",
+    "foto-galereya": [
+      "/morphology/2.png",
+      "/morphology/3.png",
+      "/morphology/4.png"
+    ]
+  },
+  "pathology": {
+    "name": "PATOLOGIYA VA MIKROBIOLOGIYA KAFEDRASI",
+    "teacher": "Isabayev Abdulaziz Qodir ugli",
+    "teacher-img": "/pathology/1.png",
+    "teacher-info": "1992-yil 7-iyunda Namangan viloyati, Namangan shaxarda tug‘ilgan. 2008-yilda Namangan viloyati, Namangan shaxardagi 26-sonli davlat ixtisoslashgan umumta’lim maktabini a’lo baholarga tugatgan. 2017-yil Toshkent Tibbiyot Akademiyasining Davolash fakultetini tamomlagan. 2020-yilda Respublika Kardiologiya Ilmiy Amaliy Tibbiyot Markazining Kardiologiya ixtisosligi bo‘yicha ordinatura darajasini olgan. ",
+    "kafedra-tarixi": "Kafedra tarixi",
+    "kafedra-tarixi-detail": "Kafedra institut tarkibida 2024 yilda tashkil etilgan bo‘lib, “Patologiya va Mikrobiologiya” deb nomlangan. Bugungi kunda kafedraga Isabayev A.K. rahbarlik qilib kelmoqda.",
+    "kafedra-tarkibi": "Kafedra tarkibi",
+    "kafedra-tarkibi-detail": "1. Isabayev Abdulaziz Qodir ugli, o’qituvchi – email: abaji2192@gmail.com\n2. Mamajanov Muhtorjon, pedagogika fanlari bo‘yicha falsafa doktori (PhD) – email: muxtorjon1374@mail.ru\n3. Qodirhanova Muhayyo, o’qituvchi – email: elmurodotakhonov@gmail.com\n4. Otaxonov Elmurod, o’qituvchi – email: boykhanovshuhratjon@gmail.com\n5. Olimov Dilshodbek, o’qituvchi – email: dilshodolimov4545@gmail.com\n6. Karimov Bakhodir, o‘qituvchi – email: bakhodirjonkarimov@gmail.com\n7. Xolmirzayev Saidkamol, o‘qituvchi – email: saidkamolkholmirzaev1@gmail.com\n8. To’xtamirzayev Muhtorjon, o‘qituvchi – email: mukhtorjon1997@gmail.com\n9. Abdulhamidov Abduvali, o‘qituvchi – email: abdulkhamidovabduvali@gmail.com\n10. Axmadjanov Davlatbek, o‘qituvchi – email: ahmadjonovbek93@gmail.com\n11. Axmadjanova Odina, o‘qituvchi – email: axmadjonovaodinaxon97@gmail.com\n12. Azizxanova Robiya, o‘qituvchi – email: azizxanovar@gmail.com\n13. Alimqulova Mohinur, o‘qituvchi – email: moxinuralimqulova@gmail.com\n14. Abdurashidov Abdurauf, o‘qituvchi – email: graufbek7707@gmail.com\n15. Komilov Bahromjon, o‘qituvchi – email: Bahrom.adti6366@gmail.com\n16. G’ulomov Muhammadbobur, o‘qituvchi – email: boburjongulomov991@gmail.com\n17. Marufjanov Sohibjon, oqituvchi – email: soxibjonmarufjanov@gmail.com, \n18. Vahobov Sarvarbek, o‘qituvchi – email: vaxobovsarvar@gmail.com.\n19. To’xtanazarov Do’stmuhammad, o‘qituvchi – email: tuxtanazarovdostmuhammad@gmail.com, \n20. Murodillaabduqahhorov@gmail.com, o‘qituvchi – email: Murodillaabduqahhorov@gmail.com",
+    "kafedra-professor-oqituvchilar": "Kafedra professor-o‘qituvchilari quyidagi yo‘nalishlarda:",
+    "kafedra-professor-oqituvchilar-detail": "13.00.02 – Ta’lim va tarbiya nazariyasi va metodikasi (pedagogika fanlari) ixtisosligi\n10.00.04 – Yevropa, Amerika va Avstraliya xalqlari tili va adabiyoti ixtisosligi \ntalabalarning o‘zbek va ingliz tillaridan bilim va ko‘nikmalarini shakllantirib, og‘zaki va yozma nutq malakalarini rivojlantirish, qolaversa USMLE tizimi bo‘yicha o‘quv va ilmiy faoliyat olib boradilar.",
+    "kafedra-professor-oqituvchilar-detail-2": "Kafedra xodimlari tomonidan barcha bosqichlar uchun namunaviy va ishchi dasturlar, sillabuslar ishlab chiqilgan, qator o‘quv qo‘llanmalar, elektron darsliklar, o‘quv-uslubiy qo‘llanmalar tuzilgan va chop etilgan.\nKafedra professor-o‘qituvchilari tomonidan ko‘plab ma’naviy-ma’rifiy va tashkiliy-tarbiyaviy ishlar olib borilmoqda.",
+    "foto-galereya": ["/pathology/2.png", "/pathology/3.png"]
+  },
+  "medical-and-biological-chemistry-pharmacology": {
+    "name": "Tibbiy va Biologik kimyo, Farmakologiya kafedrasi",
+    "teacher": "To’xtamatova Shahzoda Sodiqjon qizi",
+    "teacher-img": "/medical-and-biological-chemistry-pharmacology/1.png",
+    "teacher-info": "1993-yil 20- iyunda Namangan viloyati, Pop tumanida tug‘ilgan. 2009-yilda Namangan viloyati, Pop tumanidagi Aniq va tabiiy fanlarga ixtisoslashtirilgan 11-sonli maktab internatini a’lo baholarga tugatgan. 2017-yil Farg’ona davlat universitetining Tabiiy fanlar fakulteti “Kimyo” ixtisosligi bo‘yicha tamomlagan. 2021-yilda Mirzo Ulug’bek nomidagi O’zbekiston Milliy Universitetining “Organik va Bioorganik kimyo” ixtisosligi bo‘yicha magistr darajasini olgan. Impuls tibbiyot instituti mustaqil tadqiqotchisi. ",
+    "kafedra-tarixi": "Kafedra tarixi",
+    "kafedra-tarixi-detail": "Kafedra institut tarkibida 2023 yilda tashkil etilgan bo‘lib, “Tibbiyot” kafedrasi deb yuritilgan. Ushbu kafedra asosida 2024 yil 2 sentabrdan “Tibbiy va Biologik kimyo, Farmakologiya” kafedrasi alohida ajralib chiqgan. Dastlab, kafedraga kimyo fanlari bo’yicha PhD X.Qirg’izboyev rahbarlik qilgan. Bugungi kunda  02.00.10 Bioorganik kimyo bo’yicha Impuls tibbiyot instituti mustaqil tadqiqotchisi Sh. To’xtamatova rahbarlik qilib kelmoqda. ",
+    "kafedra-tarkibi": "Kafedra tarkibi",
+    "kafedra-tarkibi-detail": "1. To'xtamatova Shaxzoda Sodiqjon qizi, o'qituvchi – email: toxtamatovashahzoda@gmail.com\n2. Normatov G'ayrat Alijonovich, k.f.n., dotsent, normatov_gayrat@mail.ru\n3. Jo'rayev Aziz Turob o'g'li , pedagogika fanlari bo'yicha falsafa doktori (PhD), dotsent – email: azizjurayev.199422@gmail.com\n4. Ergasheva Xurshida Nurmuhammad qizi, o'qituvchi – email: xurshidaergasheva2904@gmail.com\n5. Sharipov Nodirbek Qodirali o'g'li, o'qituvchi – email: : nodirbeksharipov1998@gmail.com\n6. Yo'ldoshaliyev Azamat Zokirjon o'g'li, o'qituvchi – email: sciartyuldoshaliev@outlook.com\n7. Mahmudov Muhammadkarim Sodiqjon o’g’li, o‘qituvchi – email: Karimmedic92@gmail.com\n8. Hamidov Shaxzodjon Shavkatjon o’g’li, o‘qituvchi – email: shahzod0733@gmail.com\n9. Mullaboyev Firdavs Alisher o’g’li, o‘qituvchi – email: mullaboyevfirdavs1997@gmail.com\n10. Sattimov Sohibjon Bahodir o’g’li, o‘qituvchi – email: sohibjonsottimov@gmail.com\n11. Muhammadsoliyev MuhammadAli Muhammadjon o’gli, o‘qituvchi – email: alixonmuhammadsoliyev@gmail.com\n12. Xursanov Axror Azizbek o’g’li, o‘qituvchi – email: germaniyaahror@gmail.com\n13. Aminjonov Akmaljon Odiljon o’g’li, o‘qituvchi – email: akmalaminjonov4@gmail.com",
+    "kafedra-professor-oqituvchilar": "Kafedra professor-o‘qituvchilari quyidagi yo‘nalishlarda:",
+    "kafedra-professor-oqituvchilar-detail": "02.00.14 –Органик моддалар ва улар асосидаги материаллар технологияси ixtisosligi\n13.00.02 – Ta’lim va tarbiya nazariyasi va metodikasi (Kimyo) ixtisosligi \ntalabalarga shifokor bo’lib yetishishi uchun zarur hisoblangan fundamental fanlar, xususan, Tibbiy kimyo, Biokimyo, Farmakologiya fanlaridan bilim berib, ularni kelajakda sharafli kasb sohibi bo’lib yetishishlari uchun hissa qo’shmoqdalar. Qolaversa USMLE tizimi bo‘yicha o‘quv va ilmiy faoliyat olib boradilar.",
+    "kafedra-professor-oqituvchilar-detail-2": "Kafedra xodimlari tomonidan barcha bosqichlar uchun namunaviy va ishchi dasturlar, sillabuslar ishlab chiqilgan, qator o‘quv qo‘llanmalar, elektron darsliklar, o‘quv-uslubiy qo‘llanmalar tuzilgan va chop etilgan.\nKafedra professor-o‘qituvchilari tomonidan ko‘plab ma’naviy-ma’rifiy va tashkiliy-tarbiyaviy ishlar olib borilmoqda.   ",
+    "foto-galereya": [
+      "/medical-and-biological-chemistry-pharmacology/2.png",
+      "/medical-and-biological-chemistry-pharmacology/3.png",
+      "/medical-and-biological-chemistry-pharmacology/4.png"
+    ]
+  },
+  "foreign-languages": {
+    "name": "XORIJIY TILLAR KAFEDRASI",
+    "teacher": "Ergasheva Xilola Yunusxanovna",
+    "teacher-img": "/foreign-languages/1.jpg",
+    "teacher-info": "1986-yil 26-yanvarda Namangan viloyati, Chortoq tumanida tug‘ilgan. 2003-yilda Namangan viloyati, Chortoq tumanidagi 53-sonli davlat ixtisoslashgan umumta’lim maktabini a’lo baholarga tugatgan. 2007-yil Namangan davlat universitetining Filologiya fakulteti “Ingliz tili” ixtisosligi bo‘yicha tamomlagan. 2009-yilda Namangan davlat universitetining Lingvistika (ingliz tili) ixtisosligi bo‘yicha magistr darajasini olgan. Pedagogika fanlari bo‘yicha falsafa doktori (PhD).",
+    "kafedra-tarixi": "Kafedra tarixi",
+    "kafedra-tarixi-detail": "Kafedra institut tarkibida 2023 yilda tashkil etilgan bo‘lib, “Ijtimoiy-gumanitar fanlar kafedrasi” deb nomlangan.  Kafedraga avval prof. Nematilla Otajonov rahbarlik qilgan. Bugungi kunda kafedraga pedagogika fanlari bo‘yicha falsafa doktori X.Yu.Ergasheva rahbarlik qilib kelmoqda. 2024 yil 2 sentabrdan kafedra “Xorijiy tillar” kafedrasi deb nomlandi",
+    "kafedra-tarkibi": "Kafedra tarkibi",
+    "kafedra-tarkibi-detail": "1. Ergasheva Xilola Yunusxanovna, pedagogika fanlari bo‘yicha falsafa doktori (PhD) – email: ergasevahilola81@gmail.com.\n2. Tuychiyev Adxamjon Tuxtaboyevich, pedagogika fanlari bo‘yicha falsafa doktori (PhD) – email: adham.tuychiev@gmail.com,\n3. Nurdinova Fotima Xolmirzayevna, filologiya fanlari bo‘yicha falsafa doktori (PhD) – email: nurdinovafotima69@gmail.com\n4. Boyxanov Shuxratjon Mashrapovich, pedagogika fanlari bo‘yicha falsafa doktori (PhD) – email: boykhanovshuhratjon@gmail.com, \n5. Ibragimov Jasur To‘lqinjon og‘li, filologiya fanlari bo‘yicha falsafa doktori (PhD) – email: ibragimov.jasurbek2022@gmail.com, \n6. Xamdamov Oybek Abdulxayevich, o‘qituvchi – email: oybek_a_x@mail.ru, \n7. Abdullayeva Barno Umidullo qizi, o‘qituvchi – email: abdullayevabarno789@gmail.com, \n8. Mirsadullayev Miravaz Mirmuslim o‘g‘li, o‘qituvchi – email: dodamaestro@gmail.com, \n9. G‘ofurjonov Doniyorbek G’ofurjon o‘g‘li, o‘qituvchi – email: doniyorbekgofurjanov@gmail.com,\n10. Ibragimov Shexrozbek To‘lqinjon og‘li, o‘qituvchi – email: ibragimovshexrozbek@gmail.com, \n11. Erkinov Ma’murjon Muxriddin og‘li, o‘qituvchi – email: erkinovmamurjon563@gmail.com,\n12. Tojimirzayeva Mahliyo Botirjon qizi, o‘qituvchi – email: mahliyo0209@gmail.com, \n13. Isakova Maftuna Baxriddin qizi, o‘qituvchi – email: maryamisakova@gmail.com. \n14. Raximjonova Guzalbonu Dilshodbek qizi, o‘qituvchi – email: guzel9798@icloud.com, \n15. Jamalova Dilafruz Komiljon qizi, o‘qituvchi – email: dilafruzjamalova44@gmail.com, ",
+    "kafedra-professor-oqituvchilar": "Kafedra professor-o‘qituvchilari quyidagi yo‘nalishlarda:",
+    "kafedra-professor-oqituvchilar-detail": "13.00.02 – Ta’lim va tarbiya nazariyasi va metodikasi (pedagogika fanlari) ixtisosligi\n10.00.04 – Yevropa, Amerika va Avstraliya xalqlari tili va adabiyoti ixtisosligi \n10.00.06 – Qiyosiy adabiyotshunoslik, chog‘ishtirma tilshunoslik va tarjimashunoslik ixtisosligi \ntalabalarning o‘zbek va ingliz tillaridan bilim va ko‘nikmalarini shakllantirib, og‘zaki va yozma nutq malakalarini rivojlantirish, qolaversa USMLE tizimi bo‘yicha o‘quv va ilmiy faoliyat olib boradilar.",
+    "kafedra-professor-oqituvchilar-detail-2": "Kafedra xodimlari tomonidan barcha bosqichlar uchun namunaviy va ishchi dasturlar, sillabuslar ishlab chiqilgan, qator o‘quv qo‘llanmalar, elektron darsliklar, o‘quv-uslubiy qo‘llanmalar tuzilgan va chop etilgan. Kafedra professor-o‘qituvchilari tomonidan ko‘plab ma’naviy-ma’rifiy va tashkiliy-tarbiyaviy ishlar olib borilmoqda.",
+    "foto-galereya": ["/foreign-languages/2.png", "/foreign-languages/3.png", "/foreign-languages/4.png"]
+  },
+  "surgery": {
+    "name": "UMUMIY XIRURGIYA KAFEDRASI",
+    "teacher": "Vakkosov Mukhammad Xabibovich",
+    "teacher-img": "/surgery/1.jpg",
+    "teacher-info": "1961-yil 02-dekabrda Namangan viloyati, Chust shahrida tug‘ilgan. 1978-yilda Namangan viloyati, Chust tumanidagi 8-sonli M.Sh. So’fizoda nomli umum ta’lim maktabini a’lo baholarga tugatgan. 1985-yil Andijon davlat tibbiyot institutining davolash ishi ixtisosligi bo‘yicha tamomlagan. 1995 yilda “tibbiyot fanlari nomzodi”, 2003 yilda “tibbiyot fanlari doktori” “Xirurgiya” fanlari bo‘yicha dissertatsiyalarini himoya etgan.",
+    "kafedra-tarixi": "Kafedra tarixi",
+    "kafedra-tarixi-detail": "Kafedra institut tarkibida 2024 yilda tashkil etilgan bo‘lib, “Tibbiyot fanlari kafedrasi” deb nomlangan. Kafedraga akademik Y.X. To’rqulov nomidagi Respublika ixtisoslashtirilgan Endokrinologiya ilmiy-amaliy tibbiyot markazi Namangan filialining “umumiy va endokrinologiya xirurgiyasi” bo’limi ilmiy raxbari, tibbiyot fanlari doktori, oliy toifali jarrox Mukhammad Xabibovich Vakkosov rahbarlik qilib kelmoqda.  ",
+    "kafedra-tarkibi": "Kafedra tarkibi",
+    "kafedra-tarkibi-detail": "1.Vakkosov Mukhammad Xabibovich, tibbiyot fanlari doktori – email: vakkasov@mail.ru\n2.Bekmirzayev Raximjon Melikuziyevich-  PhD, Tibbiyot fanlari nomzodi  \n3.Mirsaydullayev Mirzoulugbek Mirmaxmudovich, Tibbiyot fanlari bo`yicha falsafa doktori, kardiolog, Exokardiografiya mutahassisi. e-mail: doctormirsaydullaev@gmail.com.\n4.Sharafiddinov Shavkat Mamadxodjayevich- PhD, Tibbiyot fanlari nomzodi    \n5.Tajibayeva Laylo Rustamovna-  PhD, Tibbiyot fanlari nomzodi  \n6.Karimova Dilfuza Israilovna PhD, Tibbiyot fanlari nomzodi e-mail karimovaD@gmail \n7.Alixanov Nizamidin Xamidovich- PhD, Tibbiyot fanlari \n8.Nurmatov Yodgormirza Xatammirzayevich PhD, Tibbiyot fanlari nomzodi\n9.Isxoqov Barkamol Robiddinovich- PhD, Tibbiyot fanlari nomzodi\n10.Nurmatova Tojinisa Sobirjanovna - PhD, Tibbiyot fanlari nomzodi \n11.Muxitdinov Raxmatullo Ubaydullayevich PhD, Tibbiyot fanlari nomzodi \n12.Abdullayeva Lola Fayzullayevna  PhD, Tibbiyot fanlari nomzodi \n13. Tojiboyev Akmalxon Abduraxmanovich  PhD, Tibbiyot fanlari nomzodi\n14.Artikbayev Murodjon Arapbayevich \n15.Ergashev Otabek Faxriddin oʻgʻli  \n16.Ulkanbayev Behzodjon Xasanboy oʻgʻli \n17.Axmedov Soxibjon Akram oʻgʻli \n18.Abdullayev Nodirbek Uroyimjonovich email: nodirbekcardio@gmail.com  \n19.Zoxidov Rivojiddin Kamolitdin o‘g‘li  email: zohidov19-92@mail.ru \n20.Urunov Davronbek Davlatali oʻgʻli \n21.Inomov Kodirxon Saidmamatovich \n22.Azimov Muhammadismoil Karimjon oʻgʻli  \n23.Mamadjonov Akmaljon Isomiddinovich.  ",
+    "kafedra-professor-oqituvchilar": "Kafedra professor-o‘qituvchilari quyidagi yo‘nalishlarda:",
+    "kafedra-professor-oqituvchilar-detail": "Kafedra professor-o‘qituvchilari tomonidan ko‘plab ma’naviy-ma’rifiy va tashkiliy-tarbiyaviy ishlar hamda ilmiy izlanishlar, maktab seminarlar, conferentsiya va forumlar tashkil etilmoqda.",
+    "kafedra-professor-oqituvchilar-detail-2": "",
+    "foto-galereya": ["/surgery/2.jpg", "/surgery/3.jpg", "/surgery/4.jpg"]
   }
 }
+

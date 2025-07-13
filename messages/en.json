@@ -520,5 +520,117 @@
       }
     },
     "footer": "Impuls Medical Institute actively supports a healthy student lifestyle."
+  },
+  "departments": {
+    "title": "Departments",
+    "name": "Department Name",
+    "teacher": "Head of Department",
+    "details": "Details",
+    "if": "Social Department",
+    "mk": "Morphology",
+    "pf": "Pathology",
+    "tkbf": "Medical and Biological Chemistry, Pharmacology",
+    "xtf": "Foreign Languages",
+    "xf": "Surgery"
+  },
+  "social-department": {
+    "name": "DEPARTMENT OF SOCIAL-HUMANITIES AND EXACT SCIENCES",
+    "teacher": "Boymirzayev Azamat Soliyevich",
+    "teacher-img": "/social-department/1.png",
+    "teacher-info": "Born on March 16, 1958 in Norin district, Namangan region. Graduated from Tashkent State University in 1980 with a degree in physics. In 1988, defended his Candidate of Sciences dissertation at the Institute of Macromolecular Compounds of the Russian Academy of Sciences in Leningrad. In 2017, he defended his Doctor of Sciences dissertation at the Institute of Chemistry and Physics of Polymers of the Academy of Sciences of Uzbekistan.",
+    "kafedra-tarixi": "Department History",
+    "kafedra-tarixi-detail": "The Department of Social-Humanities and Exact Sciences was established in 2024. Currently, 12 professors and teachers are actively working in the department. The department conducts lessons in the following subjects: Medical and Biological Physics, Medical Psychology, Modern History of Uzbekistan, Religious Studies, Philosophy, and Information Technologies in Medicine. The department staff actively participate in developing textbooks, educational and methodological manuals, as well as international conferences and symposiums. To date, they have published over 40 theses and more than 50 scientific articles.",
+    "kafedra-tarkibi": "Department Staff",
+    "kafedra-tarkibi-detail": "1. Boymirzayev Azamat Soliyevich, Doctor of Chemical Sciences, Professor – email: azamat58@mail.ru\n2. Melanova Nazira Rashidovna, PhD in Biological Sciences – email: melaniva@mail.ru\n3. Topildiyev Nasirjon Rahimjanovich, Candidate of Historical Sciences\n4. Usmanova Saodat Umarovna, Candidate of Pedagogical Sciences, Associate Professor – email: usmanovasaodat67@gmail.com\n5. Quchkarov Behzod Hoshimjonovich, PhD in Physical and Mathematical Sciences\n6. Azimova Xamrohon Mirzaxakimovna, Candidate of Medical Sciences\n7. Qozakov Tohirjon Qodiraliyevich, Candidate of Historical Sciences\n8. O‘rinboyev Xoshimjon Bunatvoy o‘g‘li, Candidate of Political Sciences\n9. To‘rayeva Sharifa Egamberdiyevna, Teacher\n10. Mamasodiqova Nodira Olimovna, Teacher\n11. Abduraxmonov Zuxriddin Xoldorali o‘g‘li, Teacher – email: abdurahmonovzuhriddin9495@gmail.com\n12. Kaxxorov Raximjon Samijonovich, Teacher",
+    "kafedra-professor-oqituvchilar": "Department professors and teachers work in the following areas:",
+    "kafedra-professor-oqituvchilar-detail": "02.00.06 - Specialty in High Molecular Compounds\n03.00.02 - Specialty in Biophysics and Radiobiology\n07.00.01 - Specialty in the History of Uzbekistan.",
+    "kafedra-professor-oqituvchilar-detail-2": "In the 2024–2025 academic year, department associate professors H. O‘rinboyev and Z. Abduraxmonov published methodological guides titled “Philosophy” and “Types and Directions of Aesthetic Education”, while N. Topildiyev submitted the “Religious Studies” textbook for publication. Associate professor S. Usmanova was awarded the honorary certificate by the Minister of Higher Education, Science and Innovation for her many years of dedicated service. On December 23, 2024, she was named the winner of the “Woman of the Year – 2024” competition held in Istanbul, Turkey, and received an honorary certificate from the Ministry of Higher Education, Science and Innovation.\nDepartment staff have developed model and working curricula, syllabi, educational manuals, electronic textbooks, methodological materials, and are actively involved in spiritual, educational, and organizational work.",
+    "foto-galereya": [
+      "/social-department/2.png",
+      "/social-department/3.png",
+      "/social-department/4.png"
+    ]
+  },
+  "morphology": {
+    "name": "DEPARTMENT OF MORPHOLOGY",
+    "teacher": "Mirzakarimov Boburmirzo",
+    "teacher-img": "/morphology/1.jpg",
+    "teacher-info": "Born on October 24, 1991 in Uychi district, Namangan region. In 2010, graduated from School No. 26 in Uychi district. In 2017, completed the Faculty of Medicine at the Tashkent Medical Academy. In 2022, received a master's degree in Morphology from Andijan State Medical Institute.",
+    "kafedra-tarixi": "Department History",
+    "kafedra-tarixi-detail": "The department was established at the beginning of the 2024–2025 academic year as part of the institute, separated from the former 'Medicine' department and named the 'Morphology' department.",
+    "kafedra-tarkibi": "Department Staff",
+    "kafedra-tarkibi-detail": "1. Asqarova Nargiza Davlatmirzayevna, Latin Language and Medical Terminology\n2. G'affarova Ra'no, Latin Language and Medical Terminology\n3. Kamoliddinova Sadoqat, Latin Language and Medical Terminology\n4. Rahimov Xolmirza Muqumovich, Medical Biology\n5. Qosimova Zuxra, Medical Biology\n6. Rahmonberdiyeva E’zoza, Medical Biology\n7. Erkinov Islomjon, Medical Biology\n8. Asqarova Namuna Alisher qizi, Histology, Cytology and Embryology\n9. Jo'razoda Faxriddin Muxaydin o’g’li, Histology, Cytology and Embryology\n10. Sharipov Alyor Axrorovich, Histology, Cytology and Embryology\n11. Shertoyeva Rislig'oy Sirojiddin qizi, Histology, Cytology and Embryology\n12. Xayitboyev Azamat Madaminovich, Histology, Cytology and Embryology\n13. Adhamjon Nematullayev, Anatomy and Clinical Anatomy\n14. G'ofurov Sardorbek, Anatomy and Clinical Anatomy\n15. Haydarov Rahimboy Rajabboy o’g’li, Anatomy and Clinical Anatomy\n16. Jamalov Jaxongir Baxrom o’g’li, Anatomy and Clinical Anatomy\n17. Karimov Muhammadali Abduholiqovich, Anatomy and Clinical Anatomy\n18. Mirzakarimov Boburmirzo Nurmuhammat o’g’li, Anatomy and Clinical Anatomy\n19. Mo'minov Odiljon, Anatomy and Clinical Anatomy\n20. Ziyovuddinov Bexzod Bohodirjon o’g’li, Anatomy and Clinical Anatomy\n21. Hoshimjanov Abdulloh, Anatomy and Clinical Anatomy\n22. Mahammadumarov Kamoliddin Ahmadbek O’g’li, Anatomy and Clinical Anatomy\n23. Qurbonov Boburjon, Anatomy and Clinical Anatomy",
+    "kafedra-professor-oqituvchilar": "Department Activities:",
+    "kafedra-professor-oqituvchilar-detail": "Educational and scientific activities are carried out based on the USMLE system.\nThe department staff have developed standard and working programs, syllabi, and have authored and published educational materials, electronic textbooks, and methodological guides.\nProfessors and teachers of the department are actively involved in spiritual, educational, and organizational activities.",
+    "kafedra-professor-oqituvchilar-detail-2": "",
+    "foto-galereya": [
+      "/morphology/2.png",
+      "/morphology/3.png",
+      "/morphology/4.png"
+    ]
+  },
+  "pathology": {
+    "name": "DEPARTMENT OF PATHOLOGY AND MICROBIOLOGY",
+    "teacher": "Isabayev Abdulaziz Qodir ogli",
+    "teacher-img": "/pathology/1.png",
+    "teacher-info": "Born on June 7, 1992, in Namangan city, Namangan region. In 2008, he graduated with honors from State Specialized School No. 26 in Namangan. In 2017, he completed the Faculty of Medicine at the Tashkent Medical Academy. In 2020, he earned a residency degree in Cardiology from the Republican Scientific-Practical Medical Center of Cardiology.",
+    "kafedra-tarixi": "Department History",
+    "kafedra-tarixi-detail": "The department was established in 2024 within the institute and named 'Pathology and Microbiology'. Currently, the department is headed by A.K. Isabayev.",
+    "kafedra-tarkibi": "Department Staff",
+    "kafedra-tarkibi-detail": "1. Isabayev Abdulaziz Qodir ogli, Lecturer – email: abaji2192@gmail.com\n2. Mamajanov Muhtorjon, PhD in Pedagogical Sciences – email: muxtorjon1374@mail.ru\n3. Qodirhanova Muhayyo, Lecturer – email: elmurodotakhonov@gmail.com\n4. Otaxonov Elmurod, Lecturer – email: boykhanovshuhratjon@gmail.com\n5. Olimov Dilshodbek, Lecturer – email: dilshodolimov4545@gmail.com\n6. Karimov Bakhodir, Lecturer – email: bakhodirjonkarimov@gmail.com\n7. Xolmirzayev Saidkamol, Lecturer – email: saidkamolkholmirzaev1@gmail.com\n8. To’xtamirzayev Muhtorjon, Lecturer – email: mukhtorjon1997@gmail.com\n9. Abdulhamidov Abduvali, Lecturer – email: abdulkhamidovabduvali@gmail.com\n10. Axmadjanov Davlatbek, Lecturer – email: ahmadjonovbek93@gmail.com\n11. Axmadjanova Odina, Lecturer – email: axmadjonovaodinaxon97@gmail.com\n12. Azizxanova Robiya, Lecturer – email: azizxanovar@gmail.com\n13. Alimqulova Mohinur, Lecturer – email: moxinuralimqulova@gmail.com\n14. Abdurashidov Abdurauf, Lecturer – email: graufbek7707@gmail.com\n15. Komilov Bahromjon, Lecturer – email: Bahrom.adti6366@gmail.com\n16. G’ulomov Muhammadbobur, Lecturer – email: boburjongulomov991@gmail.com\n17. Marufjanov Sohibjon, Lecturer – email: soxibjonmarufjanov@gmail.com\n18. Vahobov Sarvarbek, Lecturer – email: vaxobovsarvar@gmail.com\n19. To’xtanazarov Do’stmuhammad, Lecturer – email: tuxtanazarovdostmuhammad@gmail.com\n20. Murodilla Abduqahhorov, Lecturer – email: Murodillaabduqahhorov@gmail.com",
+    "kafedra-professor-oqituvchilar": "Department Faculty Specializations:",
+    "kafedra-professor-oqituvchilar-detail": "13.00.02 – Theory and Methodology of Education and Training (Pedagogical Sciences)\n10.00.04 – Languages and Literature of Europe, America, and Australia\nFaculty members help students develop knowledge and skills in Uzbek and English, improve oral and written communication, and conduct educational and scientific activities based on the USMLE system.",
+    "kafedra-professor-oqituvchilar-detail-2": "The department staff have developed standard and working curricula, syllabi, and have authored and published educational manuals, electronic textbooks, and methodological guides.\nProfessors and lecturers of the department are actively involved in spiritual, educational, and organizational-upbringing activities.",
+    "foto-galereya": ["/pathology/2.png", "/pathology/3.png"]
+  },
+  "medical-and-biological-chemistry-pharmacology": {
+    "name": "Department of Medical and Biological Chemistry, Pharmacology",
+    "teacher": "To’xtamatova Shahzoda Sodiqjon qizi",
+    "teacher-img": "/medical-and-biological-chemistry-pharmacology/1.png",
+    "teacher-info": "Born on June 20, 1993, in Pop district, Namangan region. In 2009, she graduated with honors from School No. 11 specialized in exact and natural sciences. In 2017, she graduated from the Faculty of Natural Sciences at Fergana State University, majoring in Chemistry. In 2021, she obtained her master’s degree in Organic and Bioorganic Chemistry at the National University of Uzbekistan named after Mirzo Ulugbek. She is an independent researcher at the Impuls Medical Institute.",
+    "kafedra-tarixi": "Department History",
+    "kafedra-tarixi-detail": "The department was initially established in 2023 within the institute under the name 'Medical Department'. On September 2, 2024, it was restructured into the independent Department of Medical and Biological Chemistry, Pharmacology. Initially, it was headed by PhD in Chemistry X. Qirg’izboyev. Currently, it is led by independent researcher Sh. To’xtamatova in the field of Bioorganic Chemistry (02.00.10).",
+    "kafedra-tarkibi": "Department Staff",
+    "kafedra-tarkibi-detail": "1. To'xtamatova Shahzoda Sodiqjon qizi, Lecturer – email: toxtamatovashahzoda@gmail.com\n2. Normatov G’ayrat Alijonovich, PhD in Chemistry, Associate Professor – email: normatov_gayrat@mail.ru\n3. Jo’rayev Aziz Turob o‘g‘li, PhD in Pedagogy, Associate Professor – email: azizjurayev.199422@gmail.com\n4. Ergasheva Xurshida Nurmuhammad qizi, Lecturer – email: xurshidaergasheva2904@gmail.com\n5. Sharipov Nodirbek Qodirali o‘g‘li, Lecturer – email: nodirbeksharipov1998@gmail.com\n6. Yo‘ldoshaliyev Azamat Zokirjon o‘g‘li, Lecturer – email: sciartyuldoshaliev@outlook.com\n7. Mahmudov Muhammadkarim Sodiqjon o‘g‘li, Lecturer – email: Karimmedic92@gmail.com\n8. Hamidov Shaxzodjon Shavkatjon o‘g‘li, Lecturer – email: shahzod0733@gmail.com\n9. Mullaboyev Firdavs Alisher o‘g‘li, Lecturer – email: mullaboyevfirdavs1997@gmail.com\n10. Sattimov Sohibjon Bahodir o‘g‘li, Lecturer – email: sohibjonsottimov@gmail.com\n11. Muhammadsoliyev MuhammadAli Muhammadjon o‘g‘li, Lecturer – email: alixonmuhammadsoliyev@gmail.com\n12. Xursanov Axror Azizbek o‘g‘li, Lecturer – email: germaniyaahror@gmail.com\n13. Aminjonov Akmaljon Odiljon o‘g‘li, Lecturer – email: akmalaminjonov4@gmail.com",
+    "kafedra-professor-oqituvchilar": "Department Faculty Specializations:",
+    "kafedra-professor-oqituvchilar-detail": "02.00.14 – Technology of Organic Substances and Materials Based on Them\n13.00.02 – Theory and Methodology of Education and Upbringing (Chemistry)\nThe faculty provides students with essential knowledge in Medical Chemistry, Biochemistry, and Pharmacology, laying the foundation for their future medical careers. They also conduct academic and research activities aligned with the USMLE system.",
+    "kafedra-professor-oqituvchilar-detail-2": "The department staff have developed standard and working curricula, syllabi, and published various educational manuals, electronic textbooks, and methodological guides.\nFaculty members are actively involved in spiritual, educational, and organizational-mentoring activities.",
+    "foto-galereya": [
+      "/medical-and-biological-chemistry-pharmacology/2.png",
+      "/medical-and-biological-chemistry-pharmacology/3.png",
+      "/medical-and-biological-chemistry-pharmacology/4.png"
+    ]
+  },
+  "foreign-languages": {
+    "name": "DEPARTMENT OF FOREIGN LANGUAGES",
+    "teacher": "Ergasheva Khilola Yunuskhonovna",
+    "teacher-img": "/foreign-languages/1.jpg",
+    "teacher-info": "Born on January 26, 1986, in Chortoq district, Namangan region. In 2003, she graduated with honors from School No. 53 in Chortoq. In 2007, she graduated from the Faculty of Philology at Namangan State University, majoring in English. In 2009, she received a master's degree in Linguistics (English) from the same university. PhD in Pedagogical Sciences.",
+    "kafedra-tarixi": "Department History",
+    "kafedra-tarixi-detail": "The department was established in 2023 as part of the institute under the name 'Department of Social and Humanitarian Sciences'. Initially, it was headed by Prof. Nematilla Otajonov. Currently, the department is led by PhD in Pedagogical Sciences Kh.Yu. Ergasheva. On September 2, 2024, it was renamed to the 'Department of Foreign Languages'.",
+    "kafedra-tarkibi": "Department Staff",
+    "kafedra-tarkibi-detail": "1. Ergasheva Khilola Yunuskhonovna, PhD in Pedagogical Sciences – email: ergasevahilola81@gmail.com\n2. Tuychiyev Adxamjon Tuxtaboyevich, PhD – email: adham.tuychiev@gmail.com\n3. Nurdinova Fotima Kholmirzayevna, PhD in Philology – email: nurdinovafotima69@gmail.com\n4. Boykhanov Shuxratjon Mashrapovich, PhD in Pedagogical Sciences – email: boykhanovshuhratjon@gmail.com\n5. Ibragimov Jasur To‘lqinjon o‘g‘li, PhD in Philology – email: ibragimov.jasurbek2022@gmail.com\n6. Khamdamov Oybek Abdulkhayevich, Lecturer – email: oybek_a_x@mail.ru\n7. Abdullayeva Barno Umidullo qizi, Lecturer – email: abdullayevabarno789@gmail.com\n8. Mirsadullayev Miravaz Mirmuslim o‘g‘li, Lecturer – email: dodamaestro@gmail.com\n9. G‘ofurjonov Doniyorbek G‘ofurjon o‘g‘li, Lecturer – email: doniyorbekgofurjanov@gmail.com\n10. Ibragimov Shexrozbek To‘lqinjon o‘g‘li, Lecturer – email: ibragimovshexrozbek@gmail.com\n11. Erkinov Ma’murjon Mukhritdin o‘g‘li, Lecturer – email: erkinovmamurjon563@gmail.com\n12. Tojimirzayeva Mahliyo Botirjon qizi, Lecturer – email: mahliyo0209@gmail.com\n13. Isakova Maftuna Bakhriddin qizi, Lecturer – email: maryamisakova@gmail.com\n14. Rakhimjonova Guzalbonu Dilshodbek qizi, Lecturer – email: guzel9798@icloud.com\n15. Jamalova Dilafruz Komiljon qizi, Lecturer – email: dilafruzjamalova44@gmail.com",
+    "kafedra-professor-oqituvchilar": "Department faculty specialize in the following areas:",
+    "kafedra-professor-oqituvchilar-detail": "13.00.02 – Theory and methodology of education and upbringing (pedagogical sciences)\n10.00.04 – Language and literature of the peoples of Europe, America and Australia\n10.00.06 – Comparative literature, comparative linguistics, and translation studies\nThey develop students' knowledge and skills in Uzbek and English, enhancing their oral and written communication, while also engaging in educational and research activities aligned with the USMLE system.",
+    "kafedra-professor-oqituvchilar-detail-2": "The department staff have developed standard and working curricula, syllabi, textbooks, electronic manuals, and methodological guides. Faculty members are also actively involved in spiritual, educational, and organizational activities.",
+    "foto-galereya": [
+      "/foreign-languages/2.png",
+      "/foreign-languages/3.png",
+      "/foreign-languages/4.png"
+    ]
+  },
+  "surgery": {
+    "name": "DEPARTMENT OF GENERAL SURGERY",
+    "teacher": "Vakkosov Mukhammad Khabibovich",
+    "teacher-img": "/surgery/1.jpg",
+    "teacher-info": "Born on December 2, 1961, in Chust city, Namangan region. In 1978, he graduated with honors from School No. 8 named after M.Sh. Sofizoda in Chust. In 1985, he graduated from Andijan State Medical Institute with a specialization in General Medicine. In 1995, he defended his Candidate of Medical Sciences (PhD) dissertation, and in 2003, he received his Doctor of Medical Sciences degree in Surgery.",
+    "kafedra-tarixi": "Department History",
+    "kafedra-tarixi-detail": "The department was established in 2024 as part of the institute under the name 'Department of Medical Sciences'. The department is currently headed by Doctor of Medical Sciences, top-tier surgeon, and scientific director of the Department of General and Endocrine Surgery at the Namangan branch of the Republican Specialized Scientific and Practical Medical Center of Endocrinology named after academician Y.Kh. Turkulov – Mukhammad Khabibovich Vakkosov.",
+    "kafedra-tarkibi": "Department Staff",
+    "kafedra-tarkibi-detail": "1. Vakkosov Mukhammad Khabibovich, Doctor of Medical Sciences – email: vakkasov@mail.ru\n2. Bekmirzayev Rakhimjon Melikuziyevich, PhD\n3. Mirsaydullayev Mirzoulugbek Mirmakhmudovich, PhD, Cardiologist, Echocardiography specialist – email: doctormirsaydullaev@gmail.com\n4. Sharafiddinov Shavkat Mamadkhodjayevich, PhD\n5. Tajibayeva Laylo Rustamovna, PhD\n6. Karimova Dilfuza Israilovna, PhD – email: karimovaD@gmail\n7. Alikhanov Nizamidin Khamidovich, PhD\n8. Nurmatov Yodgormirza Khatammirzayevich, PhD\n9. Iskhoqov Barkamol Robiddinovich, PhD\n10. Nurmatova Tojinisa Sobirjanovna, PhD\n11. Mukhitdinov Rakhmatullo Ubaydullayevich, PhD\n12. Abdullayeva Lola Fayzullayevna, PhD\n13. Tojiboyev Akmalxon Abdurakhmanovich, PhD\n14. Artikbayev Murodjon Arapbayevich\n15. Ergashev Otabek Fakhriddin o‘g‘li\n16. Ulkanbayev Bekhzodjon Khasanboy o‘g‘li\n17. Akhmedov Sokhibjon Akram o‘g‘li\n18. Abdullayev Nodirbek Uroimjonovich – email: nodirbekcardio@gmail.com\n19. Zokhidov Rivojiddin Kamolitdin o‘g‘li – email: zohidov19-92@mail.ru\n20. Urunov Davronbek Davlatali o‘g‘li\n21. Inomov Kodirkhon Saidmamatovich\n22. Azimov Muhammadismoil Karimjon o‘g‘li\n23. Mamadjonov Akmaljon Isomiddinovich",
+    "kafedra-professor-oqituvchilar": "Department faculty members are involved in the following activities:",
+    "kafedra-professor-oqituvchilar-detail": "Faculty members of the department actively engage in spiritual-educational, organizational-mentorship, and scientific research activities, and organize seminars, conferences, and forums.",
+    "kafedra-professor-oqituvchilar-detail-2": "",
+    "foto-galereya": ["/surgery/2.jpg", "/surgery/3.jpg", "/surgery/4.jpg"]
   }
 }

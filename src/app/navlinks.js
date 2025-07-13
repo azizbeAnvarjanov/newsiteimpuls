@@ -43,7 +43,7 @@ const navLinks = [
       },
       {
         name: "kafedralar",
-        href: "/",
+        href: "/pages/departments",
       },
       {
         name: "tayorlov",
@@ -117,15 +117,15 @@ const navLinks = [
     subLinks: [
       {
         name: "erasmus+",
-        href: "/",
+        href: "/erasmus",
       },
       {
         name: "visalar",
-        href: "/",
+        href: "/visalar",
       },
       {
         name: "aloqa",
-        href: "/",
+        href: "/contact",
       },
     ],
   },

@@ -107,7 +107,7 @@ const NewsDetailPage = () => {
     );
 
   return (
-    <div className="w-full xl:w-[75%] xl:mb-0 mb-4 border p-5 xl:min-h-[100vh] rounded shadow-xl">
+    <div className="bg-white w-full xl:w-[75%] xl:mb-0 mb-4 border p-5 xl:min-h-[100vh] rounded shadow-xl">
       <div id="news-details">
         <div className="w-full flex items-center justify-between">
           <p className="flex items-center gap-1 md:gap-2 font-bold text-[--brand-blue]">
