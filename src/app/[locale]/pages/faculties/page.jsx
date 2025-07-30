@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 
 const Fakultetlar = () => {
   const t = useTranslations("faculties");
+  const n = useTranslations("Navbar");
 
   const faculties = [
     {
@@ -51,7 +52,7 @@ const Fakultetlar = () => {
 
   return (
     <div className="space-y-5">
-      <h1 className="text-2xl font-bold">Fakultetlar</h1>
+      <h1 className="text-2xl font-bold">{n("fakultetlar")}</h1>
       <div className="space-y-10">
         {faculties.map((faculty, i) => (
           <div key={i} className="space-y-4">
@@ -63,13 +64,13 @@ const Fakultetlar = () => {
             {faculty.keys.map((key, index) => {
               const prefixLabel =
                 index === 0
-                  ? "O‘qish shakli – "
+                  ? t("oqish-shakli") + ": "
                   : index === 1
-                  ? "Talim shakli – "   
+                  ? t("talim-shakli") + ": " 
                   : index === 2
-                  ? "Muddati – "
+                  ? t("muddati") + ": "
                   : index === 3
-                  ? "Til – "
+                  ? t("talim-tili") + ": "
                   : "";
               return (
                 <p key={index}>

@@ -31,6 +31,10 @@ const navLinks = [
         name: "akredatsiya",
         href: "/",
       },
+      {
+        name: "vacancies",
+        href: "/pages/vacancies",
+      },
     ],
   },
   {

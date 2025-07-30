@@ -5,6 +5,7 @@ import { Link } from "@/i18n/routing";
 const DepartmentsTable = () => {
   const t = useTranslations("departments");
 
+  
   const departments = [
     {
       name: t("if"),

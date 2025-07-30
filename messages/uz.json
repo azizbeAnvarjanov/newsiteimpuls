@@ -100,7 +100,8 @@
     "aloqa": "Aloqa",
     "elonlar": "Elonlar",
     "tadbirlar": "Tadbirlar",
-    "galereya": "Galereya"
+    "galereya": "Galereya",
+    "vacancies": "Vakansiyalar"
   },
   "News": {
     "latest-news": "So'ngi yangiliklar",
@@ -395,6 +396,11 @@
     "footer-text-2": "Manzil: 226A, Abdulla Qodiriy ko'chasi, Chirchiq shahri, Toshkent viloyati, Uzbekistan"
   },
   "faculties": {
+    "oqish-shakli": "O‘qish shakli",
+    "talim-shakli": "Talim shakli",
+    "muddati": "Muddati",
+    "talim-tili": "Til",
+    "qish-davomiyligi": "Qish davomiyligi",
     "davolash-ishi": "Davolash ishi",
     "d-oquv-shakli": "kredit-modul tizimi",
     "d-talim-shakli": "kunduzgi",
@@ -431,9 +437,9 @@
     "p-1": "“IMI” xorijiy va mahalliy abituriyentlar uchun o‘zbek va ingliz tillarida quyidagi o‘quv dasturini taklif etadi:",
     "p-2": "“IMI”da barcha o‘quv dasturlar to‘lov-kontrakt asosida amalga oshiriladi",
     "Dasturlar": "Dasturlar",
-    "Talim shakli": "Talim shakli",
-    "Talim tili": "Talim tili",
-    "Qish davomiyligi": "Qish davomiyligi",
+    "talim-shakli": "Talim shakli",
+    "talim-tili": "Talim tili",
+    "qish-davomiyligi": "Qish davomiyligi",
     "p-3": "Kunduzgi ta’lim – mashg‘ulotlar o‘qituvchi tomonidan o‘quv rejalari (ma’ruza, amaliy mashg‘ulot, laboratoriya) asosida auditoriya va klinik bazalarda olib boriladi va talabalar hafta davomida mashg‘ulotlarga qatnashadilar, mashg‘ulotlar 3 paradan bo‘lib, 1-semena va 2-semenalardan iborat.",
     "p-4": "Gibrid ta’lim – an’anaviy ta’lim usullari va elektron ta’limning (ya’ni, raqamli yoki tarmoqqa ulangan ta’lim) afzalliklarini birlashtirib, yaxshiroq ta’lim berish usullarini yaratadi, bunda talaba darsdan so‘ng mustaqil ta’lim uchun institut platformalaridagi O‘qituvchilarimiz tomonidan har bir fan mavzularidan tartibga solingan videodarslar, nazorot testlari va vaziyatli masalalarni onlayn holatda foydalanishlari mumkin.",
     "p-5": "Abituriyentlarning ro‘yxatdan o‘tish tartibi",

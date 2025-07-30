@@ -101,7 +101,8 @@
     "aloqa": "Contact",
     "elonlar": "Announcements",
     "tadbirlar": "Events",
-    "galereya": "Gallery"
+    "galereya": "Gallery",
+    "vacancies": "Vacancies"
   },
   "News": {
     "latest-news": "Latest news",
@@ -404,6 +405,10 @@
     "footer-text-2": "Address: 226A, Abdulla Qodiriy Street, Chirchik City, Tashkent Region, Uzbekistan"
   },
   "faculties": {
+    "oqish-shakli": "Type of education",
+    "talim-shakli": "Type of training",
+    "muddati": "Duration of training",
+    "talim-tili": "Language of training",
     "davolash-ishi": "General Medicine",
     "d-oquv-shakli": "credit-module system",
     "d-talim-shakli": "full-time",
